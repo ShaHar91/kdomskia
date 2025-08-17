@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import com.varabyte.kobweb.compose.css.PointerEvents
 import com.varabyte.kobweb.compose.ui.modifiers.pointerEvents
 import com.varabyte.kobweb.compose.ui.modifiers.position
+import com.varabyte.kobweb.compose.ui.styleModifier
 import io.kdomskia.compose.css.TypeSafeClass
 import io.kdomskia.compose.foundation.typeSafeClasses
 import io.kdomskia.compose.ui.Alignment
@@ -18,14 +19,27 @@ actual fun ViewportContainer(
     zIndex: Float,
     content: @Composable (BoxScope.() -> Unit)
 ) {
+    val bottomInsetPadding = "env(safe-area-inset-bottom, 0px)"
     Box(
         modifier = modifier
             .unwrap {
                 typeSafeClasses(ViewportContainer)
                     .position(Position.Fixed)
                     .pointerEvents(PointerEvents.None)
+                    .styleModifier {
+                        when (contentAlignment) {
+                            Alignment.TopStart, Alignment.TopCenter, Alignment.TopEnd -> {
+                                property("top", bottomInsetPadding)
+                            }
+
+                            Alignment.BottomStart, Alignment.BottomCenter, Alignment.BottomEnd -> {
+                                property("bottom", bottomInsetPadding)
+                            }
+                        }
+                    }
             }
-            .fillMaxSize()
+            .fillMaxWidth()
+            .fillViewportHeight()
             .zIndex(zIndex),
         contentAlignment = contentAlignment
     ) {

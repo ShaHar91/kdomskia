@@ -73,7 +73,7 @@ fun BeerTopAppBar(
 
     Header(
         attrs = modifier
-            .padding(horizontal = 0.dp)
+            .padding(horizontal = 8.dp)
             .dom
             .gridArea("unset")
             .typeSafeClasses(BeerColorClass.PrimaryContainer)
