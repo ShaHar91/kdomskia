@@ -4,13 +4,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.isSpecified
 import androidx.compose.ui.graphics.takeOrElse
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.TextUnit
 import com.varabyte.kobweb.compose.css.Overflow
+import com.varabyte.kobweb.compose.dom.refScope
+import com.varabyte.kobweb.compose.dom.registerRefScope
 import com.varabyte.kobweb.compose.ui.modifiers.background
 import com.varabyte.kobweb.compose.ui.modifiers.color
 import com.varabyte.kobweb.compose.ui.modifiers.display
@@ -22,6 +26,7 @@ import com.varabyte.kobweb.compose.ui.modifiers.letterSpacing
 import com.varabyte.kobweb.compose.ui.modifiers.lineHeight
 import com.varabyte.kobweb.compose.ui.modifiers.overflow
 import com.varabyte.kobweb.compose.ui.modifiers.textAlign
+import com.varabyte.kobweb.compose.ui.modifiers.textDecorationLine
 import com.varabyte.kobweb.compose.ui.thenIf
 import com.varabyte.kobweb.compose.ui.thenIfNotNull
 import com.varabyte.kobweb.compose.ui.toAttrs
@@ -34,9 +39,12 @@ import io.kdomskia.compose.ui.Modifier
 import io.kdomskia.compose.ui.graphics.dom
 import io.kdomskia.compose.ui.text.font.dom
 import io.kdomskia.compose.ui.text.style.dom
+import io.kdomskia.compose.ui.text.toHtml
 import io.kdomskia.compose.ui.unit.dom
 import org.jetbrains.compose.web.css.DisplayStyle
+import org.jetbrains.compose.web.dom.ElementScope
 import org.jetbrains.compose.web.dom.Span
+import org.w3c.dom.HTMLSpanElement
 import org.jetbrains.compose.web.dom.Text as DomText
 
 @Composable
@@ -49,6 +57,7 @@ actual fun Text(
     fontWeight: FontWeight?,
     fontFamily: FontFamily?,
     letterSpacing: TextUnit,
+    textDecoration: TextDecoration?,
     textAlign: TextAlign?,
     lineHeight: TextUnit,
     maxLines: Int,
@@ -57,7 +66,6 @@ actual fun Text(
     val textColor = color.takeOrElse { style.color.takeOrElse { LocalContentColor.current } }
 
     BasicText(
-        text = text,
         modifier = modifier,
         style = style.merge(
             color = textColor,
@@ -68,17 +76,65 @@ actual fun Text(
             fontFamily = fontFamily,
             fontStyle = fontStyle,
             letterSpacing = letterSpacing,
+            textDecoration = textDecoration
         ),
         maxLines = maxLines
-    )
+    ) {
+        DomText(
+            value = text
+        )
+    }
+}
+
+@Composable
+actual fun Text(
+    text: AnnotatedString,
+    modifier: Modifier,
+    color: Color,
+    fontSize: TextUnit,
+    fontStyle: FontStyle?,
+    fontWeight: FontWeight?,
+    fontFamily: FontFamily?,
+    letterSpacing: TextUnit,
+    textDecoration: TextDecoration?,
+    textAlign: TextAlign?,
+    lineHeight: TextUnit,
+    maxLines: Int,
+    style: TextStyle
+) {
+    val textColor = color.takeOrElse { style.color.takeOrElse { LocalContentColor.current } }
+
+    BasicText(
+        modifier = modifier,
+        style = style.merge(
+            color = textColor,
+            fontSize = fontSize,
+            fontWeight = fontWeight,
+            textAlign = textAlign ?: TextAlign.Unspecified,
+            lineHeight = lineHeight,
+            fontFamily = fontFamily,
+            fontStyle = fontStyle,
+            letterSpacing = letterSpacing,
+            textDecoration = textDecoration
+        ),
+        maxLines = maxLines
+    ) {
+        registerRefScope(
+            refScope {
+                ref(text) { element ->
+                    element.innerHTML = text.toHtml()
+                }
+            }
+        )
+    }
 }
 
 @Composable
 private fun BasicText(
-    text: String,
     modifier: Modifier,
     style: TextStyle,
-    maxLines: Int
+    maxLines: Int,
+    content: @Composable ElementScope<HTMLSpanElement>.() -> Unit
 ) {
     Span(
         attrs = modifier
@@ -98,6 +154,9 @@ private fun BasicText(
             .thenIfNotNull(style.letterSpacing.dom) {
                 DomModifier.letterSpacing(it)
             }
+            .thenIfNotNull(style.textDecoration?.dom) {
+                DomModifier.textDecorationLine(it)
+            }
             .thenIfNotNull(style.fontWeight?.dom) {
                 DomModifier.fontWeight(it)
             }
@@ -114,8 +173,6 @@ private fun BasicText(
             .overflow(Overflow.Hidden)
             .toAttrs()
     ) {
-        DomText(
-            value = text
-        )
+        content()
     }
 }

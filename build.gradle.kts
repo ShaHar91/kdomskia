@@ -1,3 +1,6 @@
+group = "io.kdomskia"
+version = "0.1.0"
+
 allprojects {
     if (name in listOf("playground")) {
         afterEvaluate {
