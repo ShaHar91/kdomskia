@@ -8,6 +8,7 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import com.varabyte.kobweb.compose.ui.modifiers.disabled
+import com.varabyte.kobweb.compose.ui.modifiers.margin
 import com.varabyte.kobweb.compose.ui.modifiers.onClick
 import com.varabyte.kobweb.compose.ui.modifiers.setVariable
 import com.varabyte.kobweb.compose.ui.thenIfNotNull
@@ -34,6 +35,7 @@ import io.kdomskia.compose.ui.DomModifier
 import io.kdomskia.compose.ui.Modifier
 import io.kdomskia.compose.ui.draw.clip
 import io.kdomskia.compose.ui.graphics.dom
+import io.kdomskia.compose.ui.unit.dom
 import org.jetbrains.compose.web.css.StylePropertyValue
 import org.jetbrains.compose.web.dom.Button as DomButton
 
@@ -67,6 +69,10 @@ fun BeerButton(
                     .filterNotNull()
 
                 typeSafeClasses(classes)
+                    .margin(
+                        top = 4.dp.dom,
+                        bottom = 4.dp.dom
+                    )
                     .thenIfNotNull(border) {
                         DomModifier.border(it)
                     }
