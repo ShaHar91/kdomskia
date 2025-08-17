@@ -110,7 +110,7 @@ actual fun Modifier.fillMaxSize(
 actual fun Modifier.fillViewportWidth(
     fraction: Float
 ) = unwrap {
-    minHeight(fraction.fractionToPercent.vw)
+    minWidth(fraction.fractionToPercent.vw)
 }
 
 @Stable

@@ -1,9 +1,12 @@
 package io.kdomskia.compose.css
 
 import com.varabyte.kobweb.compose.css.Overflow
+import com.varabyte.kobweb.compose.css.PointerEvents
 import com.varabyte.kobweb.compose.css.margin
 import com.varabyte.kobweb.compose.css.overflow
+import com.varabyte.kobweb.compose.css.pointerEvents
 import com.varabyte.kobweb.compose.css.setVariable
+import io.kdomskia.compose.foundation.layout.ViewportContainer
 import org.jetbrains.compose.web.css.DisplayStyle
 import org.jetbrains.compose.web.css.StyleSheet
 import org.jetbrains.compose.web.css.display
@@ -34,11 +37,14 @@ internal val UiStyleSheet = styleSheet {
         setVariable(Variable.speed3, 0.3.s)
         setVariable(Variable.speed4, 0.4.s)
     }
+    ".${ViewportContainer.className} *" {
+        pointerEvents(PointerEvents.Auto)
+    }
 }
 
 //TODO: replace by type safe styleSheet
 internal val UiRawStyleSheet = """
-    @keyframes slide-left-right-in-anim {
+@keyframes slide-left-right-in-anim {
     from {
         transform: translateX(-100%);
     }

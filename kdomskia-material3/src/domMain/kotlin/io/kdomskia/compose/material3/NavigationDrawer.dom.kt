@@ -26,11 +26,9 @@ import io.kdomskia.compose.foundation.clickable
 import io.kdomskia.compose.foundation.layout.Box
 import io.kdomskia.compose.foundation.layout.Column
 import io.kdomskia.compose.foundation.layout.ColumnScope
-import io.kdomskia.compose.foundation.layout.DomFloatingContainer
-import io.kdomskia.compose.foundation.layout.Placement.Horizontal
-import io.kdomskia.compose.foundation.layout.Placement.Vertical
 import io.kdomskia.compose.foundation.layout.Row
 import io.kdomskia.compose.foundation.layout.Spacer
+import io.kdomskia.compose.foundation.layout.ViewportContainer
 import io.kdomskia.compose.foundation.layout.WindowInsets
 import io.kdomskia.compose.foundation.layout.fillMaxSize
 import io.kdomskia.compose.foundation.layout.fillMaxWidth
@@ -99,10 +97,9 @@ actual fun ModalNavigationDrawer(
     }
 
     if (drawerState.isOpen) {
-        DomFloatingContainer(
-            horizontalPosition = Horizontal.Fill(),
-            verticalPosition = Vertical.Fill(),
-            zIndex = ZIndexLayer.layer4.start
+        ViewportContainer(
+            zIndex = ZIndexLayer.layer4.start,
+            contentAlignment = Alignment.Center
         ) {
             DomBox(
                 modifier = modifier

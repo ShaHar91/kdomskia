@@ -54,4 +54,8 @@ nav:is(.left, .right, .bottom, .top):not(.max) > :is(ol, ul) > li > a:not(.butto
     border-radius: unset;
 }
 
+.beer nav.left {
+    grid-area: auto;
+}
+
 """.trimIndent()
