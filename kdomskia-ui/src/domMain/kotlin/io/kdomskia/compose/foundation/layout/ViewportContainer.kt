@@ -21,22 +21,15 @@ actual fun ViewportContainer(
     Box(
         modifier = modifier
             .unwrap {
-                position(Position.Fixed)
+                typeSafeClasses(ViewportContainer)
+                    .position(Position.Fixed)
                     .pointerEvents(PointerEvents.None)
             }
             .fillMaxSize()
-            .zIndex(zIndex)
+            .zIndex(zIndex),
+        contentAlignment = contentAlignment
     ) {
-        Box(
-            modifier = modifier
-                .unwrap {
-                    typeSafeClasses(ViewportContainer)
-                }
-                .fillMaxSize(),
-            contentAlignment = contentAlignment
-        ) {
-            content(this)
-        }
+        content(this)
     }
 }
 
