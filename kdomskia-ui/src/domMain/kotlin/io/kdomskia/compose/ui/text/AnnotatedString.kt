@@ -4,14 +4,17 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.ParagraphStyle
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.font.FontFamily
 import io.kdomskia.compose.ui.graphics.dom
 import io.kdomskia.compose.ui.text.font.dom
 import io.kdomskia.compose.ui.text.style.dom
 import io.kdomskia.compose.ui.unit.dom
 
-fun AnnotatedString.toHtml(): String {
+fun AnnotatedString.toHtml(
+    defaultFontFamily: FontFamily? = null
+): String {
     if (paragraphStyles.isEmpty())
-        return buildSpansHtml(this, 0, text.length)
+        return buildSpansHtml(this, 0, text.length, defaultFontFamily)
 
     val sb = StringBuilder()
     var lastParagraphEnd = 0
@@ -21,20 +24,25 @@ fun AnnotatedString.toHtml(): String {
             sb.append(escapeHtml(text.substring(lastParagraphEnd, paragraph.start)))
 
         val css = paragraphStyleToCss(paragraph.item)
-        val content = buildSpansHtml(this, paragraph.start, paragraph.end)
+        val content = buildSpansHtml(this, paragraph.start, paragraph.end, defaultFontFamily)
         sb.append("<p style=\"$css\">$content</p>")
 
         lastParagraphEnd = paragraph.end
     }
 
     if (lastParagraphEnd < text.length) {
-        sb.append(buildSpansHtml(this, lastParagraphEnd, text.length))
+        sb.append(buildSpansHtml(this, lastParagraphEnd, text.length, defaultFontFamily))
     }
 
     return sb.toString()
 }
 
-private fun buildSpansHtml(str: AnnotatedString, start: Int, end: Int): String {
+private fun buildSpansHtml(
+    str: AnnotatedString,
+    start: Int,
+    end: Int,
+    defaultFontFamily: FontFamily?
+): String {
     val sb = StringBuilder()
     var lastIndex = start
 
@@ -48,7 +56,7 @@ private fun buildSpansHtml(str: AnnotatedString, start: Int, end: Int): String {
             }
 
             val spanText = escapeHtml(str.text.substring(safeStart, safeEnd))
-            val css = spanStyleToCss(span.item)
+            val css = spanStyleToCss(span.item, defaultFontFamily)
 
             val url = str.getStringAnnotations("URL", safeStart, safeEnd).firstOrNull()?.item
             val openTag = if (url != null) "<a href=\"$url\"><span style=\"$css\">" else "<span style=\"$css\">"
@@ -67,11 +75,12 @@ private fun buildSpansHtml(str: AnnotatedString, start: Int, end: Int): String {
     return sb.toString()
 }
 
-private fun spanStyleToCss(style: SpanStyle): String {
+private fun spanStyleToCss(
+    style: SpanStyle,
+    defaultFontFamily: FontFamily?
+): String {
     val css = mutableListOf<String>()
-
-    css.add("font-size:${style.fontSize.dom}")
-    css.add("letter-spacing:${style.letterSpacing.dom}")
+    val fontFamily = style.fontFamily ?: defaultFontFamily
 
     style.background.takeIf { it != Color.Unspecified }?.let {
         css.add("background:${it.dom}")
@@ -79,14 +88,20 @@ private fun spanStyleToCss(style: SpanStyle): String {
     style.color.takeIf { it != Color.Unspecified }?.let {
         css.add("color:${it.dom}")
     }
-    style.fontFamily?.dom(style.fontWeight)?.let {
+    fontFamily?.dom(style.fontWeight)?.let {
         css.add("font-family:${it}")
+    }
+    style.fontSize.dom?.let {
+        css.add("font-size:${it}")
     }
     style.fontWeight?.let {
         css.add("font-weight:${it.dom}")
     }
     style.fontStyle?.let {
         css.add("font-style:${it.dom}")
+    }
+    style.letterSpacing.dom?.let {
+        css.add("letter-spacing:${it}")
     }
     style.textDecoration?.let {
         css.add("text-decoration:${it.dom}")

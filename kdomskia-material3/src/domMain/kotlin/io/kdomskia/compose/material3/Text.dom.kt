@@ -103,26 +103,29 @@ actual fun Text(
     style: TextStyle
 ) {
     val textColor = color.takeOrElse { style.color.takeOrElse { LocalContentColor.current } }
+    val mergedStyle = style.merge(
+        color = textColor,
+        fontSize = fontSize,
+        fontWeight = fontWeight,
+        textAlign = textAlign ?: TextAlign.Unspecified,
+        lineHeight = lineHeight,
+        fontFamily = fontFamily,
+        fontStyle = fontStyle,
+        letterSpacing = letterSpacing,
+        textDecoration = textDecoration
+    )
 
     BasicText(
         modifier = modifier,
-        style = style.merge(
-            color = textColor,
-            fontSize = fontSize,
-            fontWeight = fontWeight,
-            textAlign = textAlign ?: TextAlign.Unspecified,
-            lineHeight = lineHeight,
-            fontFamily = fontFamily,
-            fontStyle = fontStyle,
-            letterSpacing = letterSpacing,
-            textDecoration = textDecoration
-        ),
+        style = mergedStyle,
         maxLines = maxLines
     ) {
         registerRefScope(
             refScope {
                 ref(text) { element ->
-                    element.innerHTML = text.toHtml()
+                    element.innerHTML = text.toHtml(
+                        defaultFontFamily = mergedStyle.fontFamily
+                    )
                 }
             }
         )
