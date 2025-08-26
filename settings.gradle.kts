@@ -24,7 +24,3 @@ include(
     ":kdomskia-material3",
     ":kdomskia-navigation"
 )
-
-include(
-    ":playground"
-)

@@ -13,14 +13,6 @@ coil = "3.3.0"
 kobweb = "0.23.0"
 okio = "3.16.0"
 beercss = "3.11.33"
-material3-adaptive = "1.1.2"
-
-#:playground
-androidx-activityCompose = "1.10.1"
-ktor = "3.2.3"
-koin = "4.1.0"
-hotReload = "1.0.0-beta04"
-compressionWebpackPlugin = "11.1.0"
 
 [libraries]
 compose-ui-unit = { module = "org.jetbrains.compose.ui:ui-unit", version.ref = "compose" }
@@ -41,18 +33,6 @@ kobweb-compose-js = { module = "com.varabyte.kobweb:kobweb-compose-js", version.
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
 coil-svg = { module = "io.coil-kt.coil3:coil-svg", version.ref = "coil" }
 okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
-
-#:playground
-androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
-material3-adaptive = { module = "org.jetbrains.compose.material3.adaptive:adaptive", version.ref = "material3-adaptive" }
-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
-kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
-kotlinx-coroutines-js = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-js", version.ref = "kotlinx-coroutines" }
-koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koin" }
-coil-network-ktor3 = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil" }
-ktor-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
-ktor-java = { module = "io.ktor:ktor-client-java", version.ref = "ktor" }
-ktor-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
 
 #Plugin
 plugin-android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
