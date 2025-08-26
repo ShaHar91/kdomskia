@@ -16,6 +16,7 @@ import io.kdomskia.compose.css.styleSheet
 import kotlin.math.abs
 import kotlinx.browser.document
 import kotlinx.dom.createElement
+import org.jetbrains.compose.web.css.StylePropertyValue
 import org.jetbrains.compose.web.css.fontFamily
 import org.jetbrains.compose.web.css.utils.serializeRules
 
@@ -98,12 +99,15 @@ private fun LoadedFont.addRuleIfNeeded() {
     if (family in addedFontFamilyIds)
         return
 
-    val url = identity.split(":").firstOrNull().orEmpty()
+    val url = "/" + identity.split(":").firstOrNull().orEmpty()
+    val format = fontFormatFromUrl(url)?.let { " $it" }.orEmpty()
 
     val fontFaceRule = styleSheet {
         "@font-face" {
             fontFamily(family)
-            src(url(url))
+            src(
+                StylePropertyValue(url(url).toString() + format)
+            )
             fontWeight(weight.dom)
             fontStyle(style.dom ?: FontStyle.Normal)
         }
@@ -117,6 +121,19 @@ private fun LoadedFont.addRuleIfNeeded() {
     )
 
     addedFontFamilyIds.add(family)
+}
+
+private fun fontFormatFromUrl(url: String): String? {
+    val lower = url.substringAfterLast('.').lowercase()
+
+    return when (lower) {
+        "woff2" -> "format(\"woff2\")"
+        "woff" -> "format(\"woff\")"
+        "ttf", "otf" -> "format(\"truetype\")"
+        "eot" -> "format(\"embedded-opentype\")"
+        "svg" -> "format(\"svg\")"
+        else -> null
+    }
 }
 
 private val LoadedFont.domFamily: String
