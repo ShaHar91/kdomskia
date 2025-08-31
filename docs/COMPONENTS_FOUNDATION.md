@@ -16,7 +16,7 @@ These components allow you to build responsive, flexible, and adaptive user inte
 - [HorizontalPager](#horizontalpager)
 - [LazyVerticalStaggeredGrid](#lazyverticalstaggeredgrid)
 
-### Box
+## Box
 
 `Box` is the most basic layout container. It allows stacking elements on top of each other and optionally aligning its children within the container.
 
@@ -32,7 +32,7 @@ Box(
 }
 ```
 
-### Column
+## Column
 
 `Column` arranges its children vertically in order. You can control how elements are aligned horizontally and spaced vertically.
 
@@ -50,7 +50,7 @@ Column(
 }
 ```
 
-### Row
+## Row
 
 `Row` arranges its children horizontally in a single line. It provides alignment and spacing options for precise control over layout.
 
@@ -68,7 +68,7 @@ Row(
 }
 ```
 
-### BoxWithConstraints
+## BoxWithConstraints
 
 `BoxWithConstraints` is similar to `Box`, but it also provides information about the maximum width and height available, making it useful for responsive layouts.
 
@@ -86,7 +86,7 @@ BoxWithConstraints(
 }
 ```
 
-### ViewportContainer
+## ViewportContainer
 
 `ViewportContainer` is a container that can control how its child content is displayed relative to the visible viewport. It is often used to manage alignment and positioning of scrollable or bounded content.
 
@@ -102,7 +102,7 @@ ViewportContainer(
 }
 ```
 
-### Image
+## Image
 
 `Image` is used to render images such as SVG, PNG, or other drawable resources. Resources can be referenced using the `img` extension property.
 
@@ -117,7 +117,7 @@ Image(
 )
 ```
 
-### Spacer
+## Spacer
 
 `Spacer` is a composable used to add empty space inside layouts. It is especially useful inside `Row` or `Column` to create flexible spacing between elements.
 
@@ -133,7 +133,7 @@ Column(
 }
 ```
 
-### FlowRow
+## FlowRow
 
 `FlowRow` arranges its children horizontally and wraps them onto the next line when the current line is filled. This is useful for responsive UIs or tag-like layouts.
 
@@ -153,7 +153,7 @@ FlowRow(
 }
 ```
 
-### HorizontalPager
+## HorizontalPager
 
 `HorizontalPager` is a composable that allows creating horizontal pages. It supports programmatic navigation.
 
@@ -178,7 +178,7 @@ scope.launch {
 }
 ```
 
-### LazyVerticalStaggeredGrid
+## LazyVerticalStaggeredGrid
 
 `LazyVerticalStaggeredGrid` arranges items in a vertical grid where each column can have different item heights.
 
