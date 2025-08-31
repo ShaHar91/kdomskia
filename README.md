@@ -144,6 +144,7 @@ Start by checking out the **sample apps and playground**:
 - [Playground Repository](https://github.com/kdomskia/playground)
 
 Official learning materials:
+- [Kotlin Multiplatform Documentation](https://kotlinlang.org/docs/multiplatform.html)
 - [Compose Multiplatform Documentation](https://www.jetbrains.com/lp/compose-multiplatform/)
 - [Compose Multiplatform GitHub](https://github.com/JetBrains/compose-multiplatform)
 - [Jetpack Compose Basics (Android Developers)](https://developer.android.com/jetpack/compose)
@@ -181,4 +182,5 @@ All additional development guides and references are centralized in the `docs/` 
 - [CROSS_PLATFORM_LAYOUT_GUIDE.md](/docs/CROSS_PLATFORM_LAYOUT_GUIDE.md) → Layout behavior across platforms
 - [COMPONENTS_FOUNDATION.md](/docs/COMPONENTS_FOUNDATION.md) → Core UI components and utilities
 - [COMPONENTS_MATERIAL.md](/docs/COMPONENTS_MATERIAL.md) → Material 3 components
+- [NAVIGATION.md](/docs/NAVIGATION.md) → Navigation guide
 - [WIKI.md](/docs/WIKI.md) → Index and overview of all docs

@@ -129,3 +129,57 @@ val skiaMain by creating {
     }
 }
 ```
+
+Define your main composable function (e.g., `App`) and use `KdomskiaApp` to host your UI elements.
+
+Then, invoke the `App` function from the main entry point of each supported platform.
+
+> Currently, `Compose Resources` does not provide a public API for libraries to access application resource URIs.
+> Therefore, you must explicitly pass them using the `drawableResources` parameter.
+> See: [CMP-7487](https://youtrack.jetbrains.com/issue/CMP-7487)
+
+```kotlin
+@Composable
+fun App() {
+    KdomskiaApp(
+        drawableResources = DrawableResourcesRef(
+            all = Res.allDrawableResources,
+            onGetUri = Res::getUri
+        )
+    ) {
+        var counter by remember { mutableStateOf(0) }
+        MaterialTheme {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    Row {
+                        Text("Hello")
+                        Text(
+                            modifier = Modifier.padding(start = 8.dp),
+                            text = "Kdomskia",
+                            fontWeight = FontWeight.W600
+                        )
+                    }
+                    Text(
+                        modifier = Modifier.padding(top = 32.dp),
+                        text = "Counter: $counter"
+                    )
+                    Button(
+                        onClick = { counter++ }
+                    ) {
+                        Text("Increment")
+                    }
+                }
+            }
+        }
+    }
+}
+```
