@@ -11,8 +11,6 @@ There is already a **full working example** in production:
 - Web app: [Pesto](https://pesto.kdomskia.io)
 - Source code: [Pesto Repository](https://github.com/kdomskia/sample-pesto)
 
----
-
 ## Why Kdomskia?
 
 ✅ **Web** – Leverage all the browser's power with **HTML DOM, CSS, and JS**.  
@@ -21,8 +19,6 @@ There is already a **full working example** in production:
 ✅ **Familiar API** – Kdomskia’s API and main concepts (**Column**, **Row**, **Box**, etc.) are **identical** to Compose Multiplatform. The main difference lies in the **imports**, making it simple to adopt if you already know Compose.  
 ✅ **Material 3** – Includes a growing set of **Material Design 3** components, styled consistently across platforms.  
 ✅ **Navigation** – Built-in navigation module with the **same API** as Compose Navigation, making multi-screen apps straightforward.
-
----
 
 ## Getting Started
 
@@ -85,16 +81,12 @@ fun App() {
 }
 ```
 
----
-
 ## Dependencies & Imports
 
 Your project dependencies may include some **Compose Multiplatform** artifacts that will not work properly if used in `commonMain`, such as `androidx.foundation`, `androidx.ui`, `androidx.material3` and `androidx.navigation`.
 
 You will likely want to remove them to avoid using by mistake.  
-See [docs/SETUP.md](docs/SETUP.md) for more details.
-
----
+See [SETUP](docs/SETUP.md) for more details.
 
 ## Supported Platforms
 
@@ -102,8 +94,6 @@ See [docs/SETUP.md](docs/SETUP.md) for more details.
 - **Android – with Compose Multiplatform**
 - **iOS – with Compose Multiplatform**
 - **Desktop (Windows, macOS, Linux via JVM) – with Compose Multiplatform**
-
----
 
 ## Modules
 
@@ -114,18 +104,15 @@ You can include **all modules together**, or just the ones your project requires
 - **material3** → Implementation of **Material Design 3** components, currently covering the most common UI needs.
 - **navigation** → Navigation APIs and components to structure multi-screen applications.
 
----
-
-## Layout Differences
+## Cross-Platform Layout
 
 Although Kdomskia shares most APIs with **Compose Multiplatform**, there are key differences when running on the Web:
 
-1. **Element dimensions** – In Compose, components often infer and expand to available space automatically. On the Web this does not happen, so you must explicitly use modifiers like `fillMaxWidth()`, `fillMaxHeight()`, and `fillMaxSize()` when needed.
-2. **Modifiers** – In Compose you can stack multiple `padding` and `background` modifiers in sequence. On the Web, due to CSS constraints, this is not possible directly. Instead, wrap elements in additional Composables and apply modifiers at each level.
-3. **Scrolling behavior** – On the Web, when scrolling is applied to the window, all elements move. To keep elements fixed while scrolling, use the `ViewportContainer` component.
-4. **Further differences** – A detailed list of differences is available in [docs/LAYOUT_DIFFERENCES.md](docs/LAYOUT_DIFFERENCES.md).
+1. **Element Dimensions** – In Compose, components often infer and expand to available space automatically. On the Web this does not happen, so you must explicitly use modifiers like `fillMaxWidth()`, `fillMaxHeight()`, and `fillMaxSize()` when needed.
+2. **Background and Padding Stack** – In Compose you can stack multiple `padding` and `background` modifiers in sequence. On the Web, due to CSS constraints, this is not possible directly. Instead, wrap elements in additional Composables and apply modifiers at each level.
+3. **Scrolling Behavior** – On the Web, when scrolling is applied to the window, all elements move. To keep elements fixed while scrolling, use the `ViewportContainer` component.
 
----
+A detailed list of differences is available in [CROSS_PLATFORM_LAYOUT_GUIDE](docs/CROSS_PLATFORM_LAYOUT_GUIDE.md).
 
 ## Project Templates
 
@@ -134,8 +121,6 @@ To quickly start a new project, use one of the official Kdomskia templates:
 - [Frontend Web Template](https://github.com/kdomskia/template-frontend-web)
 - [Frontend All Platforms Template](https://github.com/kdomskia/template-frontend-all-platforms)
 - [Fullstack Template](https://github.com/kdomskia/template-fullstack)
-
----
 
 ## Learning Resources
 
@@ -150,8 +135,6 @@ Official learning materials:
 - [Jetpack Compose Basics (Android Developers)](https://developer.android.com/jetpack/compose)
 - [Jetpack Compose Pathway (Codelabs)](https://developer.android.com/courses/pathways/compose)
 
----
-
 ## Roadmap & Evolution
 
 Kdomskia is under active development. The roadmap includes:
@@ -161,8 +144,6 @@ Kdomskia is under active development. The roadmap includes:
 - Adding **animation support**.
 - Reducing **layout differences** between Web and native platforms.
 
----
-
 ## Built With
 
 Kdomskia Web (DOM) is powered by the following open-source projects:
@@ -170,8 +151,6 @@ Kdomskia Web (DOM) is powered by the following open-source projects:
 - [Compose HTML](https://github.com/JetBrains/compose-multiplatform)
 - [Kobweb](https://github.com/varabyte/kobweb)
 - [Beercss](https://github.com/beercss/beercss)
-
----
 
 ## Docs & Wiki
 
