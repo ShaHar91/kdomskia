@@ -155,10 +155,9 @@ Kdomskia Web (DOM) is powered by the following open-source projects:
 - [Kobweb](https://github.com/varabyte/kobweb)
 - [Beercss](https://github.com/beercss/beercss)
 
-## Thanks To
+## Credits & Inspiration
 
-Kdomskia’s internal structure and organization were inspired by the amazing work from the [Coil](https://github.com/coil-kt/coil) library.
-Special thanks to the Coil contributors for building such a solid and well-designed foundation that helped shape this project.
+Kdomskia’s internal structure and organization were inspired by the well-designed [Coil](https://github.com/coil-kt/coil) library, which also served as a key reference for configuring Kotlin Multiplatform in this project.
 
 ## Docs & Wiki
 
