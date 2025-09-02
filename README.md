@@ -139,9 +139,12 @@ Official learning materials:
 
 Kdomskia is under active development. The roadmap includes:
 
+- Add Tests (**Unit / UI**)
+- Add **CI / CD**
 - Ensuring **stability and performance** across all platforms.
 - Expanding coverage of **Material 3 components**.
-- Adding **animation support**.
+- Expanding coverage of **Foundation components**.
+- Add **animation support**.
 - Reducing **layout differences** between Web and native platforms.
 
 ## Built With
