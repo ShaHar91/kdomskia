@@ -7,7 +7,7 @@ It was created to address a gap in **Compose for Web**, which currently does not
 
 Kdomskia solves this.
 
-There is already a **full working example** in production:
+There is a **full working example** in production:
 - Web app: [Pesto](https://pesto.kdomskia.io)
 - Source code: [Pesto Repository](https://github.com/kdomskia/sample-pesto)
 
@@ -141,11 +141,11 @@ Kdomskia is under active development. The roadmap includes:
 
 - Add Tests (**Unit / UI**)
 - Add **CI / CD**
-- Ensuring **stability and performance** across all platforms.
-- Expanding coverage of **Material 3 components**.
-- Expanding coverage of **Foundation components**.
-- Add **animation support**.
-- Reducing **layout differences** between Web and native platforms.
+- Ensuring **stability and performance** across all platforms
+- Expanding coverage of **Material 3 components**
+- Expanding coverage of **Foundation components**
+- Add **animation support**
+- Reducing **layout differences** between Web and native platforms
 
 ## Built With
 
@@ -161,6 +161,6 @@ Kdomskia’s internal structure and organization were inspired by the well-desig
 
 ## Docs & Wiki
 
-All additional development guides and references are centralized in the `docs/` folder.
+All additional development guides and references are centralized in the [docs/](/docs) folder.
 
 Check [WIKI](/docs/WIKI.md) for more details.
