@@ -12,8 +12,8 @@ internal typealias SkiaFloatingActionButtonDefaults = androidx.compose.material3
 expect fun FloatingActionButton(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
-    shape: Shape = SkiaFloatingActionButtonDefaults.shape,
-    containerColor: Color = SkiaFloatingActionButtonDefaults.containerColor,
+    shape: Shape = FloatingActionButtonDefaults.shape,
+    containerColor: Color = FloatingActionButtonDefaults.containerColor,
     contentColor: Color = contentColorFor(containerColor),
     content: @Composable () -> Unit
 )
@@ -25,7 +25,20 @@ expect fun ExtendedFloatingActionButton(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
     expanded: Boolean = true,
-    shape: Shape = SkiaFloatingActionButtonDefaults.extendedFabShape,
-    containerColor: Color = SkiaFloatingActionButtonDefaults.containerColor,
+    shape: Shape = FloatingActionButtonDefaults.extendedFabShape,
+    containerColor: Color = FloatingActionButtonDefaults.containerColor,
     contentColor: Color = contentColorFor(containerColor)
 )
+
+object FloatingActionButtonDefaults {
+
+    val shape: Shape
+        @Composable get() = SkiaFloatingActionButtonDefaults.shape
+
+    val extendedFabShape: Shape
+        @Composable get() = SkiaFloatingActionButtonDefaults.extendedFabShape
+
+    val containerColor: Color
+        @Composable get() = SkiaFloatingActionButtonDefaults.containerColor
+
+}

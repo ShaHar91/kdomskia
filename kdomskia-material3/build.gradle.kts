@@ -6,6 +6,7 @@ plugins {
     id("kotlin-multiplatform")
     id("org.jetbrains.compose")
     id("org.jetbrains.kotlin.plugin.compose")
+    id("com.vanniktech.maven.publish")
 }
 
 group = "io.kdomskia"

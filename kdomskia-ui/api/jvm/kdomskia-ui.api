@@ -1,0 +1,628 @@
+public final class io/kdomskia/compose/foundation/Background_skiaKt {
+	public static final fun background-4WTKRHQ (Lio/kdomskia/compose/ui/Modifier;J)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun dottedShapeBackground-y6ga9Xk (Lio/kdomskia/compose/ui/Modifier;JFF)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/Border_skiaKt {
+	public static final fun border (Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/foundation/BorderStroke;Landroidx/compose/ui/graphics/Shape;)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun border$default (Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/foundation/BorderStroke;Landroidx/compose/ui/graphics/Shape;ILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun border-xT4_qwU (Lio/kdomskia/compose/ui/Modifier;FJLandroidx/compose/ui/graphics/Shape;)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun border-xT4_qwU$default (Lio/kdomskia/compose/ui/Modifier;FJLandroidx/compose/ui/graphics/Shape;ILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun border-ziNgDLE (Lio/kdomskia/compose/ui/Modifier;FLandroidx/compose/ui/graphics/Brush;Landroidx/compose/ui/graphics/Shape;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/Clickable_skiaKt {
+	public static final fun clickable (Lio/kdomskia/compose/ui/Modifier;ZLjava/lang/String;Lio/kdomskia/compose/ui/semantics/Role;Lkotlin/jvm/functions/Function0;)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun clickable$default (Lio/kdomskia/compose/ui/Modifier;ZLjava/lang/String;Lio/kdomskia/compose/ui/semantics/Role;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/DarkThemeKt {
+	public static final fun isSystemInDarkTheme (Landroidx/compose/runtime/Composer;I)Z
+}
+
+public final class io/kdomskia/compose/foundation/Image_skiaKt {
+	public static final fun Image (Lio/kdomskia/compose/ui/resource/ImageResource;Ljava/lang/String;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/layout/ContentScale;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/foundation/PagerScope {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/foundation/PagerScope;
+}
+
+public final class io/kdomskia/compose/foundation/PagerState {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/foundation/pager/PagerState;)V
+	public final fun animateScrollToPage (ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public final fun getCurrentPage ()I
+	public final fun getPageCount ()I
+	public final fun getSkia ()Landroidx/compose/foundation/pager/PagerState;
+}
+
+public final class io/kdomskia/compose/foundation/PagerState_skiaKt {
+	public static final fun PagerState (ILkotlin/jvm/functions/Function0;)Lio/kdomskia/compose/foundation/PagerState;
+	public static synthetic fun PagerState$default (ILkotlin/jvm/functions/Function0;ILjava/lang/Object;)Lio/kdomskia/compose/foundation/PagerState;
+	public static final fun rememberPagerState (ILkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)Lio/kdomskia/compose/foundation/PagerState;
+}
+
+public final class io/kdomskia/compose/foundation/Pager_skiaKt {
+	public static final fun HorizontalPager (Lio/kdomskia/compose/foundation/PagerState;Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function4;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/foundation/ScrollState {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/foundation/ScrollState;)V
+	public final fun animateScrollTo (ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public final fun getSkia ()Landroidx/compose/foundation/ScrollState;
+	public final fun getValue ()I
+	public final fun scrollTo (ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class io/kdomskia/compose/foundation/Scroll_skiaKt {
+	public static final fun horizontalScroll (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/ScrollState;Lio/kdomskia/compose/foundation/dom/DomScrollOptions;Z)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun horizontalScroll$default (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/ScrollState;Lio/kdomskia/compose/foundation/dom/DomScrollOptions;ZILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun rememberScrollState (ILandroidx/compose/runtime/Composer;II)Lio/kdomskia/compose/foundation/ScrollState;
+	public static final fun verticalScroll (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/ScrollState;Lio/kdomskia/compose/foundation/dom/DomScrollOptions;Z)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun verticalScroll$default (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/ScrollState;Lio/kdomskia/compose/foundation/dom/DomScrollOptions;ZILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/dom/DomOverflow : java/lang/Enum {
+	public static final field Auto Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public static final field Clip Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public static final field Hidden Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public static final field Scroll Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public static final field Visible Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public static fun values ()[Lio/kdomskia/compose/foundation/dom/DomOverflow;
+}
+
+public final class io/kdomskia/compose/foundation/dom/DomScrollOptions {
+	public static final field $stable I
+	public fun <init> (Lio/kdomskia/compose/foundation/dom/DomScrollTarget;Lio/kdomskia/compose/foundation/dom/DomOverflow;)V
+	public synthetic fun <init> (Lio/kdomskia/compose/foundation/dom/DomScrollTarget;Lio/kdomskia/compose/foundation/dom/DomOverflow;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+	public final fun component2 ()Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public final fun copy (Lio/kdomskia/compose/foundation/dom/DomScrollTarget;Lio/kdomskia/compose/foundation/dom/DomOverflow;)Lio/kdomskia/compose/foundation/dom/DomScrollOptions;
+	public static synthetic fun copy$default (Lio/kdomskia/compose/foundation/dom/DomScrollOptions;Lio/kdomskia/compose/foundation/dom/DomScrollTarget;Lio/kdomskia/compose/foundation/dom/DomOverflow;ILjava/lang/Object;)Lio/kdomskia/compose/foundation/dom/DomScrollOptions;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getOverflow ()Lio/kdomskia/compose/foundation/dom/DomOverflow;
+	public final fun getTarget ()Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/foundation/dom/DomScrollTarget : java/lang/Enum {
+	public static final field Body Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+	public static final field Element Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+	public static final field Window Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+	public static fun values ()[Lio/kdomskia/compose/foundation/dom/DomScrollTarget;
+}
+
+public final class io/kdomskia/compose/foundation/extension/DpExtKt {
+	public static final fun toPx-D5KLDUw (FLandroidx/compose/ui/unit/Density;)F
+}
+
+public final class io/kdomskia/compose/foundation/gestures/Orientation : java/lang/Enum {
+	public static final field Horizontal Lio/kdomskia/compose/foundation/gestures/Orientation;
+	public static final field Vertical Lio/kdomskia/compose/foundation/gestures/Orientation;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/kdomskia/compose/foundation/gestures/Orientation;
+	public static fun values ()[Lio/kdomskia/compose/foundation/gestures/Orientation;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Arrangement {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/foundation/layout/Arrangement;
+	public final fun getBottom ()Lio/kdomskia/compose/foundation/layout/Arrangement$Vertical;
+	public final fun getCenter ()Lio/kdomskia/compose/foundation/layout/Arrangement$HorizontalOrVertical;
+	public final fun getEnd ()Lio/kdomskia/compose/foundation/layout/Arrangement$Horizontal;
+	public final fun getSpaceAround ()Lio/kdomskia/compose/foundation/layout/Arrangement$HorizontalOrVertical;
+	public final fun getSpaceBetween ()Lio/kdomskia/compose/foundation/layout/Arrangement$HorizontalOrVertical;
+	public final fun getSpaceEvenly ()Lio/kdomskia/compose/foundation/layout/Arrangement$HorizontalOrVertical;
+	public final fun getStart ()Lio/kdomskia/compose/foundation/layout/Arrangement$Horizontal;
+	public final fun getTop ()Lio/kdomskia/compose/foundation/layout/Arrangement$Vertical;
+	public final fun spacedBy-0680j_4 (F)Lio/kdomskia/compose/foundation/layout/Arrangement$HorizontalOrVertical;
+	public final fun spacedBy-D5KLDUw (FLio/kdomskia/compose/ui/Alignment$Horizontal;)Lio/kdomskia/compose/foundation/layout/Arrangement$Horizontal;
+	public final fun spacedBy-D5KLDUw (FLio/kdomskia/compose/ui/Alignment$Vertical;)Lio/kdomskia/compose/foundation/layout/Arrangement$Vertical;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/Arrangement$Horizontal {
+	public abstract fun getSkia ()Landroidx/compose/foundation/layout/Arrangement$Horizontal;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/Arrangement$HorizontalOrVertical : io/kdomskia/compose/foundation/layout/Arrangement$Horizontal, io/kdomskia/compose/foundation/layout/Arrangement$Vertical {
+	public abstract fun getSkia ()Landroidx/compose/foundation/layout/Arrangement$HorizontalOrVertical;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/Arrangement$Vertical {
+	public abstract fun getSkia ()Landroidx/compose/foundation/layout/Arrangement$Vertical;
+}
+
+public final class io/kdomskia/compose/foundation/layout/BoxKt {
+	public static final fun Box (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;ZLandroidx/compose/runtime/Composer;II)V
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/BoxScope {
+	public abstract fun align (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/BoxWithConstraintsScope : io/kdomskia/compose/foundation/layout/BoxScope {
+	public abstract fun getMaxHeight-D9Ej5fM ()F
+	public abstract fun getMaxWidth-D9Ej5fM ()F
+	public abstract fun getMinHeight-D9Ej5fM ()F
+	public abstract fun getMinWidth-D9Ej5fM ()F
+}
+
+public final class io/kdomskia/compose/foundation/layout/BoxWithConstraints_skiaKt {
+	public static final fun BoxWithConstraints (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;ZLkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun BoxWithConstraintsScope (Landroidx/compose/foundation/layout/BoxWithConstraintsScope;)Lio/kdomskia/compose/foundation/layout/BoxWithConstraintsScope;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Box_skiaKt {
+	public static final fun Box (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;ZLkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun BoxScope (Landroidx/compose/foundation/layout/BoxScope;)Lio/kdomskia/compose/foundation/layout/BoxScope;
+}
+
+public final class io/kdomskia/compose/foundation/layout/ColumnScope {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/foundation/layout/ColumnScope;)V
+	public final fun align (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment$Horizontal;)Lio/kdomskia/compose/ui/Modifier;
+	public final fun weight (Lio/kdomskia/compose/ui/Modifier;FZLio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun weight$default (Lio/kdomskia/compose/foundation/layout/ColumnScope;Lio/kdomskia/compose/ui/Modifier;FZLio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;ILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Column_skiaKt {
+	public static final fun Column (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/Arrangement$Vertical;Lio/kdomskia/compose/ui/Alignment$Horizontal;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/foundation/layout/FlowRowScope {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/foundation/layout/FlowRowScope;
+}
+
+public final class io/kdomskia/compose/foundation/layout/FlowRow_skiaKt {
+	public static final fun FlowRow (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/Arrangement$Horizontal;Lio/kdomskia/compose/ui/Alignment$Vertical;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/foundation/layout/IntrinsicSize : java/lang/Enum {
+	public static final field Max Lio/kdomskia/compose/foundation/layout/IntrinsicSize;
+	public static final field Min Lio/kdomskia/compose/foundation/layout/IntrinsicSize;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/kdomskia/compose/foundation/layout/IntrinsicSize;
+	public static fun values ()[Lio/kdomskia/compose/foundation/layout/IntrinsicSize;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Intrinsic_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/foundation/layout/IntrinsicSize;)Landroidx/compose/foundation/layout/IntrinsicSize;
+}
+
+public final class io/kdomskia/compose/foundation/layout/PaddingKt {
+	public static final fun PaddingValues-0680j_4 (F)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static final fun PaddingValues-YgX7TsA (FF)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static synthetic fun PaddingValues-YgX7TsA$default (FFILjava/lang/Object;)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static final fun PaddingValues-a9UjIt4 (FFFF)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static synthetic fun PaddingValues-a9UjIt4$default (FFFFILjava/lang/Object;)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static final fun calculateEndPadding (Lio/kdomskia/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/unit/LayoutDirection;)F
+	public static final fun calculateStartPadding (Lio/kdomskia/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/unit/LayoutDirection;)F
+	public static final fun copy-dBely2E (Lio/kdomskia/compose/foundation/layout/PaddingValues;FFFFLandroidx/compose/runtime/Composer;II)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static final fun getBottom (Lio/kdomskia/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;I)F
+	public static final fun getEnd (Lio/kdomskia/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;I)F
+	public static final fun getStart (Lio/kdomskia/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;I)F
+	public static final fun getTop (Lio/kdomskia/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;I)F
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/PaddingValues {
+	public static final field Companion Lio/kdomskia/compose/foundation/layout/PaddingValues$Companion;
+	public abstract fun calculateBottomPadding-D9Ej5fM ()F
+	public abstract fun calculateLeftPadding-u2uoSUM (Landroidx/compose/ui/unit/LayoutDirection;)F
+	public abstract fun calculateRightPadding-u2uoSUM (Landroidx/compose/ui/unit/LayoutDirection;)F
+	public abstract fun calculateTopPadding-D9Ej5fM ()F
+}
+
+public final class io/kdomskia/compose/foundation/layout/PaddingValues$Companion {
+	public final fun getZero ()Lio/kdomskia/compose/foundation/layout/PaddingValues;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Padding_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/foundation/layout/PaddingValues;)Landroidx/compose/foundation/layout/PaddingValues;
+	public static final fun padding (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/PaddingValues;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun padding-3ABfNKs (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun padding-VpY3zN4 (Lio/kdomskia/compose/ui/Modifier;FF)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun padding-VpY3zN4$default (Lio/kdomskia/compose/ui/Modifier;FFILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun padding-qDBjuR0 (Lio/kdomskia/compose/ui/Modifier;FFFF)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun padding-qDBjuR0$default (Lio/kdomskia/compose/ui/Modifier;FFFFILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/layout/RowScope {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/foundation/layout/RowScope;)V
+	public final fun align (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment$Vertical;)Lio/kdomskia/compose/ui/Modifier;
+	public final fun weight (Lio/kdomskia/compose/ui/Modifier;FZLio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun weight$default (Lio/kdomskia/compose/foundation/layout/RowScope;Lio/kdomskia/compose/ui/Modifier;FZLio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;ILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Row_skiaKt {
+	public static final fun Row (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/Arrangement$Horizontal;Lio/kdomskia/compose/ui/Alignment$Vertical;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/foundation/layout/SizeKt {
+	public static final fun size-6HolHcs (Lio/kdomskia/compose/ui/Modifier;J)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Size_skiaKt {
+	public static final fun defaultMinSize-VpY3zN4 (Lio/kdomskia/compose/ui/Modifier;FF)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun defaultMinSize-VpY3zN4$default (Lio/kdomskia/compose/ui/Modifier;FFILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun fillMaxHeight (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun fillMaxHeight$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun fillMaxSize (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun fillMaxSize$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun fillMaxWidth (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun fillMaxWidth$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun fillViewportHeight (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun fillViewportHeight$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun fillViewportWidth (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun fillViewportWidth$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun height (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/IntrinsicSize;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun height-3ABfNKs (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun heightIn-VpY3zN4 (Lio/kdomskia/compose/ui/Modifier;FF)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun heightIn-VpY3zN4$default (Lio/kdomskia/compose/ui/Modifier;FFILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun size-3ABfNKs (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun size-VpY3zN4 (Lio/kdomskia/compose/ui/Modifier;FF)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun sizeIn-qDBjuR0 (Lio/kdomskia/compose/ui/Modifier;FFFF)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun sizeIn-qDBjuR0$default (Lio/kdomskia/compose/ui/Modifier;FFFFILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun width (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/IntrinsicSize;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun width-3ABfNKs (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun widthIn-VpY3zN4 (Lio/kdomskia/compose/ui/Modifier;FF)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun widthIn-VpY3zN4$default (Lio/kdomskia/compose/ui/Modifier;FFILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/layout/Spacer_skiaKt {
+	public static final fun Spacer (Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/foundation/layout/ViewportContainerKt {
+	public static final fun ViewportContainer (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;FLkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public abstract interface class io/kdomskia/compose/foundation/layout/WindowInsets {
+	public static final field Companion Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;
+	public abstract fun getBottom (Landroidx/compose/ui/unit/Density;)I
+	public abstract fun getLeft (Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/unit/LayoutDirection;)I
+	public abstract fun getRight (Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/unit/LayoutDirection;)I
+	public abstract fun getTop (Landroidx/compose/ui/unit/Density;)I
+}
+
+public final class io/kdomskia/compose/foundation/layout/WindowInsets$Companion {
+}
+
+public final class io/kdomskia/compose/foundation/layout/WindowInsetsKt {
+	public static final fun WindowInsets ()Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun WindowInsets (IIII)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static synthetic fun WindowInsets$default (IIIIILjava/lang/Object;)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun WindowInsets-a9UjIt4 (FFFF)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static synthetic fun WindowInsets-a9UjIt4$default (FFFFILjava/lang/Object;)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun add (Lio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/foundation/layout/WindowInsets;)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun asPaddingValues (Lio/kdomskia/compose/foundation/layout/WindowInsets;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static final fun asPaddingValues (Lio/kdomskia/compose/foundation/layout/WindowInsets;Landroidx/compose/ui/unit/Density;)Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public static final fun exclude (Lio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/foundation/layout/WindowInsets;)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getCaptionBar (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getDisplayCutout (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getIme (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getKdomskia (Landroidx/compose/foundation/layout/WindowInsets;)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getMandatorySystemGestures (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getNavigationBars (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getSafeContent (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getSafeDrawing (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getSafeGestures (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getStatusBars (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getSystemBars (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getSystemGestures (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getTappableElement (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun getWaterfall (Lio/kdomskia/compose/foundation/layout/WindowInsets$Companion;Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun only-rt9Shro (Lio/kdomskia/compose/foundation/layout/WindowInsets;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public static final fun union (Lio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/foundation/layout/WindowInsets;)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+}
+
+public final class io/kdomskia/compose/foundation/layout/WindowInsetsSides {
+	public static final field Companion Lio/kdomskia/compose/foundation/layout/WindowInsetsSides$Companion;
+	public static final synthetic fun box-impl (I)Lio/kdomskia/compose/foundation/layout/WindowInsetsSides;
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (ILjava/lang/Object;)Z
+	public static final fun equals-impl0 (II)Z
+	public fun hashCode ()I
+	public static fun hashCode-impl (I)I
+	public static final fun plus-SfUU1Cg (II)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (I)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()I
+}
+
+public final class io/kdomskia/compose/foundation/layout/WindowInsetsSides$Companion {
+	public final fun getBottom-kfuvmHE ()I
+	public final fun getEnd-kfuvmHE ()I
+	public final fun getHorizontal-kfuvmHE ()I
+	public final fun getLeft-kfuvmHE ()I
+	public final fun getRight-kfuvmHE ()I
+	public final fun getStart-kfuvmHE ()I
+	public final fun getTop-kfuvmHE ()I
+	public final fun getVertical-kfuvmHE ()I
+}
+
+public final class io/kdomskia/compose/foundation/layout/WindowInsets_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/foundation/layout/WindowInsets;)Landroidx/compose/foundation/layout/WindowInsets;
+}
+
+public final class io/kdomskia/compose/foundation/layout/dom/DomFlexBasis : java/lang/Enum {
+	public static final field Auto Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+	public static final field Content Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+	public static final field FitContent Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+	public static final field MaxContent Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+	public static final field MinContent Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+	public static fun values ()[Lio/kdomskia/compose/foundation/layout/dom/DomFlexBasis;
+}
+
+public final class io/kdomskia/compose/foundation/layout/dom/DomId_skiaKt {
+	public static final fun domId (Lio/kdomskia/compose/ui/Modifier;Ljava/lang/String;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDslKt {
+	public static final fun items (Lio/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope;Ljava/util/List;Lkotlin/jvm/functions/Function3;)V
+	public static final fun items (Lio/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope;[Ljava/lang/Object;Lkotlin/jvm/functions/Function3;)V
+	public static final fun itemsIndexed (Lio/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope;Ljava/util/List;Lkotlin/jvm/functions/Function4;)V
+	public static final fun itemsIndexed (Lio/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope;[Ljava/lang/Object;Lkotlin/jvm/functions/Function4;)V
+}
+
+public final class io/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridDsl_skiaKt {
+	public static final fun LazyVerticalStaggeredGrid--b7W0Lw (Lio/kdomskia/compose/foundation/lazy/staggeredgrid/StaggeredGridCells;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/PaddingValues;FLio/kdomskia/compose/foundation/layout/Arrangement$Horizontal;Lio/kdomskia/compose/foundation/dom/DomScrollOptions;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+}
+
+public abstract interface class io/kdomskia/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridScope {
+	public abstract fun item (Lkotlin/jvm/functions/Function2;)V
+	public abstract fun items (ILkotlin/jvm/functions/Function3;)V
+}
+
+public abstract interface class io/kdomskia/compose/foundation/lazy/staggeredgrid/StaggeredGridCells {
+}
+
+public final class io/kdomskia/compose/foundation/lazy/staggeredgrid/StaggeredGridCells$Fixed : io/kdomskia/compose/foundation/lazy/staggeredgrid/StaggeredGridCells {
+	public static final field $stable I
+	public fun <init> (I)V
+}
+
+public final class io/kdomskia/compose/foundation/selection/Selectable_skiaKt {
+	public static final fun selectable (Lio/kdomskia/compose/ui/Modifier;ZZLio/kdomskia/compose/ui/semantics/Role;Lkotlin/jvm/functions/Function0;)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun selectable$default (Lio/kdomskia/compose/ui/Modifier;ZZLio/kdomskia/compose/ui/semantics/Role;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/shape/CornerBasedShape : androidx/compose/ui/graphics/Shape {
+}
+
+public final class io/kdomskia/compose/foundation/shape/CornerBasedShapeKt {
+	public static final fun getCommonSkia (Lio/kdomskia/compose/foundation/shape/CornerBasedShape;)Landroidx/compose/foundation/shape/CornerBasedShape;
+	public static final fun getKdomskia (Landroidx/compose/foundation/shape/CornerBasedShape;)Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/shape/CornerSize {
+	public abstract fun toPx-TmRCtEA (JLandroidx/compose/ui/unit/Density;)F
+}
+
+public final class io/kdomskia/compose/foundation/shape/CornerSize_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/foundation/shape/CornerSize;)Landroidx/compose/foundation/shape/CornerSize;
+}
+
+public final class io/kdomskia/compose/foundation/shape/DottedShape : androidx/compose/ui/graphics/Shape {
+	public static final field $stable I
+	public synthetic fun <init> (FFLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun createOutline-Pq9zytI (JLandroidx/compose/ui/unit/LayoutDirection;Landroidx/compose/ui/unit/Density;)Landroidx/compose/ui/graphics/Outline$Generic;
+	public synthetic fun createOutline-Pq9zytI (JLandroidx/compose/ui/unit/LayoutDirection;Landroidx/compose/ui/unit/Density;)Landroidx/compose/ui/graphics/Outline;
+}
+
+public abstract interface class io/kdomskia/compose/foundation/shape/RoundedCornerShape : io/kdomskia/compose/foundation/shape/CornerBasedShape {
+}
+
+public final class io/kdomskia/compose/foundation/shape/RoundedCornerShapeKt {
+	public static final fun RoundedCornerShape (F)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun RoundedCornerShape (FFFF)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun RoundedCornerShape (I)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun RoundedCornerShape (IIII)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun RoundedCornerShape (Lio/kdomskia/compose/foundation/shape/CornerSize;)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static synthetic fun RoundedCornerShape$default (FFFFILjava/lang/Object;)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static synthetic fun RoundedCornerShape$default (IIIIILjava/lang/Object;)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun RoundedCornerShape-0680j_4 (F)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun RoundedCornerShape-a9UjIt4 (FFFF)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static synthetic fun RoundedCornerShape-a9UjIt4$default (FFFFILjava/lang/Object;)Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public static final fun getCircleShape ()Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+}
+
+public abstract interface class io/kdomskia/compose/ui/Alignment {
+	public static final field Companion Lio/kdomskia/compose/ui/Alignment$Companion;
+	public abstract fun getSkia ()Landroidx/compose/ui/Alignment;
+}
+
+public final class io/kdomskia/compose/ui/Alignment$Companion {
+	public final fun getBottom ()Lio/kdomskia/compose/ui/Alignment$Vertical;
+	public final fun getBottomCenter ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getBottomEnd ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getBottomStart ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getCenter ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getCenterEnd ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getCenterHorizontally ()Lio/kdomskia/compose/ui/Alignment$Horizontal;
+	public final fun getCenterStart ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getCenterVertically ()Lio/kdomskia/compose/ui/Alignment$Vertical;
+	public final fun getEnd ()Lio/kdomskia/compose/ui/Alignment$Horizontal;
+	public final fun getStart ()Lio/kdomskia/compose/ui/Alignment$Horizontal;
+	public final fun getTop ()Lio/kdomskia/compose/ui/Alignment$Vertical;
+	public final fun getTopCenter ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getTopEnd ()Lio/kdomskia/compose/ui/Alignment;
+	public final fun getTopStart ()Lio/kdomskia/compose/ui/Alignment;
+}
+
+public abstract interface class io/kdomskia/compose/ui/Alignment$Horizontal {
+	public abstract fun getSkia ()Landroidx/compose/ui/Alignment$Horizontal;
+}
+
+public abstract interface class io/kdomskia/compose/ui/Alignment$Vertical {
+	public abstract fun getSkia ()Landroidx/compose/ui/Alignment$Vertical;
+}
+
+public abstract interface class io/kdomskia/compose/ui/Modifier {
+	public static final field Companion Lio/kdomskia/compose/ui/Modifier$Companion;
+	public abstract fun getSkia ()Landroidx/compose/ui/Modifier;
+	public abstract fun then (Lio/kdomskia/compose/ui/Modifier;)Lio/kdomskia/compose/ui/Modifier;
+	public abstract fun unwrap (Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/Modifier$Companion : io/kdomskia/compose/ui/Modifier {
+	public fun getSkia ()Landroidx/compose/ui/Modifier;
+	public fun then (Lio/kdomskia/compose/ui/Modifier;)Lio/kdomskia/compose/ui/Modifier;
+	public fun unwrap (Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/ModifierKt {
+	public static final fun thenIf (Lio/kdomskia/compose/ui/Modifier;ZLio/kdomskia/compose/ui/Modifier;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun thenIf (Lio/kdomskia/compose/ui/Modifier;ZLkotlin/jvm/functions/Function0;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun thenIfNotNull (Lio/kdomskia/compose/ui/Modifier;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun thenUnless (Lio/kdomskia/compose/ui/Modifier;ZLio/kdomskia/compose/ui/Modifier;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun thenUnless (Lio/kdomskia/compose/ui/Modifier;ZLkotlin/jvm/functions/Function0;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/Modifier_skiaKt {
+	public static final fun domOnly (Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun skiaOnly (Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun then (Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/ZIndexLayer {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/ui/ZIndexLayer;
+	public final fun getLayer0 ()Lkotlin/ranges/ClosedFloatingPointRange;
+	public final fun getLayer1 ()Lkotlin/ranges/ClosedFloatingPointRange;
+	public final fun getLayer2 ()Lkotlin/ranges/ClosedFloatingPointRange;
+	public final fun getLayer3 ()Lkotlin/ranges/ClosedFloatingPointRange;
+	public final fun getLayer4 ()Lkotlin/ranges/ClosedFloatingPointRange;
+}
+
+public final class io/kdomskia/compose/ui/ZIndexModifier_skiaKt {
+	public static final fun zIndex (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/draw/Clip_skiaKt {
+	public static final fun clip (Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun clipToBounds (Lio/kdomskia/compose/ui/Modifier;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/graphics/Image_jvmKt {
+	public static final fun supportsNativeSvg ()Z
+}
+
+public final class io/kdomskia/compose/ui/graphics/Image_skiaKt {
+	public static final fun supportsVectorDrawable ()Z
+}
+
+public final class io/kdomskia/compose/ui/graphics/PainterKt {
+	public static final fun rememberPainter (Lio/kdomskia/compose/ui/resource/ImageResource;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/painter/Painter;
+}
+
+public abstract interface class io/kdomskia/compose/ui/layout/ContentScale {
+	public static final field Companion Lio/kdomskia/compose/ui/layout/ContentScale$Companion;
+}
+
+public final class io/kdomskia/compose/ui/layout/ContentScale$Companion {
+	public final fun getCrop ()Lio/kdomskia/compose/ui/layout/ContentScale;
+	public final fun getFillBounds ()Lio/kdomskia/compose/ui/layout/ContentScale;
+	public final fun getFillHeight ()Lio/kdomskia/compose/ui/layout/ContentScale;
+	public final fun getFillWidth ()Lio/kdomskia/compose/ui/layout/ContentScale;
+	public final fun getFit ()Lio/kdomskia/compose/ui/layout/ContentScale;
+	public final fun getInside ()Lio/kdomskia/compose/ui/layout/ContentScale;
+	public final fun getNone ()Lio/kdomskia/compose/ui/layout/ContentScale;
+}
+
+public final class io/kdomskia/compose/ui/layout/ContentScale_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/ui/layout/ContentScale;)Landroidx/compose/ui/layout/ContentScale;
+}
+
+public abstract interface class io/kdomskia/compose/ui/layout/LayoutCoordinates {
+	public abstract fun getSize-YbymL2g ()J
+}
+
+public final class io/kdomskia/compose/ui/layout/OnGloballyPositionedModifier_skiaKt {
+	public static final fun onGloballyPositioned (Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function1;)Lio/kdomskia/compose/ui/Modifier;
+}
+
+public final class io/kdomskia/compose/ui/platform/LocalDensity {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/ui/platform/LocalDensity;
+	public final fun getCurrent (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/unit/Density;
+}
+
+public final class io/kdomskia/compose/ui/resource/DrawableResourceExtKt {
+	public static final fun getImg (Lorg/jetbrains/compose/resources/DrawableResource;)Lio/kdomskia/compose/ui/resource/ImageResource$Local;
+}
+
+public abstract class io/kdomskia/compose/ui/resource/ImageResource {
+	public static final field $stable I
+	public abstract fun getUri (Landroidx/compose/runtime/Composer;I)Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/ui/resource/ImageResource$Local : io/kdomskia/compose/ui/resource/ImageResource {
+	public static final field $stable I
+	public fun <init> (Lorg/jetbrains/compose/resources/DrawableResource;)V
+	public final fun getResource ()Lorg/jetbrains/compose/resources/DrawableResource;
+	public fun getUri (Landroidx/compose/runtime/Composer;I)Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/ui/resource/ImageResource$Remote : io/kdomskia/compose/ui/resource/ImageResource {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public fun getUri (Landroidx/compose/runtime/Composer;I)Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/ui/semantics/Role {
+	public static final field $stable I
+	public static final field Companion Lio/kdomskia/compose/ui/semantics/Role$Companion;
+	public synthetic fun <init> (ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+}
+
+public final class io/kdomskia/compose/ui/semantics/Role$Companion {
+	public final fun getButton ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getCarousel ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getCheckbox ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getDropdownList ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getImage ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getRadioButton ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getSwitch ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getTab ()Lio/kdomskia/compose/ui/semantics/Role;
+	public final fun getValuePicker ()Lio/kdomskia/compose/ui/semantics/Role;
+}
+
+public final class io/kdomskia/compose/ui/semantics/SemanticsProperties_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/ui/semantics/Role;)I
+}
+
+public abstract interface class io/kdomskia/compose/ui/settings/DomUiSettingsScope {
+}
+
+public abstract interface class io/kdomskia/compose/ui/settings/SkiaUiSettingsScope {
+	public abstract fun coilImageLoader (Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V
+}
+
+public abstract interface class io/kdomskia/compose/ui/settings/UiSettingsScope : io/kdomskia/compose/core/settings/ModuleSettingsProvider {
+	public abstract fun dom (Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;I)V
+	public abstract fun skia (Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/ui/settings/UiSettingsScopeKt {
+	public static final fun Ui (Lio/kdomskia/compose/core/settings/KdomskiaSettingsScope;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/ui/unit/DpKt {
+	public static final fun pxToDp (FLandroidx/compose/runtime/Composer;I)F
+	public static final fun pxToDp (FLandroidx/compose/ui/unit/Density;)F
+	public static final fun pxToDp (ILandroidx/compose/runtime/Composer;I)F
+	public static final fun pxToDp (ILandroidx/compose/ui/unit/Density;)F
+}
+

@@ -1,0 +1,468 @@
+public final class io/kdomskia/compose/material3/AppBar_skiaKt {
+	public static final fun TopAppBar-eHTjO5g (Lkotlin/jvm/functions/Function2;Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/kdomskia/compose/ui/Alignment$Horizontal;FLio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/material3/TopAppBarColors;Landroidx/compose/runtime/Composer;II)V
+	public static final fun getSkia (Lio/kdomskia/compose/material3/TopAppBarColors;)Landroidx/compose/material3/TopAppBarColors;
+}
+
+public final class io/kdomskia/compose/material3/ButtonColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-jRlVdoo (JJJJ)Lio/kdomskia/compose/material3/ButtonColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/kdomskia/compose/material3/ButtonColors;JJJJILjava/lang/Object;)Lio/kdomskia/compose/material3/ButtonColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDisabledContainerColor-0d7_KjU ()J
+	public final fun getDisabledContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+}
+
+public final class io/kdomskia/compose/material3/ButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/ButtonDefaults;
+	public final fun buttonColors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/ButtonColors;
+	public final fun elevatedButtonColors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/ButtonColors;
+	public final fun getContentPadding ()Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public final fun getElevatedShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun getFilledTonalShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun getOutlinedShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun getShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun getTextButtonContentPadding ()Lio/kdomskia/compose/foundation/layout/PaddingValues;
+	public final fun getTextShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun outlinedButtonBorder (ZLandroidx/compose/runtime/Composer;II)Landroidx/compose/foundation/BorderStroke;
+	public final fun outlinedButtonColors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/ButtonColors;
+	public final fun textButtonColors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/ButtonColors;
+}
+
+public final class io/kdomskia/compose/material3/Button_skiaKt {
+	public static final fun Button (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;Lio/kdomskia/compose/material3/ButtonColors;Lio/kdomskia/compose/foundation/layout/PaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun ElevatedButton (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;Lio/kdomskia/compose/material3/ButtonColors;Lio/kdomskia/compose/foundation/layout/PaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OutlinedButton (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;Lio/kdomskia/compose/material3/ButtonColors;Landroidx/compose/foundation/BorderStroke;Lio/kdomskia/compose/foundation/layout/PaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun TextButton (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;Lio/kdomskia/compose/material3/ButtonColors;Landroidx/compose/foundation/BorderStroke;Lio/kdomskia/compose/foundation/layout/PaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun getSkia (Lio/kdomskia/compose/material3/ButtonColors;)Landroidx/compose/material3/ButtonColors;
+}
+
+public final class io/kdomskia/compose/material3/ColorScheme {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-_VG5OTI (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ)Lio/kdomskia/compose/material3/ColorScheme;
+	public static synthetic fun copy-_VG5OTI$default (Lio/kdomskia/compose/material3/ColorScheme;JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJIILjava/lang/Object;)Lio/kdomskia/compose/material3/ColorScheme;
+	public final fun getBackground-0d7_KjU ()J
+	public final fun getError-0d7_KjU ()J
+	public final fun getErrorContainer-0d7_KjU ()J
+	public final fun getInverseOnSurface-0d7_KjU ()J
+	public final fun getInversePrimary-0d7_KjU ()J
+	public final fun getInverseSurface-0d7_KjU ()J
+	public final fun getOnBackground-0d7_KjU ()J
+	public final fun getOnError-0d7_KjU ()J
+	public final fun getOnErrorContainer-0d7_KjU ()J
+	public final fun getOnPrimary-0d7_KjU ()J
+	public final fun getOnPrimaryContainer-0d7_KjU ()J
+	public final fun getOnPrimaryFixed-0d7_KjU ()J
+	public final fun getOnPrimaryFixedVariant-0d7_KjU ()J
+	public final fun getOnSecondary-0d7_KjU ()J
+	public final fun getOnSecondaryContainer-0d7_KjU ()J
+	public final fun getOnSecondaryFixed-0d7_KjU ()J
+	public final fun getOnSecondaryFixedVariant-0d7_KjU ()J
+	public final fun getOnSurface-0d7_KjU ()J
+	public final fun getOnSurfaceVariant-0d7_KjU ()J
+	public final fun getOnTertiary-0d7_KjU ()J
+	public final fun getOnTertiaryContainer-0d7_KjU ()J
+	public final fun getOnTertiaryFixed-0d7_KjU ()J
+	public final fun getOnTertiaryFixedVariant-0d7_KjU ()J
+	public final fun getOutline-0d7_KjU ()J
+	public final fun getOutlineVariant-0d7_KjU ()J
+	public final fun getPrimary-0d7_KjU ()J
+	public final fun getPrimaryContainer-0d7_KjU ()J
+	public final fun getPrimaryFixed-0d7_KjU ()J
+	public final fun getPrimaryFixedDim-0d7_KjU ()J
+	public final fun getScrim-0d7_KjU ()J
+	public final fun getSecondary-0d7_KjU ()J
+	public final fun getSecondaryContainer-0d7_KjU ()J
+	public final fun getSecondaryFixed-0d7_KjU ()J
+	public final fun getSecondaryFixedDim-0d7_KjU ()J
+	public final fun getSurface-0d7_KjU ()J
+	public final fun getSurfaceBright-0d7_KjU ()J
+	public final fun getSurfaceContainer-0d7_KjU ()J
+	public final fun getSurfaceContainerHigh-0d7_KjU ()J
+	public final fun getSurfaceContainerHighest-0d7_KjU ()J
+	public final fun getSurfaceContainerLow-0d7_KjU ()J
+	public final fun getSurfaceContainerLowest-0d7_KjU ()J
+	public final fun getSurfaceDim-0d7_KjU ()J
+	public final fun getSurfaceTint-0d7_KjU ()J
+	public final fun getSurfaceVariant-0d7_KjU ()J
+	public final fun getTertiary-0d7_KjU ()J
+	public final fun getTertiaryContainer-0d7_KjU ()J
+	public final fun getTertiaryFixed-0d7_KjU ()J
+	public final fun getTertiaryFixedDim-0d7_KjU ()J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/material3/ColorSchemeKt {
+	public static final fun ProvideTonalElevationEnabled (ZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+	public static final fun contentColorFor-4WTKRHQ (Lio/kdomskia/compose/material3/ColorScheme;J)J
+	public static final fun contentColorFor-ek8zF_U (JLandroidx/compose/runtime/Composer;I)J
+	public static final fun darkColorScheme-_VG5OTI (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ)Lio/kdomskia/compose/material3/ColorScheme;
+	public static synthetic fun darkColorScheme-_VG5OTI$default (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJIILjava/lang/Object;)Lio/kdomskia/compose/material3/ColorScheme;
+	public static final fun lightColorScheme-_VG5OTI (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ)Lio/kdomskia/compose/material3/ColorScheme;
+	public static synthetic fun lightColorScheme-_VG5OTI$default (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJIILjava/lang/Object;)Lio/kdomskia/compose/material3/ColorScheme;
+	public static final fun surfaceColorAtElevation-3ABfNKs (Lio/kdomskia/compose/material3/ColorScheme;F)J
+}
+
+public final class io/kdomskia/compose/material3/ColorScheme_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/material3/ColorScheme;)Landroidx/compose/material3/ColorScheme;
+}
+
+public final class io/kdomskia/compose/material3/ComposableSingletons$AppBar_skiaKt {
+	public static final field INSTANCE Lio/kdomskia/compose/material3/ComposableSingletons$AppBar_skiaKt;
+	public fun <init> ()V
+	public final fun getLambda$1036055249$kdomskia_material3 ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$1963131187$kdomskia_material3 ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$759978353$kdomskia_material3 ()Lkotlin/jvm/functions/Function2;
+}
+
+public final class io/kdomskia/compose/material3/ContentColorKt {
+	public static final fun ProvideContentColor-Iv8Zu3U (JLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/material3/DividerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/DividerDefaults;
+	public final fun getColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getThickness-D9Ej5fM ()F
+}
+
+public final class io/kdomskia/compose/material3/Divider_skiaKt {
+	public static final fun HorizontalDivider-9IZ8Weo (Lio/kdomskia/compose/ui/Modifier;FJLandroidx/compose/runtime/Composer;II)V
+	public static final fun VerticalDivider-9IZ8Weo (Lio/kdomskia/compose/ui/Modifier;FJLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/DrawerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/DrawerDefaults;
+	public final fun getActiveIndicatorShape ()Lio/kdomskia/compose/foundation/shape/RoundedCornerShape;
+	public final fun getDismissibleDrawerElevation-D9Ej5fM ()F
+	public final fun getMaximumDrawerWidth-D9Ej5fM ()F
+	public final fun getModalContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getModalDrawerElevation-D9Ej5fM ()F
+	public final fun getPermanentDrawerElevation-D9Ej5fM ()F
+	public final fun getScrimColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun getStandardContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getWindowInsets (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+}
+
+public final class io/kdomskia/compose/material3/DrawerState {
+	public static final field $stable I
+	public static final field Companion Lio/kdomskia/compose/material3/DrawerState$Companion;
+	public fun <init> (Lio/kdomskia/compose/material3/DrawerValue;Lkotlin/jvm/functions/Function1;)V
+	public synthetic fun <init> (Lio/kdomskia/compose/material3/DrawerValue;Lkotlin/jvm/functions/Function1;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun close (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public final fun getCurrentValue ()Lio/kdomskia/compose/material3/DrawerValue;
+	public final fun isClosed ()Z
+	public final fun isOpen ()Z
+	public final fun open (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class io/kdomskia/compose/material3/DrawerState$Companion {
+	public final fun Saver (Lkotlin/jvm/functions/Function1;)Landroidx/compose/runtime/saveable/Saver;
+}
+
+public final class io/kdomskia/compose/material3/DrawerValue : java/lang/Enum {
+	public static final field Closed Lio/kdomskia/compose/material3/DrawerValue;
+	public static final field Open Lio/kdomskia/compose/material3/DrawerValue;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/kdomskia/compose/material3/DrawerValue;
+	public static fun values ()[Lio/kdomskia/compose/material3/DrawerValue;
+}
+
+public final class io/kdomskia/compose/material3/FloatingActionButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/FloatingActionButtonDefaults;
+	public final fun getContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getExtendedFabShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun getShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+}
+
+public final class io/kdomskia/compose/material3/FloatingActionButton_skiaKt {
+	public static final fun ExtendedFloatingActionButton-SxpAMN0 (Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;JJLandroidx/compose/runtime/Composer;II)V
+	public static final fun FloatingActionButton-jB83MbM (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;JJLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/IconButtonColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-jRlVdoo (JJJJ)Lio/kdomskia/compose/material3/IconButtonColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/kdomskia/compose/material3/IconButtonColors;JJJJILjava/lang/Object;)Lio/kdomskia/compose/material3/IconButtonColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDisabledContainerColor-0d7_KjU ()J
+	public final fun getDisabledContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+}
+
+public final class io/kdomskia/compose/material3/IconButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/IconButtonDefaults;
+	public final fun getStandardShape (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;
+	public final fun iconButtonColors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/IconButtonColors;
+}
+
+public final class io/kdomskia/compose/material3/IconButton_skiaKt {
+	public static final fun IconButton (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLio/kdomskia/compose/material3/IconButtonColors;Landroidx/compose/ui/graphics/Shape;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun getSkia (Lio/kdomskia/compose/material3/IconButtonColors;)Landroidx/compose/material3/IconButtonColors;
+}
+
+public final class io/kdomskia/compose/material3/Icon_skiaKt {
+	public static final fun Icon-ww6aTOc (Lio/kdomskia/compose/ui/resource/ImageResource;Ljava/lang/String;Lio/kdomskia/compose/ui/Modifier;JLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/LocalAbsoluteTonalElevation {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/LocalAbsoluteTonalElevation;
+	public final fun getCurrent (Landroidx/compose/runtime/Composer;I)F
+}
+
+public final class io/kdomskia/compose/material3/LocalContentColor {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/LocalContentColor;
+	public final fun getCurrent (Landroidx/compose/runtime/Composer;I)J
+}
+
+public final class io/kdomskia/compose/material3/LocalTextStyle {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/LocalTextStyle;
+	public final fun getCurrent (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/kdomskia/compose/material3/LocalTonalElevationEnabled {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/LocalTonalElevationEnabled;
+	public final fun getCurrent (Landroidx/compose/runtime/Composer;I)Z
+}
+
+public final class io/kdomskia/compose/material3/MaterialTheme {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/MaterialTheme;
+	public final fun getColorScheme (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/ColorScheme;
+	public final fun getShapes (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/Shapes;
+	public final fun getTypography (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/Typography;
+}
+
+public final class io/kdomskia/compose/material3/MaterialThemeKt {
+	public static final fun MaterialTheme (Lio/kdomskia/compose/material3/ColorScheme;Lio/kdomskia/compose/material3/Shapes;Lio/kdomskia/compose/material3/Typography;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public abstract interface class io/kdomskia/compose/material3/NavigationDrawerItemColors {
+	public abstract fun badgeColor (ZLandroidx/compose/runtime/Composer;I)Landroidx/compose/runtime/State;
+	public abstract fun containerColor (ZLandroidx/compose/runtime/Composer;I)Landroidx/compose/runtime/State;
+	public abstract fun iconColor (ZLandroidx/compose/runtime/Composer;I)Landroidx/compose/runtime/State;
+	public abstract fun textColor (ZLandroidx/compose/runtime/Composer;I)Landroidx/compose/runtime/State;
+}
+
+public final class io/kdomskia/compose/material3/NavigationDrawerItemDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/NavigationDrawerItemDefaults;
+	public final fun colors-oq7We08 (JJJJJJJJLandroidx/compose/runtime/Composer;II)Lio/kdomskia/compose/material3/NavigationDrawerItemColors;
+}
+
+public final class io/kdomskia/compose/material3/NavigationDrawerKt {
+	public static final fun rememberDrawerState (Lio/kdomskia/compose/material3/DrawerValue;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)Lio/kdomskia/compose/material3/DrawerState;
+}
+
+public final class io/kdomskia/compose/material3/NavigationDrawer_skiaKt {
+	public static final fun ModalDrawerSheet-afqeVBk (Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;JJFLio/kdomskia/compose/foundation/layout/WindowInsets;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun ModalNavigationDrawer-FHprtrg (Lkotlin/jvm/functions/Function2;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/material3/DrawerState;ZJLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavigationDrawerItem (Lkotlin/jvm/functions/Function2;ZLkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/graphics/Shape;Lio/kdomskia/compose/material3/NavigationDrawerItemColors;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/NavigationRailDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/NavigationRailDefaults;
+	public final fun getContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getWindowInsets (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+}
+
+public final class io/kdomskia/compose/material3/NavigationRailItemColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-4JmcsL4 (JJJJJJJ)Lio/kdomskia/compose/material3/NavigationRailItemColors;
+	public static synthetic fun copy-4JmcsL4$default (Lio/kdomskia/compose/material3/NavigationRailItemColors;JJJJJJJILjava/lang/Object;)Lio/kdomskia/compose/material3/NavigationRailItemColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDisabledIconColor-0d7_KjU ()J
+	public final fun getDisabledTextColor-0d7_KjU ()J
+	public final fun getSelectedIconColor-0d7_KjU ()J
+	public final fun getSelectedIndicatorColor-0d7_KjU ()J
+	public final fun getSelectedTextColor-0d7_KjU ()J
+	public final fun getUnselectedIconColor-0d7_KjU ()J
+	public final fun getUnselectedTextColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/material3/NavigationRailItemDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/NavigationRailItemDefaults;
+	public final fun colors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/NavigationRailItemColors;
+	public final fun getHeight-D9Ej5fM ()F
+	public final fun getLabelTextFont (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+	public final fun getVerticalPadding-D9Ej5fM ()F
+	public final fun getVerticalPaddingNoLabel-D9Ej5fM ()F
+	public final fun getWidth-D9Ej5fM ()F
+}
+
+public final class io/kdomskia/compose/material3/NavigationRail_skiaKt {
+	public static final fun NavigationRail-qi6gXK8 (Lio/kdomskia/compose/ui/Modifier;JJLkotlin/jvm/functions/Function3;Lio/kdomskia/compose/foundation/layout/WindowInsets;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavigationRailItem (ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lio/kdomskia/compose/ui/Modifier;ZLkotlin/jvm/functions/Function2;ZLio/kdomskia/compose/material3/NavigationRailItemColors;Landroidx/compose/runtime/Composer;II)V
+	public static final fun getSkia (Lio/kdomskia/compose/material3/NavigationRailItemColors;)Landroidx/compose/material3/NavigationRailItemColors;
+}
+
+public final class io/kdomskia/compose/material3/ProgressIndicatorDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/ProgressIndicatorDefaults;
+	public final fun getCircularColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getCircularStrokeWidth-D9Ej5fM ()F
+}
+
+public final class io/kdomskia/compose/material3/ProgressIndicator_skiaKt {
+	public static final fun CircularProgressIndicator-aM-cp0Q (Lio/kdomskia/compose/ui/Modifier;JFLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/ShapeDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/ShapeDefaults;
+	public final fun getExtraLarge ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getExtraSmall ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getLarge ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getMedium ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getSmall ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+}
+
+public final class io/kdomskia/compose/material3/Shapes {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;)V
+	public synthetic fun <init> (Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy (Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;)Lio/kdomskia/compose/material3/Shapes;
+	public static synthetic fun copy$default (Lio/kdomskia/compose/material3/Shapes;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;Lio/kdomskia/compose/foundation/shape/CornerBasedShape;ILjava/lang/Object;)Lio/kdomskia/compose/material3/Shapes;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getExtraLarge ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getExtraSmall ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getLarge ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getMedium ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public final fun getSmall ()Lio/kdomskia/compose/foundation/shape/CornerBasedShape;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/material3/ShapesKt {
+	public static final fun getKdomskia (Landroidx/compose/material3/Shapes;)Lio/kdomskia/compose/material3/Shapes;
+}
+
+public final class io/kdomskia/compose/material3/Shapes_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/material3/Shapes;)Landroidx/compose/material3/Shapes;
+}
+
+public final class io/kdomskia/compose/material3/SurfaceKt {
+	public static final fun ProvideAbsoluteTonalElevation-kHDZbjc (FLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/material3/Surface_skiaKt {
+	public static final fun Surface-0-lf7-U (ZLkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;JJFFLandroidx/compose/foundation/BorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Surface-T9BRK9s (Lio/kdomskia/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;JJFFLandroidx/compose/foundation/BorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun Surface-djLK_5M (Lkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;JJFFLandroidx/compose/foundation/BorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/TabRowDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/TabRowDefaults;
+	public final fun getActiveIndicatorHeight-D9Ej5fM ()F
+	public final fun getPrimaryContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getPrimaryContentColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getSecondaryContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getSecondaryContentColor (Landroidx/compose/runtime/Composer;I)J
+}
+
+public final class io/kdomskia/compose/material3/TabRow_skiaKt {
+	public static final fun PrimaryScrollableTabRow-fBHFalc (ILio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/ScrollState;JJJFJFZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun PrimaryTabRow-f_B6Kv4 (ILio/kdomskia/compose/ui/Modifier;JJJFJFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun SecondaryScrollableTabRow-fBHFalc (ILio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/ScrollState;JJJFJFZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun SecondaryTabRow-f_B6Kv4 (ILio/kdomskia/compose/ui/Modifier;JJJFJFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/Tab_skiaKt {
+	public static final fun Tab-SxpAMN0 (ZLkotlin/jvm/functions/Function0;Lio/kdomskia/compose/ui/Modifier;ZLkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;JJLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/material3/TextKt {
+	public static final fun ProvideTextStyle (Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/material3/Text_skiaKt {
+	public static final fun Text-1RCJzHk (Landroidx/compose/ui/text/AnnotatedString;Lio/kdomskia/compose/ui/Modifier;JJLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JILandroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Text-1RCJzHk (Ljava/lang/String;Lio/kdomskia/compose/ui/Modifier;JJLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JILandroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/kdomskia/compose/material3/TopAppBarColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-tNS2XkQ (JJJJJJ)Lio/kdomskia/compose/material3/TopAppBarColors;
+	public static synthetic fun copy-tNS2XkQ$default (Lio/kdomskia/compose/material3/TopAppBarColors;JJJJJJILjava/lang/Object;)Lio/kdomskia/compose/material3/TopAppBarColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getActionIconContentColor-0d7_KjU ()J
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getNavigationIconContentColor-0d7_KjU ()J
+	public final fun getScrolledContainerColor-0d7_KjU ()J
+	public final fun getSubtitleContentColor-0d7_KjU ()J
+	public final fun getTitleContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/material3/TopAppBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/kdomskia/compose/material3/TopAppBarDefaults;
+	public final fun getTopAppBarExpandedHeight-D9Ej5fM ()F
+	public final fun getWindowInsets (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/foundation/layout/WindowInsets;
+	public final fun topAppBarColors (Landroidx/compose/runtime/Composer;I)Lio/kdomskia/compose/material3/TopAppBarColors;
+}
+
+public final class io/kdomskia/compose/material3/Typography {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;)V
+	public synthetic fun <init> (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;)Lio/kdomskia/compose/material3/Typography;
+	public static synthetic fun copy$default (Lio/kdomskia/compose/material3/Typography;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;ILjava/lang/Object;)Lio/kdomskia/compose/material3/Typography;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBodyLarge ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getBodyMedium ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getBodySmall ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getDisplayLarge ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getDisplayMedium ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getDisplaySmall ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getHeadlineLarge ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getHeadlineMedium ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getHeadlineSmall ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getLabelLarge ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getLabelMedium ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getLabelSmall ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitleLarge ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitleMedium ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitleSmall ()Landroidx/compose/ui/text/TextStyle;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/kdomskia/compose/material3/TypographyKt {
+	public static final fun getKdomskia (Landroidx/compose/material3/Typography;)Lio/kdomskia/compose/material3/Typography;
+}
+
+public final class io/kdomskia/compose/material3/Typography_skiaKt {
+	public static final fun getSkia (Lio/kdomskia/compose/material3/Typography;)Landroidx/compose/material3/Typography;
+}
+
+public final class io/kdomskia/compose/material3/internal/loader/Material3ServiceLoaderTarget_skiaKt {
+	public static final fun LoadMaterial3 (Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+}
+

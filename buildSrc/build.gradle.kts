@@ -16,6 +16,7 @@ dependencies {
     implementation(libs.plugin.kotlin.compose.multiplatform)
     implementation(libs.plugin.kotlin.compose.compiler)
     implementation(libs.plugin.kotlin.atomicfu)
+    implementation(libs.plugin.mavenPublish)
 }
 
 tasks.withType<JavaCompile>().configureEach {

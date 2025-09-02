@@ -1,0 +1,1211 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, js]
+// Alias: ios => [iosArm64, iosSimulatorArm64, iosX64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <io.kdomskia:kdomskia-ui>
+final enum class io.kdomskia.compose.foundation.dom/DomOverflow : kotlin/Enum<io.kdomskia.compose.foundation.dom/DomOverflow> { // io.kdomskia.compose.foundation.dom/DomOverflow|null[0]
+    enum entry Auto // io.kdomskia.compose.foundation.dom/DomOverflow.Auto|null[0]
+    enum entry Clip // io.kdomskia.compose.foundation.dom/DomOverflow.Clip|null[0]
+    enum entry Hidden // io.kdomskia.compose.foundation.dom/DomOverflow.Hidden|null[0]
+    enum entry Scroll // io.kdomskia.compose.foundation.dom/DomOverflow.Scroll|null[0]
+    enum entry Visible // io.kdomskia.compose.foundation.dom/DomOverflow.Visible|null[0]
+
+    final val entries // io.kdomskia.compose.foundation.dom/DomOverflow.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.foundation.dom/DomOverflow> // io.kdomskia.compose.foundation.dom/DomOverflow.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.foundation.dom/DomOverflow // io.kdomskia.compose.foundation.dom/DomOverflow.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.foundation.dom/DomOverflow> // io.kdomskia.compose.foundation.dom/DomOverflow.values|values#static(){}[0]
+
+    // Targets: [js]
+    final val dom // io.kdomskia.compose.foundation.dom/DomOverflow.dom|{}dom[0]
+        final fun <get-dom>(): com.varabyte.kobweb.compose.css/Overflow // io.kdomskia.compose.foundation.dom/DomOverflow.dom.<get-dom>|<get-dom>(){}[0]
+}
+
+final enum class io.kdomskia.compose.foundation.dom/DomScrollTarget : kotlin/Enum<io.kdomskia.compose.foundation.dom/DomScrollTarget> { // io.kdomskia.compose.foundation.dom/DomScrollTarget|null[0]
+    enum entry Body // io.kdomskia.compose.foundation.dom/DomScrollTarget.Body|null[0]
+    enum entry Element // io.kdomskia.compose.foundation.dom/DomScrollTarget.Element|null[0]
+    enum entry Window // io.kdomskia.compose.foundation.dom/DomScrollTarget.Window|null[0]
+
+    final val entries // io.kdomskia.compose.foundation.dom/DomScrollTarget.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.foundation.dom/DomScrollTarget> // io.kdomskia.compose.foundation.dom/DomScrollTarget.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.foundation.dom/DomScrollTarget // io.kdomskia.compose.foundation.dom/DomScrollTarget.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.foundation.dom/DomScrollTarget> // io.kdomskia.compose.foundation.dom/DomScrollTarget.values|values#static(){}[0]
+}
+
+final enum class io.kdomskia.compose.foundation.gestures/Orientation : kotlin/Enum<io.kdomskia.compose.foundation.gestures/Orientation> { // io.kdomskia.compose.foundation.gestures/Orientation|null[0]
+    enum entry Horizontal // io.kdomskia.compose.foundation.gestures/Orientation.Horizontal|null[0]
+    enum entry Vertical // io.kdomskia.compose.foundation.gestures/Orientation.Vertical|null[0]
+
+    final val entries // io.kdomskia.compose.foundation.gestures/Orientation.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.foundation.gestures/Orientation> // io.kdomskia.compose.foundation.gestures/Orientation.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.foundation.gestures/Orientation // io.kdomskia.compose.foundation.gestures/Orientation.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.foundation.gestures/Orientation> // io.kdomskia.compose.foundation.gestures/Orientation.values|values#static(){}[0]
+}
+
+final enum class io.kdomskia.compose.foundation.layout.dom/DomFlexBasis : kotlin/Enum<io.kdomskia.compose.foundation.layout.dom/DomFlexBasis> { // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis|null[0]
+    enum entry Auto // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.Auto|null[0]
+    enum entry Content // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.Content|null[0]
+    enum entry FitContent // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.FitContent|null[0]
+    enum entry MaxContent // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.MaxContent|null[0]
+    enum entry MinContent // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.MinContent|null[0]
+
+    final val entries // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.foundation.layout.dom/DomFlexBasis> // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.foundation.layout.dom/DomFlexBasis // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.foundation.layout.dom/DomFlexBasis> // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.values|values#static(){}[0]
+
+    // Targets: [js]
+    final val dom // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.dom|{}dom[0]
+        final fun <get-dom>(): com.varabyte.kobweb.compose.css/FlexBasis // io.kdomskia.compose.foundation.layout.dom/DomFlexBasis.dom.<get-dom>|<get-dom>(){}[0]
+}
+
+final enum class io.kdomskia.compose.foundation.layout/IntrinsicSize : kotlin/Enum<io.kdomskia.compose.foundation.layout/IntrinsicSize> { // io.kdomskia.compose.foundation.layout/IntrinsicSize|null[0]
+    enum entry Max // io.kdomskia.compose.foundation.layout/IntrinsicSize.Max|null[0]
+    enum entry Min // io.kdomskia.compose.foundation.layout/IntrinsicSize.Min|null[0]
+
+    final val entries // io.kdomskia.compose.foundation.layout/IntrinsicSize.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.foundation.layout/IntrinsicSize> // io.kdomskia.compose.foundation.layout/IntrinsicSize.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.foundation.layout/IntrinsicSize // io.kdomskia.compose.foundation.layout/IntrinsicSize.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.foundation.layout/IntrinsicSize> // io.kdomskia.compose.foundation.layout/IntrinsicSize.values|values#static(){}[0]
+}
+
+abstract interface io.kdomskia.compose.foundation.layout/BoxScope { // io.kdomskia.compose.foundation.layout/BoxScope|null[0]
+    abstract fun (io.kdomskia.compose.ui/Modifier).align(io.kdomskia.compose.ui/Alignment): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/BoxScope.align|align@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.ui.Alignment){}[0]
+}
+
+abstract interface io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope : io.kdomskia.compose.foundation.layout/BoxScope { // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope|null[0]
+    abstract val maxHeight // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.maxHeight|{}maxHeight[0]
+        abstract fun <get-maxHeight>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.maxHeight.<get-maxHeight>|<get-maxHeight>(){}[0]
+    abstract val maxWidth // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.maxWidth|{}maxWidth[0]
+        abstract fun <get-maxWidth>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.maxWidth.<get-maxWidth>|<get-maxWidth>(){}[0]
+    abstract val minHeight // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.minHeight|{}minHeight[0]
+        abstract fun <get-minHeight>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.minHeight.<get-minHeight>|<get-minHeight>(){}[0]
+    abstract val minWidth // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.minWidth|{}minWidth[0]
+        abstract fun <get-minWidth>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope.minWidth.<get-minWidth>|<get-minWidth>(){}[0]
+}
+
+abstract interface io.kdomskia.compose.foundation.layout/PaddingValues { // io.kdomskia.compose.foundation.layout/PaddingValues|null[0]
+    abstract fun calculateBottomPadding(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/PaddingValues.calculateBottomPadding|calculateBottomPadding(){}[0]
+    abstract fun calculateLeftPadding(androidx.compose.ui.unit/LayoutDirection): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/PaddingValues.calculateLeftPadding|calculateLeftPadding(androidx.compose.ui.unit.LayoutDirection){}[0]
+    abstract fun calculateRightPadding(androidx.compose.ui.unit/LayoutDirection): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/PaddingValues.calculateRightPadding|calculateRightPadding(androidx.compose.ui.unit.LayoutDirection){}[0]
+    abstract fun calculateTopPadding(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/PaddingValues.calculateTopPadding|calculateTopPadding(){}[0]
+
+    final object Companion { // io.kdomskia.compose.foundation.layout/PaddingValues.Companion|null[0]
+        final val Zero // io.kdomskia.compose.foundation.layout/PaddingValues.Companion.Zero|{}Zero[0]
+            final fun <get-Zero>(): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/PaddingValues.Companion.Zero.<get-Zero>|<get-Zero>(){}[0]
+    }
+}
+
+abstract interface io.kdomskia.compose.foundation.layout/WindowInsets { // io.kdomskia.compose.foundation.layout/WindowInsets|null[0]
+    abstract fun getBottom(androidx.compose.ui.unit/Density): kotlin/Int // io.kdomskia.compose.foundation.layout/WindowInsets.getBottom|getBottom(androidx.compose.ui.unit.Density){}[0]
+    abstract fun getLeft(androidx.compose.ui.unit/Density, androidx.compose.ui.unit/LayoutDirection): kotlin/Int // io.kdomskia.compose.foundation.layout/WindowInsets.getLeft|getLeft(androidx.compose.ui.unit.Density;androidx.compose.ui.unit.LayoutDirection){}[0]
+    abstract fun getRight(androidx.compose.ui.unit/Density, androidx.compose.ui.unit/LayoutDirection): kotlin/Int // io.kdomskia.compose.foundation.layout/WindowInsets.getRight|getRight(androidx.compose.ui.unit.Density;androidx.compose.ui.unit.LayoutDirection){}[0]
+    abstract fun getTop(androidx.compose.ui.unit/Density): kotlin/Int // io.kdomskia.compose.foundation.layout/WindowInsets.getTop|getTop(androidx.compose.ui.unit.Density){}[0]
+
+    final object Companion // io.kdomskia.compose.foundation.layout/WindowInsets.Companion|null[0]
+}
+
+abstract interface io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope { // io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope|null[0]
+    abstract fun item(kotlin/Function2<androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope.item|item(kotlin.Function2<androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){}[0]
+    abstract fun items(kotlin/Int, kotlin/Function3<kotlin/Int, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope.items|items(kotlin.Int;kotlin.Function3<kotlin.Int,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){}[0]
+}
+
+abstract interface io.kdomskia.compose.foundation.lazy.staggeredgrid/StaggeredGridCells { // io.kdomskia.compose.foundation.lazy.staggeredgrid/StaggeredGridCells|null[0]
+    final class Fixed : io.kdomskia.compose.foundation.lazy.staggeredgrid/StaggeredGridCells { // io.kdomskia.compose.foundation.lazy.staggeredgrid/StaggeredGridCells.Fixed|null[0]
+        constructor <init>(kotlin/Int) // io.kdomskia.compose.foundation.lazy.staggeredgrid/StaggeredGridCells.Fixed.<init>|<init>(kotlin.Int){}[0]
+    }
+}
+
+abstract interface io.kdomskia.compose.foundation.shape/CornerBasedShape : androidx.compose.ui.graphics/Shape // io.kdomskia.compose.foundation.shape/CornerBasedShape|null[0]
+
+abstract interface io.kdomskia.compose.foundation.shape/CornerSize { // io.kdomskia.compose.foundation.shape/CornerSize|null[0]
+    abstract fun toPx(androidx.compose.ui.geometry/Size, androidx.compose.ui.unit/Density): kotlin/Float // io.kdomskia.compose.foundation.shape/CornerSize.toPx|toPx(androidx.compose.ui.geometry.Size;androidx.compose.ui.unit.Density){}[0]
+}
+
+abstract interface io.kdomskia.compose.foundation.shape/RoundedCornerShape : io.kdomskia.compose.foundation.shape/CornerBasedShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|null[0]
+
+abstract interface io.kdomskia.compose.ui.layout/ContentScale { // io.kdomskia.compose.ui.layout/ContentScale|null[0]
+    final object Companion { // io.kdomskia.compose.ui.layout/ContentScale.Companion|null[0]
+        final val Crop // io.kdomskia.compose.ui.layout/ContentScale.Companion.Crop|{}Crop[0]
+            final fun <get-Crop>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.Crop.<get-Crop>|<get-Crop>(){}[0]
+        final val FillBounds // io.kdomskia.compose.ui.layout/ContentScale.Companion.FillBounds|{}FillBounds[0]
+            final fun <get-FillBounds>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.FillBounds.<get-FillBounds>|<get-FillBounds>(){}[0]
+        final val FillHeight // io.kdomskia.compose.ui.layout/ContentScale.Companion.FillHeight|{}FillHeight[0]
+            final fun <get-FillHeight>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.FillHeight.<get-FillHeight>|<get-FillHeight>(){}[0]
+        final val FillWidth // io.kdomskia.compose.ui.layout/ContentScale.Companion.FillWidth|{}FillWidth[0]
+            final fun <get-FillWidth>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.FillWidth.<get-FillWidth>|<get-FillWidth>(){}[0]
+        final val Fit // io.kdomskia.compose.ui.layout/ContentScale.Companion.Fit|{}Fit[0]
+            final fun <get-Fit>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.Fit.<get-Fit>|<get-Fit>(){}[0]
+        final val Inside // io.kdomskia.compose.ui.layout/ContentScale.Companion.Inside|{}Inside[0]
+            final fun <get-Inside>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.Inside.<get-Inside>|<get-Inside>(){}[0]
+        final val None // io.kdomskia.compose.ui.layout/ContentScale.Companion.None|{}None[0]
+            final fun <get-None>(): io.kdomskia.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/ContentScale.Companion.None.<get-None>|<get-None>(){}[0]
+    }
+}
+
+abstract interface io.kdomskia.compose.ui.layout/LayoutCoordinates { // io.kdomskia.compose.ui.layout/LayoutCoordinates|null[0]
+    abstract val size // io.kdomskia.compose.ui.layout/LayoutCoordinates.size|{}size[0]
+        abstract fun <get-size>(): androidx.compose.ui.unit/IntSize // io.kdomskia.compose.ui.layout/LayoutCoordinates.size.<get-size>|<get-size>(){}[0]
+}
+
+abstract interface io.kdomskia.compose.ui.settings/DomUiSettingsScope // io.kdomskia.compose.ui.settings/DomUiSettingsScope|null[0]
+
+abstract interface io.kdomskia.compose.ui.settings/UiSettingsScope : io.kdomskia.compose.core.settings/ModuleSettingsProvider { // io.kdomskia.compose.ui.settings/UiSettingsScope|null[0]
+    abstract fun dom(kotlin/Function3<io.kdomskia.compose.ui.settings/DomUiSettingsScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int) // io.kdomskia.compose.ui.settings/UiSettingsScope.dom|dom(kotlin.Function3<io.kdomskia.compose.ui.settings.DomUiSettingsScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+    abstract fun skia(kotlin/Function3<io.kdomskia.compose.ui.settings/SkiaUiSettingsScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int) // io.kdomskia.compose.ui.settings/UiSettingsScope.skia|skia(kotlin.Function3<io.kdomskia.compose.ui.settings.SkiaUiSettingsScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+}
+
+abstract interface io.kdomskia.compose.ui/Alignment { // io.kdomskia.compose.ui/Alignment|null[0]
+    abstract interface Horizontal { // io.kdomskia.compose.ui/Alignment.Horizontal|null[0]
+        // Targets: [ios]
+        abstract val skia // io.kdomskia.compose.ui/Alignment.Horizontal.skia|{}skia[0]
+            abstract fun <get-skia>(): androidx.compose.ui/Alignment.Horizontal // io.kdomskia.compose.ui/Alignment.Horizontal.skia.<get-skia>|<get-skia>(){}[0]
+
+        // Targets: [js]
+        abstract val dom // io.kdomskia.compose.ui/Alignment.Horizontal.dom|{}dom[0]
+            abstract fun <get-dom>(): com.varabyte.kobweb.compose.ui/Alignment.Horizontal // io.kdomskia.compose.ui/Alignment.Horizontal.dom.<get-dom>|<get-dom>(){}[0]
+    }
+
+    abstract interface Vertical { // io.kdomskia.compose.ui/Alignment.Vertical|null[0]
+        // Targets: [ios]
+        abstract val skia // io.kdomskia.compose.ui/Alignment.Vertical.skia|{}skia[0]
+            abstract fun <get-skia>(): androidx.compose.ui/Alignment.Vertical // io.kdomskia.compose.ui/Alignment.Vertical.skia.<get-skia>|<get-skia>(){}[0]
+
+        // Targets: [js]
+        abstract val dom // io.kdomskia.compose.ui/Alignment.Vertical.dom|{}dom[0]
+            abstract fun <get-dom>(): com.varabyte.kobweb.compose.ui/Alignment.Vertical // io.kdomskia.compose.ui/Alignment.Vertical.dom.<get-dom>|<get-dom>(){}[0]
+    }
+
+    final object Companion { // io.kdomskia.compose.ui/Alignment.Companion|null[0]
+        final val Bottom // io.kdomskia.compose.ui/Alignment.Companion.Bottom|{}Bottom[0]
+            final fun <get-Bottom>(): io.kdomskia.compose.ui/Alignment.Vertical // io.kdomskia.compose.ui/Alignment.Companion.Bottom.<get-Bottom>|<get-Bottom>(){}[0]
+        final val BottomCenter // io.kdomskia.compose.ui/Alignment.Companion.BottomCenter|{}BottomCenter[0]
+            final fun <get-BottomCenter>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.BottomCenter.<get-BottomCenter>|<get-BottomCenter>(){}[0]
+        final val BottomEnd // io.kdomskia.compose.ui/Alignment.Companion.BottomEnd|{}BottomEnd[0]
+            final fun <get-BottomEnd>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.BottomEnd.<get-BottomEnd>|<get-BottomEnd>(){}[0]
+        final val BottomStart // io.kdomskia.compose.ui/Alignment.Companion.BottomStart|{}BottomStart[0]
+            final fun <get-BottomStart>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.BottomStart.<get-BottomStart>|<get-BottomStart>(){}[0]
+        final val Center // io.kdomskia.compose.ui/Alignment.Companion.Center|{}Center[0]
+            final fun <get-Center>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.Center.<get-Center>|<get-Center>(){}[0]
+        final val CenterEnd // io.kdomskia.compose.ui/Alignment.Companion.CenterEnd|{}CenterEnd[0]
+            final fun <get-CenterEnd>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.CenterEnd.<get-CenterEnd>|<get-CenterEnd>(){}[0]
+        final val CenterHorizontally // io.kdomskia.compose.ui/Alignment.Companion.CenterHorizontally|{}CenterHorizontally[0]
+            final fun <get-CenterHorizontally>(): io.kdomskia.compose.ui/Alignment.Horizontal // io.kdomskia.compose.ui/Alignment.Companion.CenterHorizontally.<get-CenterHorizontally>|<get-CenterHorizontally>(){}[0]
+        final val CenterStart // io.kdomskia.compose.ui/Alignment.Companion.CenterStart|{}CenterStart[0]
+            final fun <get-CenterStart>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.CenterStart.<get-CenterStart>|<get-CenterStart>(){}[0]
+        final val CenterVertically // io.kdomskia.compose.ui/Alignment.Companion.CenterVertically|{}CenterVertically[0]
+            final fun <get-CenterVertically>(): io.kdomskia.compose.ui/Alignment.Vertical // io.kdomskia.compose.ui/Alignment.Companion.CenterVertically.<get-CenterVertically>|<get-CenterVertically>(){}[0]
+        final val End // io.kdomskia.compose.ui/Alignment.Companion.End|{}End[0]
+            final fun <get-End>(): io.kdomskia.compose.ui/Alignment.Horizontal // io.kdomskia.compose.ui/Alignment.Companion.End.<get-End>|<get-End>(){}[0]
+        final val Start // io.kdomskia.compose.ui/Alignment.Companion.Start|{}Start[0]
+            final fun <get-Start>(): io.kdomskia.compose.ui/Alignment.Horizontal // io.kdomskia.compose.ui/Alignment.Companion.Start.<get-Start>|<get-Start>(){}[0]
+        final val Top // io.kdomskia.compose.ui/Alignment.Companion.Top|{}Top[0]
+            final fun <get-Top>(): io.kdomskia.compose.ui/Alignment.Vertical // io.kdomskia.compose.ui/Alignment.Companion.Top.<get-Top>|<get-Top>(){}[0]
+        final val TopCenter // io.kdomskia.compose.ui/Alignment.Companion.TopCenter|{}TopCenter[0]
+            final fun <get-TopCenter>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.TopCenter.<get-TopCenter>|<get-TopCenter>(){}[0]
+        final val TopEnd // io.kdomskia.compose.ui/Alignment.Companion.TopEnd|{}TopEnd[0]
+            final fun <get-TopEnd>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.TopEnd.<get-TopEnd>|<get-TopEnd>(){}[0]
+        final val TopStart // io.kdomskia.compose.ui/Alignment.Companion.TopStart|{}TopStart[0]
+            final fun <get-TopStart>(): io.kdomskia.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.Companion.TopStart.<get-TopStart>|<get-TopStart>(){}[0]
+    }
+
+    // Targets: [ios]
+    abstract val skia // io.kdomskia.compose.ui/Alignment.skia|{}skia[0]
+        abstract fun <get-skia>(): androidx.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.skia.<get-skia>|<get-skia>(){}[0]
+
+    // Targets: [js]
+    abstract val dom // io.kdomskia.compose.ui/Alignment.dom|{}dom[0]
+        abstract fun <get-dom>(): com.varabyte.kobweb.compose.ui/Alignment // io.kdomskia.compose.ui/Alignment.dom.<get-dom>|<get-dom>(){}[0]
+}
+
+abstract interface io.kdomskia.compose.ui/Modifier { // io.kdomskia.compose.ui/Modifier|null[0]
+    abstract fun then(io.kdomskia.compose.ui/Modifier): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.then|then(io.kdomskia.compose.ui.Modifier){}[0]
+
+    final object Companion : io.kdomskia.compose.ui/Modifier { // io.kdomskia.compose.ui/Modifier.Companion|null[0]
+        final fun then(io.kdomskia.compose.ui/Modifier): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.Companion.then|then(io.kdomskia.compose.ui.Modifier){}[0]
+
+        // Targets: [ios]
+        final val skia // io.kdomskia.compose.ui/Modifier.Companion.skia|{}skia[0]
+            final fun <get-skia>(): androidx.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.Companion.skia.<get-skia>|<get-skia>(){}[0]
+
+        // Targets: [ios]
+        final fun unwrap(kotlin/Function1<androidx.compose.ui/Modifier, androidx.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.Companion.unwrap|unwrap(kotlin.Function1<androidx.compose.ui.Modifier,androidx.compose.ui.Modifier>){}[0]
+
+        // Targets: [js]
+        final val dom // io.kdomskia.compose.ui/Modifier.Companion.dom|{}dom[0]
+            final fun <get-dom>(): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.Companion.dom.<get-dom>|<get-dom>(){}[0]
+
+        // Targets: [js]
+        final fun unwrap(kotlin/Function1<com.varabyte.kobweb.compose.ui/Modifier, com.varabyte.kobweb.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.Companion.unwrap|unwrap(kotlin.Function1<com.varabyte.kobweb.compose.ui.Modifier,com.varabyte.kobweb.compose.ui.Modifier>){}[0]
+    }
+
+    // Targets: [ios]
+    abstract val skia // io.kdomskia.compose.ui/Modifier.skia|{}skia[0]
+        abstract fun <get-skia>(): androidx.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.skia.<get-skia>|<get-skia>(){}[0]
+
+    // Targets: [ios]
+    abstract fun unwrap(kotlin/Function1<androidx.compose.ui/Modifier, androidx.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.unwrap|unwrap(kotlin.Function1<androidx.compose.ui.Modifier,androidx.compose.ui.Modifier>){}[0]
+
+    // Targets: [js]
+    abstract val dom // io.kdomskia.compose.ui/Modifier.dom|{}dom[0]
+        abstract fun <get-dom>(): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.dom.<get-dom>|<get-dom>(){}[0]
+
+    // Targets: [js]
+    abstract fun unwrap(kotlin/Function1<com.varabyte.kobweb.compose.ui/Modifier, com.varabyte.kobweb.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/Modifier.unwrap|unwrap(kotlin.Function1<com.varabyte.kobweb.compose.ui.Modifier,com.varabyte.kobweb.compose.ui.Modifier>){}[0]
+}
+
+final class io.kdomskia.compose.foundation.dom/DomScrollOptions { // io.kdomskia.compose.foundation.dom/DomScrollOptions|null[0]
+    constructor <init>(io.kdomskia.compose.foundation.dom/DomScrollTarget, io.kdomskia.compose.foundation.dom/DomOverflow = ...) // io.kdomskia.compose.foundation.dom/DomScrollOptions.<init>|<init>(io.kdomskia.compose.foundation.dom.DomScrollTarget;io.kdomskia.compose.foundation.dom.DomOverflow){}[0]
+
+    final val overflow // io.kdomskia.compose.foundation.dom/DomScrollOptions.overflow|{}overflow[0]
+        final fun <get-overflow>(): io.kdomskia.compose.foundation.dom/DomOverflow // io.kdomskia.compose.foundation.dom/DomScrollOptions.overflow.<get-overflow>|<get-overflow>(){}[0]
+    final val target // io.kdomskia.compose.foundation.dom/DomScrollOptions.target|{}target[0]
+        final fun <get-target>(): io.kdomskia.compose.foundation.dom/DomScrollTarget // io.kdomskia.compose.foundation.dom/DomScrollOptions.target.<get-target>|<get-target>(){}[0]
+
+    final fun component1(): io.kdomskia.compose.foundation.dom/DomScrollTarget // io.kdomskia.compose.foundation.dom/DomScrollOptions.component1|component1(){}[0]
+    final fun component2(): io.kdomskia.compose.foundation.dom/DomOverflow // io.kdomskia.compose.foundation.dom/DomScrollOptions.component2|component2(){}[0]
+    final fun copy(io.kdomskia.compose.foundation.dom/DomScrollTarget = ..., io.kdomskia.compose.foundation.dom/DomOverflow = ...): io.kdomskia.compose.foundation.dom/DomScrollOptions // io.kdomskia.compose.foundation.dom/DomScrollOptions.copy|copy(io.kdomskia.compose.foundation.dom.DomScrollTarget;io.kdomskia.compose.foundation.dom.DomOverflow){}[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // io.kdomskia.compose.foundation.dom/DomScrollOptions.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // io.kdomskia.compose.foundation.dom/DomScrollOptions.hashCode|hashCode(){}[0]
+    final fun toString(): kotlin/String // io.kdomskia.compose.foundation.dom/DomScrollOptions.toString|toString(){}[0]
+}
+
+final class io.kdomskia.compose.foundation.layout/ColumnScope { // io.kdomskia.compose.foundation.layout/ColumnScope|null[0]
+    final fun (io.kdomskia.compose.ui/Modifier).align(io.kdomskia.compose.ui/Alignment.Horizontal): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/ColumnScope.align|align@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.ui.Alignment.Horizontal){}[0]
+    final fun (io.kdomskia.compose.ui/Modifier).weight(kotlin/Float, kotlin/Boolean = ..., io.kdomskia.compose.foundation.layout.dom/DomFlexBasis? = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/ColumnScope.weight|weight@io.kdomskia.compose.ui.Modifier(kotlin.Float;kotlin.Boolean;io.kdomskia.compose.foundation.layout.dom.DomFlexBasis?){}[0]
+
+    // Targets: [ios]
+    constructor <init>(androidx.compose.foundation.layout/ColumnScope) // io.kdomskia.compose.foundation.layout/ColumnScope.<init>|<init>(androidx.compose.foundation.layout.ColumnScope){}[0]
+
+    // Targets: [js]
+    constructor <init>(com.varabyte.kobweb.compose.foundation.layout/ColumnScope) // io.kdomskia.compose.foundation.layout/ColumnScope.<init>|<init>(com.varabyte.kobweb.compose.foundation.layout.ColumnScope){}[0]
+}
+
+final class io.kdomskia.compose.foundation.layout/RowScope { // io.kdomskia.compose.foundation.layout/RowScope|null[0]
+    final fun (io.kdomskia.compose.ui/Modifier).align(io.kdomskia.compose.ui/Alignment.Vertical): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/RowScope.align|align@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.ui.Alignment.Vertical){}[0]
+    final fun (io.kdomskia.compose.ui/Modifier).weight(kotlin/Float, kotlin/Boolean = ..., io.kdomskia.compose.foundation.layout.dom/DomFlexBasis? = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/RowScope.weight|weight@io.kdomskia.compose.ui.Modifier(kotlin.Float;kotlin.Boolean;io.kdomskia.compose.foundation.layout.dom.DomFlexBasis?){}[0]
+
+    // Targets: [ios]
+    constructor <init>(androidx.compose.foundation.layout/RowScope) // io.kdomskia.compose.foundation.layout/RowScope.<init>|<init>(androidx.compose.foundation.layout.RowScope){}[0]
+
+    // Targets: [js]
+    constructor <init>(com.varabyte.kobweb.compose.foundation.layout/RowScope) // io.kdomskia.compose.foundation.layout/RowScope.<init>|<init>(com.varabyte.kobweb.compose.foundation.layout.RowScope){}[0]
+}
+
+final class io.kdomskia.compose.foundation/PagerState { // io.kdomskia.compose.foundation/PagerState|null[0]
+    final val currentPage // io.kdomskia.compose.foundation/PagerState.currentPage|{}currentPage[0]
+        final fun <get-currentPage>(): kotlin/Int // io.kdomskia.compose.foundation/PagerState.currentPage.<get-currentPage>|<get-currentPage>(){}[0]
+    final val pageCount // io.kdomskia.compose.foundation/PagerState.pageCount|{}pageCount[0]
+        final fun <get-pageCount>(): kotlin/Int // io.kdomskia.compose.foundation/PagerState.pageCount.<get-pageCount>|<get-pageCount>(){}[0]
+
+    final suspend fun animateScrollToPage(kotlin/Int) // io.kdomskia.compose.foundation/PagerState.animateScrollToPage|animateScrollToPage(kotlin.Int){}[0]
+
+    // Targets: [ios]
+    constructor <init>(androidx.compose.foundation.pager/PagerState) // io.kdomskia.compose.foundation/PagerState.<init>|<init>(androidx.compose.foundation.pager.PagerState){}[0]
+
+    // Targets: [ios]
+    final val skia // io.kdomskia.compose.foundation/PagerState.skia|{}skia[0]
+        final fun <get-skia>(): androidx.compose.foundation.pager/PagerState // io.kdomskia.compose.foundation/PagerState.skia.<get-skia>|<get-skia>(){}[0]
+
+    // Targets: [js]
+    final object Companion { // io.kdomskia.compose.foundation/PagerState.Companion|null[0]
+        final val Saver // io.kdomskia.compose.foundation/PagerState.Companion.Saver|{}Saver[0]
+            final fun <get-Saver>(): androidx.compose.runtime.saveable/Saver<io.kdomskia.compose.foundation/PagerState, *> // io.kdomskia.compose.foundation/PagerState.Companion.Saver.<get-Saver>|<get-Saver>(){}[0]
+    }
+}
+
+final class io.kdomskia.compose.foundation/ScrollState { // io.kdomskia.compose.foundation/ScrollState|null[0]
+    final var value // io.kdomskia.compose.foundation/ScrollState.value|{}value[0]
+        final fun <get-value>(): kotlin/Int // io.kdomskia.compose.foundation/ScrollState.value.<get-value>|<get-value>(){}[0]
+
+    final suspend fun animateScrollTo(kotlin/Int) // io.kdomskia.compose.foundation/ScrollState.animateScrollTo|animateScrollTo(kotlin.Int){}[0]
+    final suspend fun scrollTo(kotlin/Int): kotlin/Float // io.kdomskia.compose.foundation/ScrollState.scrollTo|scrollTo(kotlin.Int){}[0]
+
+    // Targets: [ios]
+    constructor <init>(androidx.compose.foundation/ScrollState) // io.kdomskia.compose.foundation/ScrollState.<init>|<init>(androidx.compose.foundation.ScrollState){}[0]
+
+    // Targets: [ios]
+    final val skia // io.kdomskia.compose.foundation/ScrollState.skia|{}skia[0]
+        final fun <get-skia>(): androidx.compose.foundation/ScrollState // io.kdomskia.compose.foundation/ScrollState.skia.<get-skia>|<get-skia>(){}[0]
+
+    // Targets: [js]
+    constructor <init>(kotlin/Int) // io.kdomskia.compose.foundation/ScrollState.<init>|<init>(kotlin.Int){}[0]
+
+    // Targets: [js]
+    final object Companion { // io.kdomskia.compose.foundation/ScrollState.Companion|null[0]
+        final val Saver // io.kdomskia.compose.foundation/ScrollState.Companion.Saver|{}Saver[0]
+            final fun <get-Saver>(): androidx.compose.runtime.saveable/Saver<io.kdomskia.compose.foundation/ScrollState, *> // io.kdomskia.compose.foundation/ScrollState.Companion.Saver.<get-Saver>|<get-Saver>(){}[0]
+    }
+}
+
+final class io.kdomskia.compose.ui.semantics/Role { // io.kdomskia.compose.ui.semantics/Role|null[0]
+    constructor <init>(androidx.compose.ui.semantics/Role) // io.kdomskia.compose.ui.semantics/Role.<init>|<init>(androidx.compose.ui.semantics.Role){}[0]
+
+    final object Companion { // io.kdomskia.compose.ui.semantics/Role.Companion|null[0]
+        final val Button // io.kdomskia.compose.ui.semantics/Role.Companion.Button|{}Button[0]
+            final fun <get-Button>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.Button.<get-Button>|<get-Button>(){}[0]
+        final val Carousel // io.kdomskia.compose.ui.semantics/Role.Companion.Carousel|{}Carousel[0]
+            final fun <get-Carousel>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.Carousel.<get-Carousel>|<get-Carousel>(){}[0]
+        final val Checkbox // io.kdomskia.compose.ui.semantics/Role.Companion.Checkbox|{}Checkbox[0]
+            final fun <get-Checkbox>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.Checkbox.<get-Checkbox>|<get-Checkbox>(){}[0]
+        final val DropdownList // io.kdomskia.compose.ui.semantics/Role.Companion.DropdownList|{}DropdownList[0]
+            final fun <get-DropdownList>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.DropdownList.<get-DropdownList>|<get-DropdownList>(){}[0]
+        final val Image // io.kdomskia.compose.ui.semantics/Role.Companion.Image|{}Image[0]
+            final fun <get-Image>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.Image.<get-Image>|<get-Image>(){}[0]
+        final val RadioButton // io.kdomskia.compose.ui.semantics/Role.Companion.RadioButton|{}RadioButton[0]
+            final fun <get-RadioButton>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.RadioButton.<get-RadioButton>|<get-RadioButton>(){}[0]
+        final val Switch // io.kdomskia.compose.ui.semantics/Role.Companion.Switch|{}Switch[0]
+            final fun <get-Switch>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.Switch.<get-Switch>|<get-Switch>(){}[0]
+        final val Tab // io.kdomskia.compose.ui.semantics/Role.Companion.Tab|{}Tab[0]
+            final fun <get-Tab>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.Tab.<get-Tab>|<get-Tab>(){}[0]
+        final val ValuePicker // io.kdomskia.compose.ui.semantics/Role.Companion.ValuePicker|{}ValuePicker[0]
+            final fun <get-ValuePicker>(): io.kdomskia.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/Role.Companion.ValuePicker.<get-ValuePicker>|<get-ValuePicker>(){}[0]
+    }
+}
+
+final value class io.kdomskia.compose.foundation.layout/WindowInsetsSides { // io.kdomskia.compose.foundation.layout/WindowInsetsSides|null[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // io.kdomskia.compose.foundation.layout/WindowInsetsSides.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // io.kdomskia.compose.foundation.layout/WindowInsetsSides.hashCode|hashCode(){}[0]
+    final fun plus(io.kdomskia.compose.foundation.layout/WindowInsetsSides): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.plus|plus(io.kdomskia.compose.foundation.layout.WindowInsetsSides){}[0]
+    final fun toString(): kotlin/String // io.kdomskia.compose.foundation.layout/WindowInsetsSides.toString|toString(){}[0]
+
+    final object Companion { // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion|null[0]
+        final val Bottom // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Bottom|{}Bottom[0]
+            final fun <get-Bottom>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Bottom.<get-Bottom>|<get-Bottom>(){}[0]
+        final val End // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.End|{}End[0]
+            final fun <get-End>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.End.<get-End>|<get-End>(){}[0]
+        final val Horizontal // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Horizontal|{}Horizontal[0]
+            final fun <get-Horizontal>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Horizontal.<get-Horizontal>|<get-Horizontal>(){}[0]
+        final val Left // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Left|{}Left[0]
+            final fun <get-Left>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Left.<get-Left>|<get-Left>(){}[0]
+        final val Right // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Right|{}Right[0]
+            final fun <get-Right>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Right.<get-Right>|<get-Right>(){}[0]
+        final val Start // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Start|{}Start[0]
+            final fun <get-Start>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Start.<get-Start>|<get-Start>(){}[0]
+        final val Top // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Top|{}Top[0]
+            final fun <get-Top>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Top.<get-Top>|<get-Top>(){}[0]
+        final val Vertical // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Vertical|{}Vertical[0]
+            final fun <get-Vertical>(): io.kdomskia.compose.foundation.layout/WindowInsetsSides // io.kdomskia.compose.foundation.layout/WindowInsetsSides.Companion.Vertical.<get-Vertical>|<get-Vertical>(){}[0]
+    }
+}
+
+open class io.kdomskia.compose.foundation.shape/CornerBasedShapeImpl : io.kdomskia.compose.foundation.shape/CornerBasedShape { // io.kdomskia.compose.foundation.shape/CornerBasedShapeImpl|null[0]
+    constructor <init>(androidx.compose.foundation.shape/CornerBasedShape) // io.kdomskia.compose.foundation.shape/CornerBasedShapeImpl.<init>|<init>(androidx.compose.foundation.shape.CornerBasedShape){}[0]
+
+    open fun createOutline(androidx.compose.ui.geometry/Size, androidx.compose.ui.unit/LayoutDirection, androidx.compose.ui.unit/Density): androidx.compose.ui.graphics/Outline // io.kdomskia.compose.foundation.shape/CornerBasedShapeImpl.createOutline|createOutline(androidx.compose.ui.geometry.Size;androidx.compose.ui.unit.LayoutDirection;androidx.compose.ui.unit.Density){}[0]
+}
+
+sealed class io.kdomskia.compose.ui.resource/ImageResource { // io.kdomskia.compose.ui.resource/ImageResource|null[0]
+    abstract val uri // io.kdomskia.compose.ui.resource/ImageResource.uri|{}uri[0]
+        abstract fun <get-uri>(androidx.compose.runtime/Composer?, kotlin/Int): kotlin/String // io.kdomskia.compose.ui.resource/ImageResource.uri.<get-uri>|<get-uri>(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+
+    final class Local : io.kdomskia.compose.ui.resource/ImageResource { // io.kdomskia.compose.ui.resource/ImageResource.Local|null[0]
+        constructor <init>(org.jetbrains.compose.resources/DrawableResource) // io.kdomskia.compose.ui.resource/ImageResource.Local.<init>|<init>(org.jetbrains.compose.resources.DrawableResource){}[0]
+
+        final val resource // io.kdomskia.compose.ui.resource/ImageResource.Local.resource|{}resource[0]
+            final fun <get-resource>(): org.jetbrains.compose.resources/DrawableResource // io.kdomskia.compose.ui.resource/ImageResource.Local.resource.<get-resource>|<get-resource>(){}[0]
+        final val uri // io.kdomskia.compose.ui.resource/ImageResource.Local.uri|{}uri[0]
+            final fun <get-uri>(androidx.compose.runtime/Composer?, kotlin/Int): kotlin/String // io.kdomskia.compose.ui.resource/ImageResource.Local.uri.<get-uri>|<get-uri>(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+    }
+
+    final class Remote : io.kdomskia.compose.ui.resource/ImageResource { // io.kdomskia.compose.ui.resource/ImageResource.Remote|null[0]
+        constructor <init>(kotlin/String) // io.kdomskia.compose.ui.resource/ImageResource.Remote.<init>|<init>(kotlin.String){}[0]
+
+        final val uri // io.kdomskia.compose.ui.resource/ImageResource.Remote.uri|{}uri[0]
+            final fun <get-uri>(androidx.compose.runtime/Composer?, kotlin/Int): kotlin/String // io.kdomskia.compose.ui.resource/ImageResource.Remote.uri.<get-uri>|<get-uri>(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+    }
+}
+
+final object io.kdomskia.compose.foundation.layout/Arrangement { // io.kdomskia.compose.foundation.layout/Arrangement|null[0]
+    final val Bottom // io.kdomskia.compose.foundation.layout/Arrangement.Bottom|{}Bottom[0]
+        final fun <get-Bottom>(): io.kdomskia.compose.foundation.layout/Arrangement.Vertical // io.kdomskia.compose.foundation.layout/Arrangement.Bottom.<get-Bottom>|<get-Bottom>(){}[0]
+    final val Center // io.kdomskia.compose.foundation.layout/Arrangement.Center|{}Center[0]
+        final fun <get-Center>(): io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.Center.<get-Center>|<get-Center>(){}[0]
+    final val End // io.kdomskia.compose.foundation.layout/Arrangement.End|{}End[0]
+        final fun <get-End>(): io.kdomskia.compose.foundation.layout/Arrangement.Horizontal // io.kdomskia.compose.foundation.layout/Arrangement.End.<get-End>|<get-End>(){}[0]
+    final val SpaceAround // io.kdomskia.compose.foundation.layout/Arrangement.SpaceAround|{}SpaceAround[0]
+        final fun <get-SpaceAround>(): io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.SpaceAround.<get-SpaceAround>|<get-SpaceAround>(){}[0]
+    final val SpaceBetween // io.kdomskia.compose.foundation.layout/Arrangement.SpaceBetween|{}SpaceBetween[0]
+        final fun <get-SpaceBetween>(): io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.SpaceBetween.<get-SpaceBetween>|<get-SpaceBetween>(){}[0]
+    final val SpaceEvenly // io.kdomskia.compose.foundation.layout/Arrangement.SpaceEvenly|{}SpaceEvenly[0]
+        final fun <get-SpaceEvenly>(): io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.SpaceEvenly.<get-SpaceEvenly>|<get-SpaceEvenly>(){}[0]
+    final val Start // io.kdomskia.compose.foundation.layout/Arrangement.Start|{}Start[0]
+        final fun <get-Start>(): io.kdomskia.compose.foundation.layout/Arrangement.Horizontal // io.kdomskia.compose.foundation.layout/Arrangement.Start.<get-Start>|<get-Start>(){}[0]
+    final val Top // io.kdomskia.compose.foundation.layout/Arrangement.Top|{}Top[0]
+        final fun <get-Top>(): io.kdomskia.compose.foundation.layout/Arrangement.Vertical // io.kdomskia.compose.foundation.layout/Arrangement.Top.<get-Top>|<get-Top>(){}[0]
+
+    final fun spacedBy(androidx.compose.ui.unit/Dp): io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.spacedBy|spacedBy(androidx.compose.ui.unit.Dp){}[0]
+    final fun spacedBy(androidx.compose.ui.unit/Dp, io.kdomskia.compose.ui/Alignment.Horizontal): io.kdomskia.compose.foundation.layout/Arrangement.Horizontal // io.kdomskia.compose.foundation.layout/Arrangement.spacedBy|spacedBy(androidx.compose.ui.unit.Dp;io.kdomskia.compose.ui.Alignment.Horizontal){}[0]
+    final fun spacedBy(androidx.compose.ui.unit/Dp, io.kdomskia.compose.ui/Alignment.Vertical): io.kdomskia.compose.foundation.layout/Arrangement.Vertical // io.kdomskia.compose.foundation.layout/Arrangement.spacedBy|spacedBy(androidx.compose.ui.unit.Dp;io.kdomskia.compose.ui.Alignment.Vertical){}[0]
+
+    abstract interface Horizontal { // io.kdomskia.compose.foundation.layout/Arrangement.Horizontal|null[0]
+        // Targets: [ios]
+        abstract val skia // io.kdomskia.compose.foundation.layout/Arrangement.Horizontal.skia|{}skia[0]
+            abstract fun <get-skia>(): androidx.compose.foundation.layout/Arrangement.Horizontal // io.kdomskia.compose.foundation.layout/Arrangement.Horizontal.skia.<get-skia>|<get-skia>(){}[0]
+
+        // Targets: [js]
+        abstract val dom // io.kdomskia.compose.foundation.layout/Arrangement.Horizontal.dom|{}dom[0]
+            abstract fun <get-dom>(): com.varabyte.kobweb.compose.foundation.layout/Arrangement.Horizontal // io.kdomskia.compose.foundation.layout/Arrangement.Horizontal.dom.<get-dom>|<get-dom>(){}[0]
+    }
+
+    abstract interface HorizontalOrVertical : io.kdomskia.compose.foundation.layout/Arrangement.Horizontal, io.kdomskia.compose.foundation.layout/Arrangement.Vertical { // io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical|null[0]
+        // Targets: [ios]
+        abstract val skia // io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical.skia|{}skia[0]
+            abstract fun <get-skia>(): androidx.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical.skia.<get-skia>|<get-skia>(){}[0]
+
+        // Targets: [js]
+        abstract val dom // io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical.dom|{}dom[0]
+            abstract fun <get-dom>(): com.varabyte.kobweb.compose.foundation.layout/Arrangement.HorizontalOrVertical // io.kdomskia.compose.foundation.layout/Arrangement.HorizontalOrVertical.dom.<get-dom>|<get-dom>(){}[0]
+    }
+
+    abstract interface Vertical { // io.kdomskia.compose.foundation.layout/Arrangement.Vertical|null[0]
+        // Targets: [ios]
+        abstract val skia // io.kdomskia.compose.foundation.layout/Arrangement.Vertical.skia|{}skia[0]
+            abstract fun <get-skia>(): androidx.compose.foundation.layout/Arrangement.Vertical // io.kdomskia.compose.foundation.layout/Arrangement.Vertical.skia.<get-skia>|<get-skia>(){}[0]
+
+        // Targets: [js]
+        abstract val dom // io.kdomskia.compose.foundation.layout/Arrangement.Vertical.dom|{}dom[0]
+            abstract fun <get-dom>(): com.varabyte.kobweb.compose.foundation.layout/Arrangement.Vertical // io.kdomskia.compose.foundation.layout/Arrangement.Vertical.dom.<get-dom>|<get-dom>(){}[0]
+    }
+}
+
+final object io.kdomskia.compose.foundation.layout/FlowRowScope // io.kdomskia.compose.foundation.layout/FlowRowScope|null[0]
+
+final object io.kdomskia.compose.foundation/PagerScope // io.kdomskia.compose.foundation/PagerScope|null[0]
+
+final object io.kdomskia.compose.ui.platform/LocalDensity { // io.kdomskia.compose.ui.platform/LocalDensity|null[0]
+    final val current // io.kdomskia.compose.ui.platform/LocalDensity.current|{}current[0]
+        final fun <get-current>(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Density // io.kdomskia.compose.ui.platform/LocalDensity.current.<get-current>|<get-current>(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+}
+
+final object io.kdomskia.compose.ui/ZIndexLayer { // io.kdomskia.compose.ui/ZIndexLayer|null[0]
+    final val layer0 // io.kdomskia.compose.ui/ZIndexLayer.layer0|{}layer0[0]
+        final fun <get-layer0>(): kotlin.ranges/ClosedFloatingPointRange<kotlin/Float> // io.kdomskia.compose.ui/ZIndexLayer.layer0.<get-layer0>|<get-layer0>(){}[0]
+    final val layer1 // io.kdomskia.compose.ui/ZIndexLayer.layer1|{}layer1[0]
+        final fun <get-layer1>(): kotlin.ranges/ClosedFloatingPointRange<kotlin/Float> // io.kdomskia.compose.ui/ZIndexLayer.layer1.<get-layer1>|<get-layer1>(){}[0]
+    final val layer2 // io.kdomskia.compose.ui/ZIndexLayer.layer2|{}layer2[0]
+        final fun <get-layer2>(): kotlin.ranges/ClosedFloatingPointRange<kotlin/Float> // io.kdomskia.compose.ui/ZIndexLayer.layer2.<get-layer2>|<get-layer2>(){}[0]
+    final val layer3 // io.kdomskia.compose.ui/ZIndexLayer.layer3|{}layer3[0]
+        final fun <get-layer3>(): kotlin.ranges/ClosedFloatingPointRange<kotlin/Float> // io.kdomskia.compose.ui/ZIndexLayer.layer3.<get-layer3>|<get-layer3>(){}[0]
+    final val layer4 // io.kdomskia.compose.ui/ZIndexLayer.layer4|{}layer4[0]
+        final fun <get-layer4>(): kotlin.ranges/ClosedFloatingPointRange<kotlin/Float> // io.kdomskia.compose.ui/ZIndexLayer.layer4.<get-layer4>|<get-layer4>(){}[0]
+}
+
+final val io.kdomskia.compose.foundation.dom/io_kdomskia_compose_foundation_dom_DomScrollOptions$stableprop // io.kdomskia.compose.foundation.dom/io_kdomskia_compose_foundation_dom_DomScrollOptions$stableprop|#static{}io_kdomskia_compose_foundation_dom_DomScrollOptions$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/bottom // io.kdomskia.compose.foundation.layout/bottom|@io.kdomskia.compose.foundation.layout.PaddingValues{}bottom[0]
+    final fun (io.kdomskia.compose.foundation.layout/PaddingValues).<get-bottom>(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/bottom.<get-bottom>|<get-bottom>@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/captionBar // io.kdomskia.compose.foundation.layout/captionBar|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}captionBar[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-captionBar>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/captionBar.<get-captionBar>|<get-captionBar>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/displayCutout // io.kdomskia.compose.foundation.layout/displayCutout|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}displayCutout[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-displayCutout>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/displayCutout.<get-displayCutout>|<get-displayCutout>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/end // io.kdomskia.compose.foundation.layout/end|@io.kdomskia.compose.foundation.layout.PaddingValues{}end[0]
+    final fun (io.kdomskia.compose.foundation.layout/PaddingValues).<get-end>(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/end.<get-end>|<get-end>@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/ime // io.kdomskia.compose.foundation.layout/ime|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}ime[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-ime>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/ime.<get-ime>|<get-ime>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_Arrangement$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_Arrangement$stableprop|#static{}io_kdomskia_compose_foundation_layout_Arrangement$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_ColumnScope$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_ColumnScope$stableprop|#static{}io_kdomskia_compose_foundation_layout_ColumnScope$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_FlowRowScope$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_FlowRowScope$stableprop|#static{}io_kdomskia_compose_foundation_layout_FlowRowScope$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalImpl$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalImpl$stableprop|#static{}io_kdomskia_compose_foundation_layout_HorizontalImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalOrVerticalImpl$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalOrVerticalImpl$stableprop|#static{}io_kdomskia_compose_foundation_layout_HorizontalOrVerticalImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_PaddingValuesImpl$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_PaddingValuesImpl$stableprop|#static{}io_kdomskia_compose_foundation_layout_PaddingValuesImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_RowScope$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_RowScope$stableprop|#static{}io_kdomskia_compose_foundation_layout_RowScope$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_VerticalImpl$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_VerticalImpl$stableprop|#static{}io_kdomskia_compose_foundation_layout_VerticalImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_WindowInsetsImpl$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_WindowInsetsImpl$stableprop|#static{}io_kdomskia_compose_foundation_layout_WindowInsetsImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.layout/kdomskia // io.kdomskia.compose.foundation.layout/kdomskia|@androidx.compose.foundation.layout.PaddingValues{}kdomskia[0]
+    final fun (androidx.compose.foundation.layout/PaddingValues).<get-kdomskia>(): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/kdomskia.<get-kdomskia>|<get-kdomskia>@androidx.compose.foundation.layout.PaddingValues(){}[0]
+final val io.kdomskia.compose.foundation.layout/kdomskia // io.kdomskia.compose.foundation.layout/kdomskia|@androidx.compose.foundation.layout.WindowInsets{}kdomskia[0]
+    final fun (androidx.compose.foundation.layout/WindowInsets).<get-kdomskia>(): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/kdomskia.<get-kdomskia>|<get-kdomskia>@androidx.compose.foundation.layout.WindowInsets(){}[0]
+final val io.kdomskia.compose.foundation.layout/mandatorySystemGestures // io.kdomskia.compose.foundation.layout/mandatorySystemGestures|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}mandatorySystemGestures[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-mandatorySystemGestures>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/mandatorySystemGestures.<get-mandatorySystemGestures>|<get-mandatorySystemGestures>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/navigationBars // io.kdomskia.compose.foundation.layout/navigationBars|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}navigationBars[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-navigationBars>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/navigationBars.<get-navigationBars>|<get-navigationBars>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/safeContent // io.kdomskia.compose.foundation.layout/safeContent|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}safeContent[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-safeContent>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/safeContent.<get-safeContent>|<get-safeContent>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/safeDrawing // io.kdomskia.compose.foundation.layout/safeDrawing|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}safeDrawing[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-safeDrawing>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/safeDrawing.<get-safeDrawing>|<get-safeDrawing>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/safeGestures // io.kdomskia.compose.foundation.layout/safeGestures|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}safeGestures[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-safeGestures>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/safeGestures.<get-safeGestures>|<get-safeGestures>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/start // io.kdomskia.compose.foundation.layout/start|@io.kdomskia.compose.foundation.layout.PaddingValues{}start[0]
+    final fun (io.kdomskia.compose.foundation.layout/PaddingValues).<get-start>(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/start.<get-start>|<get-start>@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/statusBars // io.kdomskia.compose.foundation.layout/statusBars|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}statusBars[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-statusBars>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/statusBars.<get-statusBars>|<get-statusBars>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/systemBars // io.kdomskia.compose.foundation.layout/systemBars|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}systemBars[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-systemBars>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/systemBars.<get-systemBars>|<get-systemBars>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/systemGestures // io.kdomskia.compose.foundation.layout/systemGestures|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}systemGestures[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-systemGestures>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/systemGestures.<get-systemGestures>|<get-systemGestures>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/tappableElement // io.kdomskia.compose.foundation.layout/tappableElement|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}tappableElement[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-tappableElement>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/tappableElement.<get-tappableElement>|<get-tappableElement>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/top // io.kdomskia.compose.foundation.layout/top|@io.kdomskia.compose.foundation.layout.PaddingValues{}top[0]
+    final fun (io.kdomskia.compose.foundation.layout/PaddingValues).<get-top>(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/top.<get-top>|<get-top>@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.layout/waterfall // io.kdomskia.compose.foundation.layout/waterfall|@io.kdomskia.compose.foundation.layout.WindowInsets.Companion{}waterfall[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets.Companion).<get-waterfall>(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/waterfall.<get-waterfall>|<get-waterfall>@io.kdomskia.compose.foundation.layout.WindowInsets.Companion(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final val io.kdomskia.compose.foundation.lazy.staggeredgrid/io_kdomskia_compose_foundation_lazy_staggeredgrid_StaggeredGridCells_Fixed$stableprop // io.kdomskia.compose.foundation.lazy.staggeredgrid/io_kdomskia_compose_foundation_lazy_staggeredgrid_StaggeredGridCells_Fixed$stableprop|#static{}io_kdomskia_compose_foundation_lazy_staggeredgrid_StaggeredGridCells_Fixed$stableprop[0]
+final val io.kdomskia.compose.foundation.shape/CircleShape // io.kdomskia.compose.foundation.shape/CircleShape|{}CircleShape[0]
+    final fun <get-CircleShape>(): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/CircleShape.<get-CircleShape>|<get-CircleShape>(){}[0]
+final val io.kdomskia.compose.foundation.shape/commonSkia // io.kdomskia.compose.foundation.shape/commonSkia|@io.kdomskia.compose.foundation.shape.CornerBasedShape{}commonSkia[0]
+    final fun (io.kdomskia.compose.foundation.shape/CornerBasedShape).<get-commonSkia>(): androidx.compose.foundation.shape/CornerBasedShape // io.kdomskia.compose.foundation.shape/commonSkia.<get-commonSkia>|<get-commonSkia>@io.kdomskia.compose.foundation.shape.CornerBasedShape(){}[0]
+final val io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_CornerBasedShapeImpl$stableprop // io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_CornerBasedShapeImpl$stableprop|#static{}io_kdomskia_compose_foundation_shape_CornerBasedShapeImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_RoundedCornerShapeImpl$stableprop // io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_RoundedCornerShapeImpl$stableprop|#static{}io_kdomskia_compose_foundation_shape_RoundedCornerShapeImpl$stableprop[0]
+final val io.kdomskia.compose.foundation.shape/kdomskia // io.kdomskia.compose.foundation.shape/kdomskia|@androidx.compose.foundation.shape.CornerBasedShape{}kdomskia[0]
+    final fun (androidx.compose.foundation.shape/CornerBasedShape).<get-kdomskia>(): io.kdomskia.compose.foundation.shape/CornerBasedShape // io.kdomskia.compose.foundation.shape/kdomskia.<get-kdomskia>|<get-kdomskia>@androidx.compose.foundation.shape.CornerBasedShape(){}[0]
+final val io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerScope$stableprop // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerScope$stableprop|#static{}io_kdomskia_compose_foundation_PagerScope$stableprop[0]
+final val io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerState$stableprop // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerState$stableprop|#static{}io_kdomskia_compose_foundation_PagerState$stableprop[0]
+final val io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ScrollState$stableprop // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ScrollState$stableprop|#static{}io_kdomskia_compose_foundation_ScrollState$stableprop[0]
+final val io.kdomskia.compose.ui.internal.loader/io_kdomskia_compose_ui_internal_loader_UiServiceLoaderTarget$stableprop // io.kdomskia.compose.ui.internal.loader/io_kdomskia_compose_ui_internal_loader_UiServiceLoaderTarget$stableprop|#static{}io_kdomskia_compose_ui_internal_loader_UiServiceLoaderTarget$stableprop[0]
+final val io.kdomskia.compose.ui.internal.loader/uiServiceInitHook // io.kdomskia.compose.ui.internal.loader/uiServiceInitHook|{}uiServiceInitHook[0]
+    final fun <get-uiServiceInitHook>(): kotlin/Any // io.kdomskia.compose.ui.internal.loader/uiServiceInitHook.<get-uiServiceInitHook>|<get-uiServiceInitHook>(){}[0]
+final val io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_ContentScaleImpl$stableprop // io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_ContentScaleImpl$stableprop|#static{}io_kdomskia_compose_ui_layout_ContentScaleImpl$stableprop[0]
+final val io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_LayoutCoordinatesImpl$stableprop // io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_LayoutCoordinatesImpl$stableprop|#static{}io_kdomskia_compose_ui_layout_LayoutCoordinatesImpl$stableprop[0]
+final val io.kdomskia.compose.ui.platform/io_kdomskia_compose_ui_platform_LocalDensity$stableprop // io.kdomskia.compose.ui.platform/io_kdomskia_compose_ui_platform_LocalDensity$stableprop|#static{}io_kdomskia_compose_ui_platform_LocalDensity$stableprop[0]
+final val io.kdomskia.compose.ui.resource/img // io.kdomskia.compose.ui.resource/img|@org.jetbrains.compose.resources.DrawableResource{}img[0]
+    final fun (org.jetbrains.compose.resources/DrawableResource).<get-img>(): io.kdomskia.compose.ui.resource/ImageResource.Local // io.kdomskia.compose.ui.resource/img.<get-img>|<get-img>@org.jetbrains.compose.resources.DrawableResource(){}[0]
+final val io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource$stableprop // io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource$stableprop|#static{}io_kdomskia_compose_ui_resource_ImageResource$stableprop[0]
+final val io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Local$stableprop // io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Local$stableprop|#static{}io_kdomskia_compose_ui_resource_ImageResource_Local$stableprop[0]
+final val io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Remote$stableprop // io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Remote$stableprop|#static{}io_kdomskia_compose_ui_resource_ImageResource_Remote$stableprop[0]
+final val io.kdomskia.compose.ui.semantics/io_kdomskia_compose_ui_semantics_Role$stableprop // io.kdomskia.compose.ui.semantics/io_kdomskia_compose_ui_semantics_Role$stableprop|#static{}io_kdomskia_compose_ui_semantics_Role$stableprop[0]
+final val io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_DomUiSettingsScopeImpl$stableprop // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_DomUiSettingsScopeImpl$stableprop|#static{}io_kdomskia_compose_ui_settings_DomUiSettingsScopeImpl$stableprop[0]
+final val io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_SkiaUiSettingsScopeImpl$stableprop // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_SkiaUiSettingsScopeImpl$stableprop|#static{}io_kdomskia_compose_ui_settings_SkiaUiSettingsScopeImpl$stableprop[0]
+final val io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettings$stableprop // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettings$stableprop|#static{}io_kdomskia_compose_ui_settings_UiSettings$stableprop[0]
+final val io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettingsScopeImpl$stableprop // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettingsScopeImpl$stableprop|#static{}io_kdomskia_compose_ui_settings_UiSettingsScopeImpl$stableprop[0]
+final val io.kdomskia.compose.ui/io_kdomskia_compose_ui_AlignmentImpl$stableprop // io.kdomskia.compose.ui/io_kdomskia_compose_ui_AlignmentImpl$stableprop|#static{}io_kdomskia_compose_ui_AlignmentImpl$stableprop[0]
+final val io.kdomskia.compose.ui/io_kdomskia_compose_ui_HorizontalImpl$stableprop // io.kdomskia.compose.ui/io_kdomskia_compose_ui_HorizontalImpl$stableprop|#static{}io_kdomskia_compose_ui_HorizontalImpl$stableprop[0]
+final val io.kdomskia.compose.ui/io_kdomskia_compose_ui_VerticalImpl$stableprop // io.kdomskia.compose.ui/io_kdomskia_compose_ui_VerticalImpl$stableprop|#static{}io_kdomskia_compose_ui_VerticalImpl$stableprop[0]
+final val io.kdomskia.compose.ui/io_kdomskia_compose_ui_ZIndexLayer$stableprop // io.kdomskia.compose.ui/io_kdomskia_compose_ui_ZIndexLayer$stableprop|#static{}io_kdomskia_compose_ui_ZIndexLayer$stableprop[0]
+final val io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res$stableprop // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res$stableprop|#static{}io_kdomskia_kdomskia_ui_generated_resources_Res$stableprop[0]
+final val io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_array$stableprop // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_array$stableprop|#static{}io_kdomskia_kdomskia_ui_generated_resources_Res_array$stableprop[0]
+final val io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_drawable$stableprop // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_drawable$stableprop|#static{}io_kdomskia_kdomskia_ui_generated_resources_Res_drawable$stableprop[0]
+final val io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_font$stableprop // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_font$stableprop|#static{}io_kdomskia_kdomskia_ui_generated_resources_Res_font$stableprop[0]
+final val io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_plurals$stableprop // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_plurals$stableprop|#static{}io_kdomskia_kdomskia_ui_generated_resources_Res_plurals$stableprop[0]
+final val io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_string$stableprop // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_string$stableprop|#static{}io_kdomskia_kdomskia_ui_generated_resources_Res_string$stableprop[0]
+
+final fun (io.kdomskia.compose.core.settings/KdomskiaSettingsScope).io.kdomskia.compose.ui.settings/Ui(kotlin/Function3<io.kdomskia.compose.ui.settings/UiSettingsScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int) // io.kdomskia.compose.ui.settings/Ui|Ui@io.kdomskia.compose.core.settings.KdomskiaSettingsScope(kotlin.Function3<io.kdomskia.compose.ui.settings.UiSettingsScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun (io.kdomskia.compose.foundation.layout/PaddingValues).io.kdomskia.compose.foundation.layout/calculateEndPadding(androidx.compose.ui.unit/LayoutDirection): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/calculateEndPadding|calculateEndPadding@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.ui.unit.LayoutDirection){}[0]
+final fun (io.kdomskia.compose.foundation.layout/PaddingValues).io.kdomskia.compose.foundation.layout/calculateStartPadding(androidx.compose.ui.unit/LayoutDirection): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/calculateStartPadding|calculateStartPadding@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.ui.unit.LayoutDirection){}[0]
+final fun (io.kdomskia.compose.foundation.layout/PaddingValues).io.kdomskia.compose.foundation.layout/copy(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/copy|copy@io.kdomskia.compose.foundation.layout.PaddingValues(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun (io.kdomskia.compose.foundation.layout/WindowInsets).io.kdomskia.compose.foundation.layout/add(io.kdomskia.compose.foundation.layout/WindowInsets): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/add|add@io.kdomskia.compose.foundation.layout.WindowInsets(io.kdomskia.compose.foundation.layout.WindowInsets){}[0]
+final fun (io.kdomskia.compose.foundation.layout/WindowInsets).io.kdomskia.compose.foundation.layout/asPaddingValues(androidx.compose.runtime/Composer?, kotlin/Int): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/asPaddingValues|asPaddingValues@io.kdomskia.compose.foundation.layout.WindowInsets(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun (io.kdomskia.compose.foundation.layout/WindowInsets).io.kdomskia.compose.foundation.layout/asPaddingValues(androidx.compose.ui.unit/Density): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/asPaddingValues|asPaddingValues@io.kdomskia.compose.foundation.layout.WindowInsets(androidx.compose.ui.unit.Density){}[0]
+final fun (io.kdomskia.compose.foundation.layout/WindowInsets).io.kdomskia.compose.foundation.layout/exclude(io.kdomskia.compose.foundation.layout/WindowInsets): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/exclude|exclude@io.kdomskia.compose.foundation.layout.WindowInsets(io.kdomskia.compose.foundation.layout.WindowInsets){}[0]
+final fun (io.kdomskia.compose.foundation.layout/WindowInsets).io.kdomskia.compose.foundation.layout/only(io.kdomskia.compose.foundation.layout/WindowInsetsSides): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/only|only@io.kdomskia.compose.foundation.layout.WindowInsets(io.kdomskia.compose.foundation.layout.WindowInsetsSides){}[0]
+final fun (io.kdomskia.compose.foundation.layout/WindowInsets).io.kdomskia.compose.foundation.layout/union(io.kdomskia.compose.foundation.layout/WindowInsets): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/union|union@io.kdomskia.compose.foundation.layout.WindowInsets(io.kdomskia.compose.foundation.layout.WindowInsets){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout.dom/domId(kotlin/String): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout.dom/domId|domId@io.kdomskia.compose.ui.Modifier(kotlin.String){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/defaultMinSize(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/defaultMinSize|defaultMinSize@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/fillMaxHeight(kotlin/Float = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/fillMaxHeight|fillMaxHeight@io.kdomskia.compose.ui.Modifier(kotlin.Float){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/fillMaxSize(kotlin/Float = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/fillMaxSize|fillMaxSize@io.kdomskia.compose.ui.Modifier(kotlin.Float){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/fillMaxWidth(kotlin/Float = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/fillMaxWidth|fillMaxWidth@io.kdomskia.compose.ui.Modifier(kotlin.Float){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/fillViewportHeight(kotlin/Float = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/fillViewportHeight|fillViewportHeight@io.kdomskia.compose.ui.Modifier(kotlin.Float){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/fillViewportWidth(kotlin/Float = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/fillViewportWidth|fillViewportWidth@io.kdomskia.compose.ui.Modifier(kotlin.Float){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/height(androidx.compose.ui.unit/Dp): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/height|height@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/height(io.kdomskia.compose.foundation.layout/IntrinsicSize): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/height|height@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.foundation.layout.IntrinsicSize){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/heightIn(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/heightIn|heightIn@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/padding(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/padding|padding@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/padding(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/padding|padding@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/padding(androidx.compose.ui.unit/Dp): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/padding|padding@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/padding(io.kdomskia.compose.foundation.layout/PaddingValues): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/padding|padding@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.foundation.layout.PaddingValues){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/size(androidx.compose.ui.unit/Dp): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/size|size@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/size(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/size|size@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/size(androidx.compose.ui.unit/DpSize): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/size|size@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.DpSize){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/sizeIn(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/sizeIn|sizeIn@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/width(androidx.compose.ui.unit/Dp): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/width|width@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/width(io.kdomskia.compose.foundation.layout/IntrinsicSize): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/width|width@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.foundation.layout.IntrinsicSize){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.layout/widthIn(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.layout/widthIn|widthIn@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation.selection/selectable(kotlin/Boolean, kotlin/Boolean = ..., io.kdomskia.compose.ui.semantics/Role? = ..., kotlin/Function0<kotlin/Unit>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation.selection/selectable|selectable@io.kdomskia.compose.ui.Modifier(kotlin.Boolean;kotlin.Boolean;io.kdomskia.compose.ui.semantics.Role?;kotlin.Function0<kotlin.Unit>){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/background(androidx.compose.ui.graphics/Color): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/background|background@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.graphics.Color){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/border(androidx.compose.foundation/BorderStroke, androidx.compose.ui.graphics/Shape = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/border|border@io.kdomskia.compose.ui.Modifier(androidx.compose.foundation.BorderStroke;androidx.compose.ui.graphics.Shape){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/border(androidx.compose.ui.unit/Dp, androidx.compose.ui.graphics/Brush, androidx.compose.ui.graphics/Shape): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/border|border@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Brush;androidx.compose.ui.graphics.Shape){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/border(androidx.compose.ui.unit/Dp, androidx.compose.ui.graphics/Color, androidx.compose.ui.graphics/Shape = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/border|border@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Color;androidx.compose.ui.graphics.Shape){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/clickable(kotlin/Boolean = ..., kotlin/String? = ..., io.kdomskia.compose.ui.semantics/Role? = ..., kotlin/Function0<kotlin/Unit>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/clickable|clickable@io.kdomskia.compose.ui.Modifier(kotlin.Boolean;kotlin.String?;io.kdomskia.compose.ui.semantics.Role?;kotlin.Function0<kotlin.Unit>){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/dottedShapeBackground(androidx.compose.ui.graphics/Color, androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/dottedShapeBackground|dottedShapeBackground@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/horizontalScroll(io.kdomskia.compose.foundation/ScrollState, io.kdomskia.compose.foundation.dom/DomScrollOptions, kotlin/Boolean = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/horizontalScroll|horizontalScroll@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.foundation.ScrollState;io.kdomskia.compose.foundation.dom.DomScrollOptions;kotlin.Boolean){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.foundation/verticalScroll(io.kdomskia.compose.foundation/ScrollState, io.kdomskia.compose.foundation.dom/DomScrollOptions, kotlin/Boolean = ...): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.foundation/verticalScroll|verticalScroll@io.kdomskia.compose.ui.Modifier(io.kdomskia.compose.foundation.ScrollState;io.kdomskia.compose.foundation.dom.DomScrollOptions;kotlin.Boolean){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui.draw/clip(androidx.compose.ui.graphics/Shape): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui.draw/clip|clip@io.kdomskia.compose.ui.Modifier(androidx.compose.ui.graphics.Shape){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui.draw/clipToBounds(): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui.draw/clipToBounds|clipToBounds@io.kdomskia.compose.ui.Modifier(){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui.layout/onGloballyPositioned(kotlin/Function1<io.kdomskia.compose.ui.layout/LayoutCoordinates, kotlin/Unit>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui.layout/onGloballyPositioned|onGloballyPositioned@io.kdomskia.compose.ui.Modifier(kotlin.Function1<io.kdomskia.compose.ui.layout.LayoutCoordinates,kotlin.Unit>){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/domOnly(kotlin/Function1<io.kdomskia.compose.ui/Modifier, io.kdomskia.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/domOnly|domOnly@io.kdomskia.compose.ui.Modifier(kotlin.Function1<io.kdomskia.compose.ui.Modifier,io.kdomskia.compose.ui.Modifier>){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/skiaOnly(kotlin/Function1<io.kdomskia.compose.ui/Modifier, io.kdomskia.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/skiaOnly|skiaOnly@io.kdomskia.compose.ui.Modifier(kotlin.Function1<io.kdomskia.compose.ui.Modifier,io.kdomskia.compose.ui.Modifier>){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/then(kotlin/Function1<io.kdomskia.compose.ui/Modifier, io.kdomskia.compose.ui/Modifier>, kotlin/Function1<io.kdomskia.compose.ui/Modifier, io.kdomskia.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/then|then@io.kdomskia.compose.ui.Modifier(kotlin.Function1<io.kdomskia.compose.ui.Modifier,io.kdomskia.compose.ui.Modifier>;kotlin.Function1<io.kdomskia.compose.ui.Modifier,io.kdomskia.compose.ui.Modifier>){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/thenIf(kotlin/Boolean, io.kdomskia.compose.ui/Modifier): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/thenIf|thenIf@io.kdomskia.compose.ui.Modifier(kotlin.Boolean;io.kdomskia.compose.ui.Modifier){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/thenUnless(kotlin/Boolean, io.kdomskia.compose.ui/Modifier): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/thenUnless|thenUnless@io.kdomskia.compose.ui.Modifier(kotlin.Boolean;io.kdomskia.compose.ui.Modifier){}[0]
+final fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/zIndex(kotlin/Float): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/zIndex|zIndex@io.kdomskia.compose.ui.Modifier(kotlin.Float){}[0]
+final fun (kotlin/Float).io.kdomskia.compose.ui.unit/pxToDp(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.kdomskia.compose.ui.unit/pxToDp|pxToDp@kotlin.Float(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun (kotlin/Float).io.kdomskia.compose.ui.unit/pxToDp(androidx.compose.ui.unit/Density): androidx.compose.ui.unit/Dp // io.kdomskia.compose.ui.unit/pxToDp|pxToDp@kotlin.Float(androidx.compose.ui.unit.Density){}[0]
+final fun (kotlin/Int).io.kdomskia.compose.ui.unit/pxToDp(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.kdomskia.compose.ui.unit/pxToDp|pxToDp@kotlin.Int(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun (kotlin/Int).io.kdomskia.compose.ui.unit/pxToDp(androidx.compose.ui.unit/Density): androidx.compose.ui.unit/Dp // io.kdomskia.compose.ui.unit/pxToDp|pxToDp@kotlin.Int(androidx.compose.ui.unit.Density){}[0]
+final fun io.kdomskia.compose.foundation.dom/io_kdomskia_compose_foundation_dom_DomScrollOptions$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.dom/io_kdomskia_compose_foundation_dom_DomScrollOptions$stableprop_getter|io_kdomskia_compose_foundation_dom_DomScrollOptions$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/Box(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.ui/Alignment?, kotlin/Boolean, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/Box|Box(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.ui.Alignment?;kotlin.Boolean;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/BoxWithConstraints(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.ui/Alignment?, kotlin/Boolean, kotlin/Function3<io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/BoxWithConstraints|BoxWithConstraints(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.ui.Alignment?;kotlin.Boolean;kotlin.Function3<io.kdomskia.compose.foundation.layout.BoxWithConstraintsScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/Column(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.foundation.layout/Arrangement.Vertical?, io.kdomskia.compose.ui/Alignment.Horizontal?, kotlin/Function3<io.kdomskia.compose.foundation.layout/ColumnScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/Column|Column(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.foundation.layout.Arrangement.Vertical?;io.kdomskia.compose.ui.Alignment.Horizontal?;kotlin.Function3<io.kdomskia.compose.foundation.layout.ColumnScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/FlowRow(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.foundation.layout/Arrangement.Horizontal?, io.kdomskia.compose.ui/Alignment.Vertical?, kotlin/Function3<io.kdomskia.compose.foundation.layout/FlowRowScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/FlowRow|FlowRow(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.foundation.layout.Arrangement.Horizontal?;io.kdomskia.compose.ui.Alignment.Vertical?;kotlin.Function3<io.kdomskia.compose.foundation.layout.FlowRowScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/PaddingValues(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/PaddingValues|PaddingValues(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun io.kdomskia.compose.foundation.layout/PaddingValues(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/PaddingValues|PaddingValues(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun io.kdomskia.compose.foundation.layout/PaddingValues(androidx.compose.ui.unit/Dp): io.kdomskia.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/PaddingValues|PaddingValues(androidx.compose.ui.unit.Dp){}[0]
+final fun io.kdomskia.compose.foundation.layout/Spacer(io.kdomskia.compose.ui/Modifier, androidx.compose.runtime/Composer?, kotlin/Int) // io.kdomskia.compose.foundation.layout/Spacer|Spacer(io.kdomskia.compose.ui.Modifier;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/ViewportContainer(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.ui/Alignment?, kotlin/Float, kotlin/Function3<io.kdomskia.compose.foundation.layout/BoxScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/ViewportContainer|ViewportContainer(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.ui.Alignment?;kotlin.Float;kotlin.Function3<io.kdomskia.compose.foundation.layout.BoxScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/WindowInsets(): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/WindowInsets|WindowInsets(){}[0]
+final fun io.kdomskia.compose.foundation.layout/WindowInsets(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/WindowInsets|WindowInsets(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun io.kdomskia.compose.foundation.layout/WindowInsets(kotlin/Int = ..., kotlin/Int = ..., kotlin/Int = ..., kotlin/Int = ...): io.kdomskia.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/WindowInsets|WindowInsets(kotlin.Int;kotlin.Int;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_Arrangement$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_Arrangement$stableprop_getter|io_kdomskia_compose_foundation_layout_Arrangement$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_ColumnScope$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_ColumnScope$stableprop_getter|io_kdomskia_compose_foundation_layout_ColumnScope$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_FlowRowScope$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_FlowRowScope$stableprop_getter|io_kdomskia_compose_foundation_layout_FlowRowScope$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalImpl$stableprop_getter|io_kdomskia_compose_foundation_layout_HorizontalImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalOrVerticalImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_HorizontalOrVerticalImpl$stableprop_getter|io_kdomskia_compose_foundation_layout_HorizontalOrVerticalImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_PaddingValuesImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_PaddingValuesImpl$stableprop_getter|io_kdomskia_compose_foundation_layout_PaddingValuesImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_RowScope$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_RowScope$stableprop_getter|io_kdomskia_compose_foundation_layout_RowScope$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_VerticalImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_VerticalImpl$stableprop_getter|io_kdomskia_compose_foundation_layout_VerticalImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_WindowInsetsImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_WindowInsetsImpl$stableprop_getter|io_kdomskia_compose_foundation_layout_WindowInsetsImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyVerticalStaggeredGrid(io.kdomskia.compose.foundation.lazy.staggeredgrid/StaggeredGridCells, io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.foundation.layout/PaddingValues?, androidx.compose.ui.unit/Dp, io.kdomskia.compose.foundation.layout/Arrangement.Horizontal?, io.kdomskia.compose.foundation.dom/DomScrollOptions, kotlin/Function1<io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyVerticalStaggeredGrid|LazyVerticalStaggeredGrid(io.kdomskia.compose.foundation.lazy.staggeredgrid.StaggeredGridCells;io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.foundation.layout.PaddingValues?;androidx.compose.ui.unit.Dp;io.kdomskia.compose.foundation.layout.Arrangement.Horizontal?;io.kdomskia.compose.foundation.dom.DomScrollOptions;kotlin.Function1<io.kdomskia.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.lazy.staggeredgrid/io_kdomskia_compose_foundation_lazy_staggeredgrid_StaggeredGridCells_Fixed$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.lazy.staggeredgrid/io_kdomskia_compose_foundation_lazy_staggeredgrid_StaggeredGridCells_Fixed$stableprop_getter|io_kdomskia_compose_foundation_lazy_staggeredgrid_StaggeredGridCells_Fixed$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(androidx.compose.ui.unit/Dp): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(androidx.compose.ui.unit.Dp){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(io.kdomskia.compose.foundation.shape/CornerSize): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(io.kdomskia.compose.foundation.shape.CornerSize){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(kotlin/Float = ..., kotlin/Float = ..., kotlin/Float = ..., kotlin/Float = ...): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(kotlin.Float;kotlin.Float;kotlin.Float;kotlin.Float){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(kotlin/Float): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(kotlin.Float){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(kotlin/Int = ..., kotlin/Int = ..., kotlin/Int = ..., kotlin/Int = ...): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(kotlin.Int;kotlin.Int;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.shape/RoundedCornerShape(kotlin/Int): io.kdomskia.compose.foundation.shape/RoundedCornerShape // io.kdomskia.compose.foundation.shape/RoundedCornerShape|RoundedCornerShape(kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_CornerBasedShapeImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_CornerBasedShapeImpl$stableprop_getter|io_kdomskia_compose_foundation_shape_CornerBasedShapeImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_RoundedCornerShapeImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_RoundedCornerShapeImpl$stableprop_getter|io_kdomskia_compose_foundation_shape_RoundedCornerShapeImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation/HorizontalPager(io.kdomskia.compose.foundation/PagerState, io.kdomskia.compose.ui/Modifier?, kotlin/Function4<io.kdomskia.compose.foundation/PagerScope, kotlin/Int, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation/HorizontalPager|HorizontalPager(io.kdomskia.compose.foundation.PagerState;io.kdomskia.compose.ui.Modifier?;kotlin.Function4<io.kdomskia.compose.foundation.PagerScope,kotlin.Int,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation/Image(io.kdomskia.compose.ui.resource/ImageResource, kotlin/String?, io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.ui.layout/ContentScale?, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation/Image|Image(io.kdomskia.compose.ui.resource.ImageResource;kotlin.String?;io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.ui.layout.ContentScale?;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation/PagerState(kotlin/Int = ..., kotlin/Function0<kotlin/Int>): io.kdomskia.compose.foundation/PagerState // io.kdomskia.compose.foundation/PagerState|PagerState(kotlin.Int;kotlin.Function0<kotlin.Int>){}[0]
+final fun io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerScope$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerScope$stableprop_getter|io_kdomskia_compose_foundation_PagerScope$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerState$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_PagerState$stableprop_getter|io_kdomskia_compose_foundation_PagerState$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ScrollState$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ScrollState$stableprop_getter|io_kdomskia_compose_foundation_ScrollState$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.foundation/isSystemInDarkTheme(androidx.compose.runtime/Composer?, kotlin/Int): kotlin/Boolean // io.kdomskia.compose.foundation/isSystemInDarkTheme|isSystemInDarkTheme(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation/rememberPagerState(kotlin/Int, kotlin/Function0<kotlin/Int>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int): io.kdomskia.compose.foundation/PagerState // io.kdomskia.compose.foundation/rememberPagerState|rememberPagerState(kotlin.Int;kotlin.Function0<kotlin.Int>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.foundation/rememberScrollState(kotlin/Int, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int): io.kdomskia.compose.foundation/ScrollState // io.kdomskia.compose.foundation/rememberScrollState|rememberScrollState(kotlin.Int;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.kdomskia.compose.ui.graphics/supportsVectorDrawable(): kotlin/Boolean // io.kdomskia.compose.ui.graphics/supportsVectorDrawable|supportsVectorDrawable(){}[0]
+final fun io.kdomskia.compose.ui.internal.loader/io_kdomskia_compose_ui_internal_loader_UiServiceLoaderTarget$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.internal.loader/io_kdomskia_compose_ui_internal_loader_UiServiceLoaderTarget$stableprop_getter|io_kdomskia_compose_ui_internal_loader_UiServiceLoaderTarget$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_ContentScaleImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_ContentScaleImpl$stableprop_getter|io_kdomskia_compose_ui_layout_ContentScaleImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_LayoutCoordinatesImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.layout/io_kdomskia_compose_ui_layout_LayoutCoordinatesImpl$stableprop_getter|io_kdomskia_compose_ui_layout_LayoutCoordinatesImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.platform/io_kdomskia_compose_ui_platform_LocalDensity$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.platform/io_kdomskia_compose_ui_platform_LocalDensity$stableprop_getter|io_kdomskia_compose_ui_platform_LocalDensity$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource$stableprop_getter|io_kdomskia_compose_ui_resource_ImageResource$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Local$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Local$stableprop_getter|io_kdomskia_compose_ui_resource_ImageResource_Local$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Remote$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.resource/io_kdomskia_compose_ui_resource_ImageResource_Remote$stableprop_getter|io_kdomskia_compose_ui_resource_ImageResource_Remote$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.semantics/io_kdomskia_compose_ui_semantics_Role$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.semantics/io_kdomskia_compose_ui_semantics_Role$stableprop_getter|io_kdomskia_compose_ui_semantics_Role$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_DomUiSettingsScopeImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_DomUiSettingsScopeImpl$stableprop_getter|io_kdomskia_compose_ui_settings_DomUiSettingsScopeImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_SkiaUiSettingsScopeImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_SkiaUiSettingsScopeImpl$stableprop_getter|io_kdomskia_compose_ui_settings_SkiaUiSettingsScopeImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettings$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettings$stableprop_getter|io_kdomskia_compose_ui_settings_UiSettings$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettingsScopeImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui.settings/io_kdomskia_compose_ui_settings_UiSettingsScopeImpl$stableprop_getter|io_kdomskia_compose_ui_settings_UiSettingsScopeImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui/io_kdomskia_compose_ui_AlignmentImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui/io_kdomskia_compose_ui_AlignmentImpl$stableprop_getter|io_kdomskia_compose_ui_AlignmentImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui/io_kdomskia_compose_ui_HorizontalImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui/io_kdomskia_compose_ui_HorizontalImpl$stableprop_getter|io_kdomskia_compose_ui_HorizontalImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui/io_kdomskia_compose_ui_VerticalImpl$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui/io_kdomskia_compose_ui_VerticalImpl$stableprop_getter|io_kdomskia_compose_ui_VerticalImpl$stableprop_getter(){}[0]
+final fun io.kdomskia.compose.ui/io_kdomskia_compose_ui_ZIndexLayer$stableprop_getter(): kotlin/Int // io.kdomskia.compose.ui/io_kdomskia_compose_ui_ZIndexLayer$stableprop_getter|io_kdomskia_compose_ui_ZIndexLayer$stableprop_getter(){}[0]
+final fun io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res$stableprop_getter(): kotlin/Int // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res$stableprop_getter|io_kdomskia_kdomskia_ui_generated_resources_Res$stableprop_getter(){}[0]
+final fun io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_array$stableprop_getter(): kotlin/Int // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_array$stableprop_getter|io_kdomskia_kdomskia_ui_generated_resources_Res_array$stableprop_getter(){}[0]
+final fun io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_drawable$stableprop_getter(): kotlin/Int // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_drawable$stableprop_getter|io_kdomskia_kdomskia_ui_generated_resources_Res_drawable$stableprop_getter(){}[0]
+final fun io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_font$stableprop_getter(): kotlin/Int // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_font$stableprop_getter|io_kdomskia_kdomskia_ui_generated_resources_Res_font$stableprop_getter(){}[0]
+final fun io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_plurals$stableprop_getter(): kotlin/Int // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_plurals$stableprop_getter|io_kdomskia_kdomskia_ui_generated_resources_Res_plurals$stableprop_getter(){}[0]
+final fun io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_string$stableprop_getter(): kotlin/Int // io.kdomskia.kdomskia_ui.generated.resources/io_kdomskia_kdomskia_ui_generated_resources_Res_string$stableprop_getter|io_kdomskia_kdomskia_ui_generated_resources_Res_string$stableprop_getter(){}[0]
+final inline fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/thenIf(kotlin/Boolean, kotlin/Function0<io.kdomskia.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/thenIf|thenIf@io.kdomskia.compose.ui.Modifier(kotlin.Boolean;kotlin.Function0<io.kdomskia.compose.ui.Modifier>){}[0]
+final inline fun (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/thenUnless(kotlin/Boolean, kotlin/Function0<io.kdomskia.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/thenUnless|thenUnless@io.kdomskia.compose.ui.Modifier(kotlin.Boolean;kotlin.Function0<io.kdomskia.compose.ui.Modifier>){}[0]
+final inline fun <#A: kotlin/Any?> (io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope).io.kdomskia.compose.foundation.lazy.staggeredgrid/items(kotlin.collections/List<#A>, crossinline kotlin/Function3<#A, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.kdomskia.compose.foundation.lazy.staggeredgrid/items|items@io.kdomskia.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope(kotlin.collections.List<0:0>;kotlin.Function3<0:0,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){0§<kotlin.Any?>}[0]
+final inline fun <#A: kotlin/Any?> (io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope).io.kdomskia.compose.foundation.lazy.staggeredgrid/items(kotlin/Array<#A>, crossinline kotlin/Function3<#A, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.kdomskia.compose.foundation.lazy.staggeredgrid/items|items@io.kdomskia.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope(kotlin.Array<0:0>;kotlin.Function3<0:0,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){0§<kotlin.Any?>}[0]
+final inline fun <#A: kotlin/Any?> (io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope).io.kdomskia.compose.foundation.lazy.staggeredgrid/itemsIndexed(kotlin.collections/List<#A>, crossinline kotlin/Function4<kotlin/Int, #A, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.kdomskia.compose.foundation.lazy.staggeredgrid/itemsIndexed|itemsIndexed@io.kdomskia.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope(kotlin.collections.List<0:0>;kotlin.Function4<kotlin.Int,0:0,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){0§<kotlin.Any?>}[0]
+final inline fun <#A: kotlin/Any?> (io.kdomskia.compose.foundation.lazy.staggeredgrid/LazyStaggeredGridScope).io.kdomskia.compose.foundation.lazy.staggeredgrid/itemsIndexed(kotlin/Array<#A>, crossinline kotlin/Function4<kotlin/Int, #A, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.kdomskia.compose.foundation.lazy.staggeredgrid/itemsIndexed|itemsIndexed@io.kdomskia.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridScope(kotlin.Array<0:0>;kotlin.Function4<kotlin.Int,0:0,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){0§<kotlin.Any?>}[0]
+final inline fun <#A: kotlin/Any?> (io.kdomskia.compose.ui/Modifier).io.kdomskia.compose.ui/thenIfNotNull(#A?, kotlin/Function1<#A, io.kdomskia.compose.ui/Modifier>): io.kdomskia.compose.ui/Modifier // io.kdomskia.compose.ui/thenIfNotNull|thenIfNotNull@io.kdomskia.compose.ui.Modifier(0:0?;kotlin.Function1<0:0,io.kdomskia.compose.ui.Modifier>){0§<kotlin.Any?>}[0]
+
+// Targets: [ios]
+abstract interface io.kdomskia.compose.ui.settings/SkiaUiSettingsScope { // io.kdomskia.compose.ui.settings/SkiaUiSettingsScope|null[0]
+    abstract fun coilImageLoader(kotlin/Function1<coil3/PlatformContext, coil3/ImageLoader>, androidx.compose.runtime/Composer?, kotlin/Int) // io.kdomskia.compose.ui.settings/SkiaUiSettingsScope.coilImageLoader|coilImageLoader(kotlin.Function1<coil3.PlatformContext,coil3.ImageLoader>;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+}
+
+// Targets: [ios]
+final class io.kdomskia.compose.foundation.shape/DottedShape : androidx.compose.ui.graphics/Shape { // io.kdomskia.compose.foundation.shape/DottedShape|null[0]
+    constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp) // io.kdomskia.compose.foundation.shape/DottedShape.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+    final fun createOutline(androidx.compose.ui.geometry/Size, androidx.compose.ui.unit/LayoutDirection, androidx.compose.ui.unit/Density): androidx.compose.ui.graphics/Outline.Generic // io.kdomskia.compose.foundation.shape/DottedShape.createOutline|createOutline(androidx.compose.ui.geometry.Size;androidx.compose.ui.unit.LayoutDirection;androidx.compose.ui.unit.Density){}[0]
+}
+
+// Targets: [ios]
+final val io.kdomskia.compose.foundation.layout/skia // io.kdomskia.compose.foundation.layout/skia|@io.kdomskia.compose.foundation.layout.IntrinsicSize{}skia[0]
+    final fun (io.kdomskia.compose.foundation.layout/IntrinsicSize).<get-skia>(): androidx.compose.foundation.layout/IntrinsicSize // io.kdomskia.compose.foundation.layout/skia.<get-skia>|<get-skia>@io.kdomskia.compose.foundation.layout.IntrinsicSize(){}[0]
+
+// Targets: [ios]
+final val io.kdomskia.compose.foundation.layout/skia // io.kdomskia.compose.foundation.layout/skia|@io.kdomskia.compose.foundation.layout.PaddingValues{}skia[0]
+    final fun (io.kdomskia.compose.foundation.layout/PaddingValues).<get-skia>(): androidx.compose.foundation.layout/PaddingValues // io.kdomskia.compose.foundation.layout/skia.<get-skia>|<get-skia>@io.kdomskia.compose.foundation.layout.PaddingValues(){}[0]
+
+// Targets: [ios]
+final val io.kdomskia.compose.foundation.layout/skia // io.kdomskia.compose.foundation.layout/skia|@io.kdomskia.compose.foundation.layout.WindowInsets{}skia[0]
+    final fun (io.kdomskia.compose.foundation.layout/WindowInsets).<get-skia>(): androidx.compose.foundation.layout/WindowInsets // io.kdomskia.compose.foundation.layout/skia.<get-skia>|<get-skia>@io.kdomskia.compose.foundation.layout.WindowInsets(){}[0]
+
+// Targets: [ios]
+final val io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_DottedShape$stableprop // io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_DottedShape$stableprop|#static{}io_kdomskia_compose_foundation_shape_DottedShape$stableprop[0]
+
+// Targets: [ios]
+final val io.kdomskia.compose.foundation.shape/skia // io.kdomskia.compose.foundation.shape/skia|@io.kdomskia.compose.foundation.shape.CornerSize{}skia[0]
+    final fun (io.kdomskia.compose.foundation.shape/CornerSize).<get-skia>(): androidx.compose.foundation.shape/CornerSize // io.kdomskia.compose.foundation.shape/skia.<get-skia>|<get-skia>@io.kdomskia.compose.foundation.shape.CornerSize(){}[0]
+
+// Targets: [ios]
+final val io.kdomskia.compose.ui.layout/skia // io.kdomskia.compose.ui.layout/skia|@io.kdomskia.compose.ui.layout.ContentScale{}skia[0]
+    final fun (io.kdomskia.compose.ui.layout/ContentScale).<get-skia>(): androidx.compose.ui.layout/ContentScale // io.kdomskia.compose.ui.layout/skia.<get-skia>|<get-skia>@io.kdomskia.compose.ui.layout.ContentScale(){}[0]
+
+// Targets: [ios]
+final val io.kdomskia.compose.ui.semantics/skia // io.kdomskia.compose.ui.semantics/skia|@io.kdomskia.compose.ui.semantics.Role{}skia[0]
+    final fun (io.kdomskia.compose.ui.semantics/Role).<get-skia>(): androidx.compose.ui.semantics/Role // io.kdomskia.compose.ui.semantics/skia.<get-skia>|<get-skia>@io.kdomskia.compose.ui.semantics.Role(){}[0]
+
+// Targets: [ios]
+final fun (androidx.compose.ui.unit/Dp).io.kdomskia.compose.foundation.extension/toPx(androidx.compose.ui.unit/Density): kotlin/Float // io.kdomskia.compose.foundation.extension/toPx|toPx@androidx.compose.ui.unit.Dp(androidx.compose.ui.unit.Density){}[0]
+
+// Targets: [ios]
+final fun io.kdomskia.compose.foundation.layout/BoxScope(androidx.compose.foundation.layout/BoxScope): io.kdomskia.compose.foundation.layout/BoxScope // io.kdomskia.compose.foundation.layout/BoxScope|BoxScope(androidx.compose.foundation.layout.BoxScope){}[0]
+
+// Targets: [ios]
+final fun io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope(androidx.compose.foundation.layout/BoxWithConstraintsScope): io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope // io.kdomskia.compose.foundation.layout/BoxWithConstraintsScope|BoxWithConstraintsScope(androidx.compose.foundation.layout.BoxWithConstraintsScope){}[0]
+
+// Targets: [ios]
+final fun io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_DottedShape$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.shape/io_kdomskia_compose_foundation_shape_DottedShape$stableprop_getter|io_kdomskia_compose_foundation_shape_DottedShape$stableprop_getter(){}[0]
+
+// Targets: [ios]
+final fun io.kdomskia.compose.ui.graphics/rememberPainter(io.kdomskia.compose.ui.resource/ImageResource, androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.graphics.painter/Painter // io.kdomskia.compose.ui.graphics/rememberPainter|rememberPainter(io.kdomskia.compose.ui.resource.ImageResource;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+
+// Targets: [ios]
+final fun io.kdomskia.compose.ui.graphics/supportsNativeSvg(): kotlin/Boolean // io.kdomskia.compose.ui.graphics/supportsNativeSvg|supportsNativeSvg(){}[0]
+
+// Targets: [ios]
+final inline fun io.kdomskia.compose.foundation.layout/Box(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.ui/Alignment?, kotlin/Boolean, kotlin/Function3<io.kdomskia.compose.foundation.layout/BoxScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/Box|Box(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.ui.Alignment?;kotlin.Boolean;kotlin.Function3<io.kdomskia.compose.foundation.layout.BoxScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+
+// Targets: [ios]
+final inline fun io.kdomskia.compose.foundation.layout/Row(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.foundation.layout/Arrangement.Horizontal?, io.kdomskia.compose.ui/Alignment.Vertical?, kotlin/Function3<io.kdomskia.compose.foundation.layout/RowScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/Row|Row(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.foundation.layout.Arrangement.Horizontal?;io.kdomskia.compose.ui.Alignment.Vertical?;kotlin.Function3<io.kdomskia.compose.foundation.layout.RowScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+
+// Targets: [js]
+final enum class io.kdomskia.compose.css.animation/FadeTarget : io.kdomskia.compose.css/TypeSafeClass, kotlin/Enum<io.kdomskia.compose.css.animation/FadeTarget> { // io.kdomskia.compose.css.animation/FadeTarget|null[0]
+    enum entry In // io.kdomskia.compose.css.animation/FadeTarget.In|null[0]
+    enum entry Out // io.kdomskia.compose.css.animation/FadeTarget.Out|null[0]
+
+    final val className // io.kdomskia.compose.css.animation/FadeTarget.className|{}className[0]
+        final fun <get-className>(): kotlin/String // io.kdomskia.compose.css.animation/FadeTarget.className.<get-className>|<get-className>(){}[0]
+    final val entries // io.kdomskia.compose.css.animation/FadeTarget.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.css.animation/FadeTarget> // io.kdomskia.compose.css.animation/FadeTarget.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.css.animation/FadeTarget // io.kdomskia.compose.css.animation/FadeTarget.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.css.animation/FadeTarget> // io.kdomskia.compose.css.animation/FadeTarget.values|values#static(){}[0]
+}
+
+// Targets: [js]
+final enum class io.kdomskia.compose.css.animation/SlideLeftToRight : io.kdomskia.compose.css.animation/Slide, kotlin/Enum<io.kdomskia.compose.css.animation/SlideLeftToRight> { // io.kdomskia.compose.css.animation/SlideLeftToRight|null[0]
+    enum entry In // io.kdomskia.compose.css.animation/SlideLeftToRight.In|null[0]
+    enum entry Out // io.kdomskia.compose.css.animation/SlideLeftToRight.Out|null[0]
+
+    final val className // io.kdomskia.compose.css.animation/SlideLeftToRight.className|{}className[0]
+        final fun <get-className>(): kotlin/String // io.kdomskia.compose.css.animation/SlideLeftToRight.className.<get-className>|<get-className>(){}[0]
+    final val entries // io.kdomskia.compose.css.animation/SlideLeftToRight.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.css.animation/SlideLeftToRight> // io.kdomskia.compose.css.animation/SlideLeftToRight.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.css.animation/SlideLeftToRight // io.kdomskia.compose.css.animation/SlideLeftToRight.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.css.animation/SlideLeftToRight> // io.kdomskia.compose.css.animation/SlideLeftToRight.values|values#static(){}[0]
+}
+
+// Targets: [js]
+final enum class io.kdomskia.compose.css.animation/SlideRightToLeft : io.kdomskia.compose.css.animation/Slide, kotlin/Enum<io.kdomskia.compose.css.animation/SlideRightToLeft> { // io.kdomskia.compose.css.animation/SlideRightToLeft|null[0]
+    enum entry In // io.kdomskia.compose.css.animation/SlideRightToLeft.In|null[0]
+    enum entry Out // io.kdomskia.compose.css.animation/SlideRightToLeft.Out|null[0]
+
+    final val className // io.kdomskia.compose.css.animation/SlideRightToLeft.className|{}className[0]
+        final fun <get-className>(): kotlin/String // io.kdomskia.compose.css.animation/SlideRightToLeft.className.<get-className>|<get-className>(){}[0]
+    final val entries // io.kdomskia.compose.css.animation/SlideRightToLeft.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.kdomskia.compose.css.animation/SlideRightToLeft> // io.kdomskia.compose.css.animation/SlideRightToLeft.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.kdomskia.compose.css.animation/SlideRightToLeft // io.kdomskia.compose.css.animation/SlideRightToLeft.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.kdomskia.compose.css.animation/SlideRightToLeft> // io.kdomskia.compose.css.animation/SlideRightToLeft.values|values#static(){}[0]
+}
+
+// Targets: [js]
+abstract interface io.kdomskia.compose.css/TypeSafeClass { // io.kdomskia.compose.css/TypeSafeClass|null[0]
+    abstract val className // io.kdomskia.compose.css/TypeSafeClass.className|{}className[0]
+        abstract fun <get-className>(): kotlin/String // io.kdomskia.compose.css/TypeSafeClass.className.<get-className>|<get-className>(){}[0]
+}
+
+// Targets: [js]
+abstract interface io.kdomskia.compose.ui.settings/SkiaUiSettingsScope // io.kdomskia.compose.ui.settings/SkiaUiSettingsScope|null[0]
+
+// Targets: [js]
+sealed interface io.kdomskia.compose.css.animation/Slide : io.kdomskia.compose.css/TypeSafeClass { // io.kdomskia.compose.css.animation/Slide|null[0]
+    final object Companion { // io.kdomskia.compose.css.animation/Slide.Companion|null[0]
+        final val entries // io.kdomskia.compose.css.animation/Slide.Companion.entries|{}entries[0]
+            final fun <get-entries>(): kotlin.collections/List<io.kdomskia.compose.css/TypeSafeClass> // io.kdomskia.compose.css.animation/Slide.Companion.entries.<get-entries>|<get-entries>(){}[0]
+    }
+}
+
+// Targets: [js]
+sealed interface io.kdomskia.compose.css/BoxOrient : org.jetbrains.compose.web.css/StylePropertyValue { // io.kdomskia.compose.css/BoxOrient|null[0]
+    final object Companion { // io.kdomskia.compose.css/BoxOrient.Companion|null[0]
+        final val BlockAxis // io.kdomskia.compose.css/BoxOrient.Companion.BlockAxis|{}BlockAxis[0]
+            final fun <get-BlockAxis>(): io.kdomskia.compose.css/BoxOrient // io.kdomskia.compose.css/BoxOrient.Companion.BlockAxis.<get-BlockAxis>|<get-BlockAxis>(){}[0]
+        final val Horizontal // io.kdomskia.compose.css/BoxOrient.Companion.Horizontal|{}Horizontal[0]
+            final fun <get-Horizontal>(): io.kdomskia.compose.css/BoxOrient // io.kdomskia.compose.css/BoxOrient.Companion.Horizontal.<get-Horizontal>|<get-Horizontal>(){}[0]
+        final val InlineAxis // io.kdomskia.compose.css/BoxOrient.Companion.InlineAxis|{}InlineAxis[0]
+            final fun <get-InlineAxis>(): io.kdomskia.compose.css/BoxOrient // io.kdomskia.compose.css/BoxOrient.Companion.InlineAxis.<get-InlineAxis>|<get-InlineAxis>(){}[0]
+        final val Vertical // io.kdomskia.compose.css/BoxOrient.Companion.Vertical|{}Vertical[0]
+            final fun <get-Vertical>(): io.kdomskia.compose.css/BoxOrient // io.kdomskia.compose.css/BoxOrient.Companion.Vertical.<get-Vertical>|<get-Vertical>(){}[0]
+    }
+}
+
+// Targets: [js]
+final class io.kdomskia.compose.dom/ResizeObserver { // io.kdomskia.compose.dom/ResizeObserver|null[0]
+    constructor <init>(kotlin/Function2<kotlin/Array<io.kdomskia.compose.dom/ResizeObserverEntry>, io.kdomskia.compose.dom/ResizeObserver, kotlin/Unit>) // io.kdomskia.compose.dom/ResizeObserver.<init>|<init>(kotlin.Function2<kotlin.Array<io.kdomskia.compose.dom.ResizeObserverEntry>,io.kdomskia.compose.dom.ResizeObserver,kotlin.Unit>){}[0]
+
+    final fun disconnect() // io.kdomskia.compose.dom/ResizeObserver.disconnect|disconnect(){}[0]
+    final fun observe(org.w3c.dom/Element, kotlin.js/Json = ...) // io.kdomskia.compose.dom/ResizeObserver.observe|observe(org.w3c.dom.Element;kotlin.js.Json){}[0]
+    final fun unobserve(org.w3c.dom/Element) // io.kdomskia.compose.dom/ResizeObserver.unobserve|unobserve(org.w3c.dom.Element){}[0]
+}
+
+// Targets: [js]
+final class io.kdomskia.compose.dom/ResizeObserverEntry { // io.kdomskia.compose.dom/ResizeObserverEntry|null[0]
+    constructor <init>() // io.kdomskia.compose.dom/ResizeObserverEntry.<init>|<init>(){}[0]
+
+    final val borderBoxSize // io.kdomskia.compose.dom/ResizeObserverEntry.borderBoxSize|{}borderBoxSize[0]
+        final fun <get-borderBoxSize>(): kotlin/Array<io.kdomskia.compose.dom/ResizeObserverSize> // io.kdomskia.compose.dom/ResizeObserverEntry.borderBoxSize.<get-borderBoxSize>|<get-borderBoxSize>(){}[0]
+    final val contentBoxSize // io.kdomskia.compose.dom/ResizeObserverEntry.contentBoxSize|{}contentBoxSize[0]
+        final fun <get-contentBoxSize>(): kotlin/Array<io.kdomskia.compose.dom/ResizeObserverSize> // io.kdomskia.compose.dom/ResizeObserverEntry.contentBoxSize.<get-contentBoxSize>|<get-contentBoxSize>(){}[0]
+    final val contentRect // io.kdomskia.compose.dom/ResizeObserverEntry.contentRect|{}contentRect[0]
+        final fun <get-contentRect>(): org.w3c.dom/DOMRectReadOnly // io.kdomskia.compose.dom/ResizeObserverEntry.contentRect.<get-contentRect>|<get-contentRect>(){}[0]
+    final val devicePixelContentBoxSize // io.kdomskia.compose.dom/ResizeObserverEntry.devicePixelContentBoxSize|{}devicePixelContentBoxSize[0]
+        final fun <get-devicePixelContentBoxSize>(): kotlin/Array<io.kdomskia.compose.dom/ResizeObserverSize> // io.kdomskia.compose.dom/ResizeObserverEntry.devicePixelContentBoxSize.<get-devicePixelContentBoxSize>|<get-devicePixelContentBoxSize>(){}[0]
+    final val target // io.kdomskia.compose.dom/ResizeObserverEntry.target|{}target[0]
+        final fun <get-target>(): org.w3c.dom/Element // io.kdomskia.compose.dom/ResizeObserverEntry.target.<get-target>|<get-target>(){}[0]
+}
+
+// Targets: [js]
+final class io.kdomskia.compose.dom/ResizeObserverSize { // io.kdomskia.compose.dom/ResizeObserverSize|null[0]
+    constructor <init>() // io.kdomskia.compose.dom/ResizeObserverSize.<init>|<init>(){}[0]
+
+    final val blockSize // io.kdomskia.compose.dom/ResizeObserverSize.blockSize|{}blockSize[0]
+        final fun <get-blockSize>(): kotlin/Double // io.kdomskia.compose.dom/ResizeObserverSize.blockSize.<get-blockSize>|<get-blockSize>(){}[0]
+    final val inlineSize // io.kdomskia.compose.dom/ResizeObserverSize.inlineSize|{}inlineSize[0]
+        final fun <get-inlineSize>(): kotlin/Double // io.kdomskia.compose.dom/ResizeObserverSize.inlineSize.<get-inlineSize>|<get-inlineSize>(){}[0]
+}
+
+// Targets: [js]
+final class io.kdomskia.compose.foundation.layout/DomIntrinsicSize { // io.kdomskia.compose.foundation.layout/DomIntrinsicSize|null[0]
+    constructor <init>(com.varabyte.kobweb.compose.css/Width, com.varabyte.kobweb.compose.css/Height) // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.<init>|<init>(com.varabyte.kobweb.compose.css.Width;com.varabyte.kobweb.compose.css.Height){}[0]
+
+    final val height // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.height|{}height[0]
+        final fun <get-height>(): com.varabyte.kobweb.compose.css/Height // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.height.<get-height>|<get-height>(){}[0]
+    final val width // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.width|{}width[0]
+        final fun <get-width>(): com.varabyte.kobweb.compose.css/Width // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.width.<get-width>|<get-width>(){}[0]
+
+    final fun component1(): com.varabyte.kobweb.compose.css/Width // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.component1|component1(){}[0]
+    final fun component2(): com.varabyte.kobweb.compose.css/Height // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.component2|component2(){}[0]
+    final fun copy(com.varabyte.kobweb.compose.css/Width = ..., com.varabyte.kobweb.compose.css/Height = ...): io.kdomskia.compose.foundation.layout/DomIntrinsicSize // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.copy|copy(com.varabyte.kobweb.compose.css.Width;com.varabyte.kobweb.compose.css.Height){}[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.hashCode|hashCode(){}[0]
+    final fun toString(): kotlin/String // io.kdomskia.compose.foundation.layout/DomIntrinsicSize.toString|toString(){}[0]
+}
+
+// Targets: [js]
+final class io.kdomskia.compose.foundation.layout/DomPaddingValues { // io.kdomskia.compose.foundation.layout/DomPaddingValues|null[0]
+    constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp) // io.kdomskia.compose.foundation.layout/DomPaddingValues.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+    final val bottom // io.kdomskia.compose.foundation.layout/DomPaddingValues.bottom|{}bottom[0]
+        final fun <get-bottom>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/DomPaddingValues.bottom.<get-bottom>|<get-bottom>(){}[0]
+    final val left // io.kdomskia.compose.foundation.layout/DomPaddingValues.left|{}left[0]
+        final fun <get-left>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/DomPaddingValues.left.<get-left>|<get-left>(){}[0]
+    final val right // io.kdomskia.compose.foundation.layout/DomPaddingValues.right|{}right[0]
+        final fun <get-right>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/DomPaddingValues.right.<get-right>|<get-right>(){}[0]
+    final val top // io.kdomskia.compose.foundation.layout/DomPaddingValues.top|{}top[0]
+        final fun <get-top>(): androidx.compose.ui.unit/Dp // io.kdomskia.compose.foundation.layout/DomPaddingValues.top.<get-top>|<get-top>(){}[0]
+}
+
+// Targets: [js]
+final object io.kdomskia.compose.css/Variable { // io.kdomskia.compose.css/Variable|null[0]
+    final val speed1 // io.kdomskia.compose.css/Variable.speed1|{}speed1[0]
+        final fun <get-speed1>(): com.varabyte.kobweb.compose.css/StyleVariable.PropertyValue<org.jetbrains.compose.web.css/CSSNumericValue<out org.jetbrains.compose.web.css/CSSUnitTime>> // io.kdomskia.compose.css/Variable.speed1.<get-speed1>|<get-speed1>(){}[0]
+    final val speed2 // io.kdomskia.compose.css/Variable.speed2|{}speed2[0]
+        final fun <get-speed2>(): com.varabyte.kobweb.compose.css/StyleVariable.PropertyValue<org.jetbrains.compose.web.css/CSSNumericValue<out org.jetbrains.compose.web.css/CSSUnitTime>> // io.kdomskia.compose.css/Variable.speed2.<get-speed2>|<get-speed2>(){}[0]
+    final val speed3 // io.kdomskia.compose.css/Variable.speed3|{}speed3[0]
+        final fun <get-speed3>(): com.varabyte.kobweb.compose.css/StyleVariable.PropertyValue<org.jetbrains.compose.web.css/CSSNumericValue<out org.jetbrains.compose.web.css/CSSUnitTime>> // io.kdomskia.compose.css/Variable.speed3.<get-speed3>|<get-speed3>(){}[0]
+    final val speed4 // io.kdomskia.compose.css/Variable.speed4|{}speed4[0]
+        final fun <get-speed4>(): com.varabyte.kobweb.compose.css/StyleVariable.PropertyValue<org.jetbrains.compose.web.css/CSSNumericValue<out org.jetbrains.compose.web.css/CSSUnitTime>> // io.kdomskia.compose.css/Variable.speed4.<get-speed4>|<get-speed4>(){}[0]
+}
+
+// Targets: [js]
+final object io.kdomskia.compose.foundation/ClickableModifierHolder { // io.kdomskia.compose.foundation/ClickableModifierHolder|null[0]
+    final var modifier // io.kdomskia.compose.foundation/ClickableModifierHolder.modifier|{}modifier[0]
+        final fun <get-modifier>(): com.varabyte.kobweb.compose.ui/Modifier? // io.kdomskia.compose.foundation/ClickableModifierHolder.modifier.<get-modifier>|<get-modifier>(){}[0]
+        final fun <set-modifier>(com.varabyte.kobweb.compose.ui/Modifier?) // io.kdomskia.compose.foundation/ClickableModifierHolder.modifier.<set-modifier>|<set-modifier>(com.varabyte.kobweb.compose.ui.Modifier?){}[0]
+}
+
+// Targets: [js]
+final val io.kdomskia.compose.css/WebkitInlineBox // io.kdomskia.compose.css/WebkitInlineBox|@org.jetbrains.compose.web.css.DisplayStyle.Companion{}WebkitInlineBox[0]
+    final inline fun (org.jetbrains.compose.web.css/DisplayStyle.Companion).<get-WebkitInlineBox>(): org.jetbrains.compose.web.css/DisplayStyle // io.kdomskia.compose.css/WebkitInlineBox.<get-WebkitInlineBox>|<get-WebkitInlineBox>@org.jetbrains.compose.web.css.DisplayStyle.Companion(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.css/fractionToCssPercent // io.kdomskia.compose.css/fractionToCssPercent|@kotlin.Float{}fractionToCssPercent[0]
+    final fun (kotlin/Float).<get-fractionToCssPercent>(): org.jetbrains.compose.web.css/CSSSizeValue<org.jetbrains.compose.web.css/CSSUnit.percent> // io.kdomskia.compose.css/fractionToCssPercent.<get-fractionToCssPercent>|<get-fractionToCssPercent>@kotlin.Float(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.css/fractionToPercent // io.kdomskia.compose.css/fractionToPercent|@kotlin.Float{}fractionToPercent[0]
+    final fun (kotlin/Float).<get-fractionToPercent>(): kotlin/Float // io.kdomskia.compose.css/fractionToPercent.<get-fractionToPercent>|<get-fractionToPercent>@kotlin.Float(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.css/io_kdomskia_compose_css_Variable$stableprop // io.kdomskia.compose.css/io_kdomskia_compose_css_Variable$stableprop|#static{}io_kdomskia_compose_css_Variable$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserver$stableprop // io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserver$stableprop|#static{}io_kdomskia_compose_dom_ResizeObserver$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverEntry$stableprop // io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverEntry$stableprop|#static{}io_kdomskia_compose_dom_ResizeObserverEntry$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverSize$stableprop // io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverSize$stableprop|#static{}io_kdomskia_compose_dom_ResizeObserverSize$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.extension/nameWithPrefix // io.kdomskia.compose.extension/nameWithPrefix|@com.varabyte.kobweb.compose.css.StyleVariable<*,*>{}nameWithPrefix[0]
+    final fun (com.varabyte.kobweb.compose.css/StyleVariable<*, *>).<get-nameWithPrefix>(): kotlin/String // io.kdomskia.compose.extension/nameWithPrefix.<get-nameWithPrefix>|<get-nameWithPrefix>@com.varabyte.kobweb.compose.css.StyleVariable<*,*>(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.extension/parentHtmlElement // io.kdomskia.compose.extension/parentHtmlElement|@org.w3c.dom.Element?{}parentHtmlElement[0]
+    final fun (org.w3c.dom/Element?).<get-parentHtmlElement>(): org.w3c.dom/HTMLElement? // io.kdomskia.compose.extension/parentHtmlElement.<get-parentHtmlElement>|<get-parentHtmlElement>@org.w3c.dom.Element?(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.dom/exitingDataAttr // io.kdomskia.compose.foundation.dom/exitingDataAttr|{}exitingDataAttr[0]
+    final fun <get-exitingDataAttr>(): io.kdomskia.compose.internal.attr/KdomskiaDataAttr // io.kdomskia.compose.foundation.dom/exitingDataAttr.<get-exitingDataAttr>|<get-exitingDataAttr>(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.dom/isExiting // io.kdomskia.compose.foundation.dom/isExiting|@org.w3c.dom.HTMLElement{}isExiting[0]
+    final fun (org.w3c.dom/HTMLElement).<get-isExiting>(): kotlin/Boolean // io.kdomskia.compose.foundation.dom/isExiting.<get-isExiting>|<get-isExiting>@org.w3c.dom.HTMLElement(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.layout/ViewportContainer // io.kdomskia.compose.foundation.layout/ViewportContainer|{}ViewportContainer[0]
+    final fun <get-ViewportContainer>(): io.kdomskia.compose.css/TypeSafeClass // io.kdomskia.compose.foundation.layout/ViewportContainer.<get-ViewportContainer>|<get-ViewportContainer>(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.layout/dom // io.kdomskia.compose.foundation.layout/dom|@io.kdomskia.compose.foundation.layout.IntrinsicSize{}dom[0]
+    final fun (io.kdomskia.compose.foundation.layout/IntrinsicSize).<get-dom>(): io.kdomskia.compose.foundation.layout/DomIntrinsicSize // io.kdomskia.compose.foundation.layout/dom.<get-dom>|<get-dom>@io.kdomskia.compose.foundation.layout.IntrinsicSize(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.layout/dom // io.kdomskia.compose.foundation.layout/dom|@io.kdomskia.compose.foundation.layout.PaddingValues{}dom[0]
+    final fun (io.kdomskia.compose.foundation.layout/PaddingValues).<get-dom>(): io.kdomskia.compose.foundation.layout/DomPaddingValues // io.kdomskia.compose.foundation.layout/dom.<get-dom>|<get-dom>@io.kdomskia.compose.foundation.layout.PaddingValues(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomIntrinsicSize$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomIntrinsicSize$stableprop|#static{}io_kdomskia_compose_foundation_layout_DomIntrinsicSize$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomPaddingValues$stableprop // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomPaddingValues$stableprop|#static{}io_kdomskia_compose_foundation_layout_DomPaddingValues$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.scroll/BodyHorizontalScrollEnabledDataAttr // io.kdomskia.compose.foundation.scroll/BodyHorizontalScrollEnabledDataAttr|{}BodyHorizontalScrollEnabledDataAttr[0]
+    final fun <get-BodyHorizontalScrollEnabledDataAttr>(): io.kdomskia.compose.internal.attr/KdomskiaDataAttr // io.kdomskia.compose.foundation.scroll/BodyHorizontalScrollEnabledDataAttr.<get-BodyHorizontalScrollEnabledDataAttr>|<get-BodyHorizontalScrollEnabledDataAttr>(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.scroll/BodyVerticalScrollEnabledDataAttr // io.kdomskia.compose.foundation.scroll/BodyVerticalScrollEnabledDataAttr|{}BodyVerticalScrollEnabledDataAttr[0]
+    final fun <get-BodyVerticalScrollEnabledDataAttr>(): io.kdomskia.compose.internal.attr/KdomskiaDataAttr // io.kdomskia.compose.foundation.scroll/BodyVerticalScrollEnabledDataAttr.<get-BodyVerticalScrollEnabledDataAttr>|<get-BodyVerticalScrollEnabledDataAttr>(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_ScrollData$stableprop // io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_ScrollData$stableprop|#static{}io_kdomskia_compose_foundation_scroll_ScrollData$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_SmoothScrollTo$stableprop // io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_SmoothScrollTo$stableprop|#static{}io_kdomskia_compose_foundation_scroll_SmoothScrollTo$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.shape/dom // io.kdomskia.compose.foundation.shape/dom|@androidx.compose.foundation.shape.CornerSize{}dom[0]
+    final fun (androidx.compose.foundation.shape/CornerSize).<get-dom>(): org.jetbrains.compose.web.css/StylePropertyValue // io.kdomskia.compose.foundation.shape/dom.<get-dom>|<get-dom>@androidx.compose.foundation.shape.CornerSize(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation.shape/dom // io.kdomskia.compose.foundation.shape/dom|@io.kdomskia.compose.foundation.shape.CornerSize{}dom[0]
+    final fun (io.kdomskia.compose.foundation.shape/CornerSize).<get-dom>(): org.jetbrains.compose.web.css/StylePropertyValue // io.kdomskia.compose.foundation.shape/dom.<get-dom>|<get-dom>@io.kdomskia.compose.foundation.shape.CornerSize(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ClickableModifierHolder$stableprop // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ClickableModifierHolder$stableprop|#static{}io_kdomskia_compose_foundation_ClickableModifierHolder$stableprop[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.internal/uiObserversInitHook // io.kdomskia.compose.internal/uiObserversInitHook|{}uiObserversInitHook[0]
+    final fun <get-uiObserversInitHook>(): kotlin/Any // io.kdomskia.compose.internal/uiObserversInitHook.<get-uiObserversInitHook>|<get-uiObserversInitHook>(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.graphics/dom // io.kdomskia.compose.ui.graphics/dom|@androidx.compose.ui.graphics.Color{}dom[0]
+    final fun (androidx.compose.ui.graphics/Color).<get-dom>(): org.jetbrains.compose.web.css/CSSColorValue // io.kdomskia.compose.ui.graphics/dom.<get-dom>|<get-dom>@androidx.compose.ui.graphics.Color(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.layout/dom // io.kdomskia.compose.ui.layout/dom|@io.kdomskia.compose.ui.layout.ContentScale{}dom[0]
+    final fun (io.kdomskia.compose.ui.layout/ContentScale).<get-dom>(): com.varabyte.kobweb.compose.css/ObjectFit // io.kdomskia.compose.ui.layout/dom.<get-dom>|<get-dom>@io.kdomskia.compose.ui.layout.ContentScale(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.text.font/dom // io.kdomskia.compose.ui.text.font/dom|@androidx.compose.ui.text.font.FontStyle{}dom[0]
+    final fun (androidx.compose.ui.text.font/FontStyle).<get-dom>(): com.varabyte.kobweb.compose.css/FontStyle? // io.kdomskia.compose.ui.text.font/dom.<get-dom>|<get-dom>@androidx.compose.ui.text.font.FontStyle(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.text.font/dom // io.kdomskia.compose.ui.text.font/dom|@androidx.compose.ui.text.font.FontWeight{}dom[0]
+    final fun (androidx.compose.ui.text.font/FontWeight).<get-dom>(): com.varabyte.kobweb.compose.css/FontWeight // io.kdomskia.compose.ui.text.font/dom.<get-dom>|<get-dom>@androidx.compose.ui.text.font.FontWeight(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.text.style/dom // io.kdomskia.compose.ui.text.style/dom|@androidx.compose.ui.text.style.TextAlign{}dom[0]
+    final fun (androidx.compose.ui.text.style/TextAlign).<get-dom>(): com.varabyte.kobweb.compose.css/TextAlign // io.kdomskia.compose.ui.text.style/dom.<get-dom>|<get-dom>@androidx.compose.ui.text.style.TextAlign(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.text.style/dom // io.kdomskia.compose.ui.text.style/dom|@androidx.compose.ui.text.style.TextDecoration{}dom[0]
+    final fun (androidx.compose.ui.text.style/TextDecoration).<get-dom>(): com.varabyte.kobweb.compose.css/TextDecorationLine // io.kdomskia.compose.ui.text.style/dom.<get-dom>|<get-dom>@androidx.compose.ui.text.style.TextDecoration(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.unit/dom // io.kdomskia.compose.ui.unit/dom|@androidx.compose.ui.unit.Dp{}dom[0]
+    final fun (androidx.compose.ui.unit/Dp).<get-dom>(): org.jetbrains.compose.web.css/CSSSizeValue<org.jetbrains.compose.web.css/CSSUnit.px> // io.kdomskia.compose.ui.unit/dom.<get-dom>|<get-dom>@androidx.compose.ui.unit.Dp(){}[0]
+
+// Targets: [js]
+final val io.kdomskia.compose.ui.unit/dom // io.kdomskia.compose.ui.unit/dom|@androidx.compose.ui.unit.TextUnit{}dom[0]
+    final fun (androidx.compose.ui.unit/TextUnit).<get-dom>(): org.jetbrains.compose.web.css/CSSNumericValue<out org.jetbrains.compose.web.css/CSSUnitLength>? // io.kdomskia.compose.ui.unit/dom.<get-dom>|<get-dom>@androidx.compose.ui.unit.TextUnit(){}[0]
+
+// Targets: [js]
+final var io.kdomskia.compose.foundation.dom/isApplyingScroll // io.kdomskia.compose.foundation.dom/isApplyingScroll|@org.w3c.dom.HTMLElement{}isApplyingScroll[0]
+    final fun (org.w3c.dom/HTMLElement).<get-isApplyingScroll>(): kotlin/Boolean // io.kdomskia.compose.foundation.dom/isApplyingScroll.<get-isApplyingScroll>|<get-isApplyingScroll>@org.w3c.dom.HTMLElement(){}[0]
+    final fun (org.w3c.dom/HTMLElement).<set-isApplyingScroll>(kotlin/Boolean) // io.kdomskia.compose.foundation.dom/isApplyingScroll.<set-isApplyingScroll>|<set-isApplyingScroll>@org.w3c.dom.HTMLElement(kotlin.Boolean){}[0]
+
+// Targets: [js]
+final fun (androidx.compose.ui.text.font/FontFamily).io.kdomskia.compose.ui.text.font/dom(androidx.compose.ui.text.font/FontWeight?): kotlin/String? // io.kdomskia.compose.ui.text.font/dom|dom@androidx.compose.ui.text.font.FontFamily(androidx.compose.ui.text.font.FontWeight?){}[0]
+
+// Targets: [js]
+final fun (androidx.compose.ui.text/AnnotatedString).io.kdomskia.compose.ui.text/toHtml(androidx.compose.ui.text.font/FontFamily? = ...): kotlin/String // io.kdomskia.compose.ui.text/toHtml|toHtml@androidx.compose.ui.text.AnnotatedString(androidx.compose.ui.text.font.FontFamily?){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.css.animation/fade(io.kdomskia.compose.css.animation/FadeTarget): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.css.animation/fade|fade@com.varabyte.kobweb.compose.ui.Modifier(io.kdomskia.compose.css.animation.FadeTarget){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.css.animation/slide(io.kdomskia.compose.css.animation/Slide): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.css.animation/slide|slide@com.varabyte.kobweb.compose.ui.Modifier(io.kdomskia.compose.css.animation.Slide){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.css/boxOrient(io.kdomskia.compose.css/BoxOrient): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.css/boxOrient|boxOrient@com.varabyte.kobweb.compose.ui.Modifier(io.kdomskia.compose.css.BoxOrient){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.css/lineClamp(kotlin/Int): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.css/lineClamp|lineClamp@com.varabyte.kobweb.compose.ui.Modifier(kotlin.Int){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation.dom/exiting(): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation.dom/exiting|exiting@com.varabyte.kobweb.compose.ui.Modifier(){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation.selection/selectable(kotlin/Boolean, kotlin/Boolean, io.kdomskia.compose.ui.semantics/Role? = ..., com.varabyte.kobweb.compose.css/Cursor? = ..., kotlin/Boolean, kotlin/Function0<kotlin/Unit>): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation.selection/selectable|selectable@com.varabyte.kobweb.compose.ui.Modifier(kotlin.Boolean;kotlin.Boolean;io.kdomskia.compose.ui.semantics.Role?;com.varabyte.kobweb.compose.css.Cursor?;kotlin.Boolean;kotlin.Function0<kotlin.Unit>){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/border(androidx.compose.foundation/BorderStroke): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/border|border@com.varabyte.kobweb.compose.ui.Modifier(androidx.compose.foundation.BorderStroke){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/border(androidx.compose.ui.unit/Dp, androidx.compose.ui.graphics/Brush): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/border|border@com.varabyte.kobweb.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Brush){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/border(androidx.compose.ui.unit/Dp, androidx.compose.ui.graphics/Color): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/border|border@com.varabyte.kobweb.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Color){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/clickable(kotlin/Boolean, com.varabyte.kobweb.compose.css/Cursor? = ..., io.kdomskia.compose.ui.semantics/Role? = ..., kotlin/Function0<kotlin/Unit>): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/clickable|clickable@com.varabyte.kobweb.compose.ui.Modifier(kotlin.Boolean;com.varabyte.kobweb.compose.css.Cursor?;io.kdomskia.compose.ui.semantics.Role?;kotlin.Function0<kotlin.Unit>){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/overflowX(com.varabyte.kobweb.compose.css/Overflow): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/overflowX|overflowX@com.varabyte.kobweb.compose.ui.Modifier(com.varabyte.kobweb.compose.css.Overflow){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/overflowY(com.varabyte.kobweb.compose.css/Overflow): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/overflowY|overflowY@com.varabyte.kobweb.compose.ui.Modifier(com.varabyte.kobweb.compose.css.Overflow){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/typeSafeClasses(kotlin.collections/List<io.kdomskia.compose.css/TypeSafeClass>): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/typeSafeClasses|typeSafeClasses@com.varabyte.kobweb.compose.ui.Modifier(kotlin.collections.List<io.kdomskia.compose.css.TypeSafeClass>){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.foundation/typeSafeClasses(kotlin/Array<out io.kdomskia.compose.css/TypeSafeClass>...): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.foundation/typeSafeClasses|typeSafeClasses@com.varabyte.kobweb.compose.ui.Modifier(kotlin.Array<out|io.kdomskia.compose.css.TypeSafeClass>...){}[0]
+
+// Targets: [js]
+final fun (com.varabyte.kobweb.compose.ui/Modifier).io.kdomskia.compose.ui.draw/clip(androidx.compose.ui.graphics/Shape): com.varabyte.kobweb.compose.ui/Modifier // io.kdomskia.compose.ui.draw/clip|clip@com.varabyte.kobweb.compose.ui.Modifier(androidx.compose.ui.graphics.Shape){}[0]
+
+// Targets: [js]
+final fun (io.kdomskia.compose.css.animation/FadeTarget).io.kdomskia.compose.css.animation/reverse(): io.kdomskia.compose.css.animation/FadeTarget // io.kdomskia.compose.css.animation/reverse|reverse@io.kdomskia.compose.css.animation.FadeTarget(){}[0]
+
+// Targets: [js]
+final fun (io.kdomskia.compose.css.animation/Slide).io.kdomskia.compose.css.animation/reverse(): io.kdomskia.compose.css.animation/Slide // io.kdomskia.compose.css.animation/reverse|reverse@io.kdomskia.compose.css.animation.Slide(){}[0]
+
+// Targets: [js]
+final fun (kotlin.collections/List<org.w3c.dom/HTMLElement>).io.kdomskia.compose.foundation.dom/nonExitingElements(): kotlin.collections/List<org.w3c.dom/HTMLElement> // io.kdomskia.compose.foundation.dom/nonExitingElements|nonExitingElements@kotlin.collections.List<org.w3c.dom.HTMLElement>(){}[0]
+
+// Targets: [js]
+final fun (kotlin/Double).io.kdomskia.compose.extension/equalsDelta(kotlin/Double, kotlin/Double): kotlin/Boolean // io.kdomskia.compose.extension/equalsDelta|equalsDelta@kotlin.Double(kotlin.Double;kotlin.Double){}[0]
+
+// Targets: [js]
+final fun (kotlin/String?).io.kdomskia.compose.css/toMs(): kotlin/Long? // io.kdomskia.compose.css/toMs|toMs@kotlin.String?(){}[0]
+
+// Targets: [js]
+final fun (org.jetbrains.compose.web.css/StyleScope).io.kdomskia.compose.css/src(org.jetbrains.compose.web.css/StylePropertyValue) // io.kdomskia.compose.css/src|src@org.jetbrains.compose.web.css.StyleScope(org.jetbrains.compose.web.css.StylePropertyValue){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.css.animation/fade(io.kdomskia.compose.css.animation/FadeTarget) // io.kdomskia.compose.css.animation/fade|fade@org.w3c.dom.Element(io.kdomskia.compose.css.animation.FadeTarget){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.css.animation/fadeIn() // io.kdomskia.compose.css.animation/fadeIn|fadeIn@org.w3c.dom.Element(){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.css.animation/fadeOut() // io.kdomskia.compose.css.animation/fadeOut|fadeOut@org.w3c.dom.Element(){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.css.animation/slide(io.kdomskia.compose.css.animation/Slide) // io.kdomskia.compose.css.animation/slide|slide@org.w3c.dom.Element(io.kdomskia.compose.css.animation.Slide){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.extension/query(io.kdomskia.compose.css/TypeSafeClass): org.w3c.dom/Element? // io.kdomskia.compose.extension/query|query@org.w3c.dom.Element(io.kdomskia.compose.css.TypeSafeClass){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.foundation/addClass(kotlin/Array<out io.kdomskia.compose.css/TypeSafeClass>...) // io.kdomskia.compose.foundation/addClass|addClass@org.w3c.dom.Element(kotlin.Array<out|io.kdomskia.compose.css.TypeSafeClass>...){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Element).io.kdomskia.compose.foundation/removeClass(kotlin/Array<out io.kdomskia.compose.css/TypeSafeClass>...) // io.kdomskia.compose.foundation/removeClass|removeClass@org.w3c.dom.Element(kotlin.Array<out|io.kdomskia.compose.css.TypeSafeClass>...){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/HTMLElement).io.kdomskia.compose.foundation/safeApplyScroll(io.kdomskia.compose.foundation.gestures/Orientation, kotlin/Double) // io.kdomskia.compose.foundation/safeApplyScroll|safeApplyScroll@org.w3c.dom.HTMLElement(io.kdomskia.compose.foundation.gestures.Orientation;kotlin.Double){}[0]
+
+// Targets: [js]
+final fun (org.w3c.dom/Window).io.kdomskia.compose.extension/runAtFrame(kotlin/Int, kotlin/Function0<kotlin/Unit>) // io.kdomskia.compose.extension/runAtFrame|runAtFrame@org.w3c.dom.Window(kotlin.Int;kotlin.Function0<kotlin.Unit>){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.css/TypeSafeClass(kotlin/String): io.kdomskia.compose.css/TypeSafeClass // io.kdomskia.compose.css/TypeSafeClass|TypeSafeClass(kotlin.String){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.css/io_kdomskia_compose_css_Variable$stableprop_getter(): kotlin/Int // io.kdomskia.compose.css/io_kdomskia_compose_css_Variable$stableprop_getter|io_kdomskia_compose_css_Variable$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.css/styleSheet(kotlin/Function1<org.jetbrains.compose.web.css/StyleSheet, kotlin/Unit>): org.jetbrains.compose.web.css/StyleSheet // io.kdomskia.compose.css/styleSheet|styleSheet(kotlin.Function1<org.jetbrains.compose.web.css.StyleSheet,kotlin.Unit>){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserver$stableprop_getter(): kotlin/Int // io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserver$stableprop_getter|io_kdomskia_compose_dom_ResizeObserver$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverEntry$stableprop_getter(): kotlin/Int // io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverEntry$stableprop_getter|io_kdomskia_compose_dom_ResizeObserverEntry$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverSize$stableprop_getter(): kotlin/Int // io.kdomskia.compose.dom/io_kdomskia_compose_dom_ResizeObserverSize$stableprop_getter|io_kdomskia_compose_dom_ResizeObserverSize$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.layout/Box(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.ui/Alignment?, kotlin/Boolean, kotlin/Function3<io.kdomskia.compose.foundation.layout/BoxScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/Box|Box(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.ui.Alignment?;kotlin.Boolean;kotlin.Function3<io.kdomskia.compose.foundation.layout.BoxScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.layout/BoxScope(com.varabyte.kobweb.compose.foundation.layout/BoxScope): io.kdomskia.compose.foundation.layout/BoxScope // io.kdomskia.compose.foundation.layout/BoxScope|BoxScope(com.varabyte.kobweb.compose.foundation.layout.BoxScope){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.layout/Row(io.kdomskia.compose.ui/Modifier?, io.kdomskia.compose.foundation.layout/Arrangement.Horizontal?, io.kdomskia.compose.ui/Alignment.Vertical?, kotlin/Function3<io.kdomskia.compose.foundation.layout/RowScope, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.kdomskia.compose.foundation.layout/Row|Row(io.kdomskia.compose.ui.Modifier?;io.kdomskia.compose.foundation.layout.Arrangement.Horizontal?;io.kdomskia.compose.ui.Alignment.Vertical?;kotlin.Function3<io.kdomskia.compose.foundation.layout.RowScope,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomIntrinsicSize$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomIntrinsicSize$stableprop_getter|io_kdomskia_compose_foundation_layout_DomIntrinsicSize$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomPaddingValues$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.layout/io_kdomskia_compose_foundation_layout_DomPaddingValues$stableprop_getter|io_kdomskia_compose_foundation_layout_DomPaddingValues$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_ScrollData$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_ScrollData$stableprop_getter|io_kdomskia_compose_foundation_scroll_ScrollData$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_SmoothScrollTo$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation.scroll/io_kdomskia_compose_foundation_scroll_SmoothScrollTo$stableprop_getter|io_kdomskia_compose_foundation_scroll_SmoothScrollTo$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ClickableModifierHolder$stableprop_getter(): kotlin/Int // io.kdomskia.compose.foundation/io_kdomskia_compose_foundation_ClickableModifierHolder$stableprop_getter|io_kdomskia_compose_foundation_ClickableModifierHolder$stableprop_getter(){}[0]
+
+// Targets: [js]
+final fun io.kdomskia.compose.util/generateUuid(): kotlin/String // io.kdomskia.compose.util/generateUuid|generateUuid(){}[0]
+
+// Targets: [js]
+final suspend fun (org.w3c.dom/Element).io.kdomskia.compose.css.animation/fadeAwaitingCompletion(io.kdomskia.compose.css.animation/FadeTarget) // io.kdomskia.compose.css.animation/fadeAwaitingCompletion|fadeAwaitingCompletion@org.w3c.dom.Element(io.kdomskia.compose.css.animation.FadeTarget){}[0]
+
+// Targets: [js]
+final suspend fun (org.w3c.dom/Element).io.kdomskia.compose.css.animation/slideAwaitingCompletion(io.kdomskia.compose.css.animation/Slide) // io.kdomskia.compose.css.animation/slideAwaitingCompletion|slideAwaitingCompletion@org.w3c.dom.Element(io.kdomskia.compose.css.animation.Slide){}[0]
+
+// Targets: [js]
+final suspend fun (org.w3c.dom/Element).io.kdomskia.compose.extension/await(com.varabyte.kobweb.compose.css/StyleVariable<*, *>) // io.kdomskia.compose.extension/await|await@org.w3c.dom.Element(com.varabyte.kobweb.compose.css.StyleVariable<*,*>){}[0]
+
+// Targets: [js]
+final suspend fun (org.w3c.dom/Element).io.kdomskia.compose.extension/awaitSpeed2() // io.kdomskia.compose.extension/awaitSpeed2|awaitSpeed2@org.w3c.dom.Element(){}[0]

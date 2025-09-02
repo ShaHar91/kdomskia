@@ -1,0 +1,56 @@
+public final class io/kdomskia/compose/navigation/NavExternalLinkScope {
+	public static final field $stable I
+	public final fun navigate ()Lkotlin/jvm/functions/Function0;
+	public final fun navigateThen (Lkotlin/jvm/functions/Function0;)Lkotlin/jvm/functions/Function0;
+}
+
+public final class io/kdomskia/compose/navigation/NavLinkKt {
+	public static final fun NavExternalLink (Lio/kdomskia/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavLink (Lio/kdomskia/compose/ui/Modifier;Landroidx/navigation/NavController;Ljava/lang/Object;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/kdomskia/compose/navigation/NavLinkScope {
+	public static final field $stable I
+	public final fun navigate ()Lkotlin/jvm/functions/Function0;
+	public final fun navigateThen (Lkotlin/jvm/functions/Function0;)Lkotlin/jvm/functions/Function0;
+}
+
+public abstract interface class io/kdomskia/compose/navigation/settings/DomNavigationSettingsScope {
+	public abstract fun getBindToWindow ()Z
+	public abstract fun setBindToWindow (Z)V
+}
+
+public abstract interface class io/kdomskia/compose/navigation/settings/NavigationSettingsScope : io/kdomskia/compose/core/settings/ModuleSettingsProvider {
+	public abstract fun dom (Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;I)V
+	public abstract fun skia (Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/kdomskia/compose/navigation/settings/NavigationSettingsScopeKt {
+	public static final fun Navigation (Lio/kdomskia/compose/core/settings/KdomskiaSettingsScope;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;I)V
+}
+
+public abstract interface class io/kdomskia/compose/navigation/settings/SkiaNavigationSettingsScope {
+}
+
+public final class io/kdomskia/navigation/compose/NavGrapBuilder_skiaKt {
+	public static final fun composable (Landroidx/navigation/NavGraphBuilder;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Lkotlin/jvm/functions/Function3;)V
+	public static final fun composable (Landroidx/navigation/NavGraphBuilder;Lkotlin/reflect/KClass;Ljava/util/Map;Ljava/util/List;Lkotlin/jvm/functions/Function3;)V
+	public static synthetic fun composable$default (Landroidx/navigation/NavGraphBuilder;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Lkotlin/jvm/functions/Function3;ILjava/lang/Object;)V
+	public static synthetic fun composable$default (Landroidx/navigation/NavGraphBuilder;Lkotlin/reflect/KClass;Ljava/util/Map;Ljava/util/List;Lkotlin/jvm/functions/Function3;ILjava/lang/Object;)V
+}
+
+public final class io/kdomskia/navigation/compose/NavHostControllerKt {
+	public static final fun currentBackStackEntryAsState (Landroidx/navigation/NavController;Landroidx/compose/runtime/Composer;I)Landroidx/compose/runtime/State;
+}
+
+public final class io/kdomskia/navigation/compose/NavHostController_skiaKt {
+	public static final fun rememberNavController ([Landroidx/navigation/Navigator;Landroidx/compose/runtime/Composer;I)Landroidx/navigation/NavHostController;
+}
+
+public final class io/kdomskia/navigation/compose/NavHost_skiaKt {
+	public static final fun NavHost (Landroidx/navigation/NavHostController;Landroidx/navigation/NavGraph;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavHost (Landroidx/navigation/NavHostController;Ljava/lang/Object;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;Lkotlin/reflect/KClass;Ljava/util/Map;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavHost (Landroidx/navigation/NavHostController;Ljava/lang/String;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavHost (Landroidx/navigation/NavHostController;Lkotlin/reflect/KClass;Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/ui/Alignment;Lkotlin/reflect/KClass;Ljava/util/Map;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+}
+
