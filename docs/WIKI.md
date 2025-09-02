@@ -10,6 +10,7 @@ This document serves as an index to all developer guides and reference materials
 - [COMPONENTS_FOUNDATION.md](/docs/COMPONENTS_FOUNDATION.md) → Core UI components and utilities
 - [COMPONENTS_MATERIAL.md](/docs/COMPONENTS_MATERIAL.md) → Material 3 components
 - [NAVIGATION.md](/docs/NAVIGATION.md) → Navigation guide
+- [CONTRIBUTING.md](/docs/CONTRIBUTING.md) → Instructions for contributors
 
 ## Additional Resources
 

@@ -155,14 +155,13 @@ Kdomskia Web (DOM) is powered by the following open-source projects:
 - [Kobweb](https://github.com/varabyte/kobweb)
 - [Beercss](https://github.com/beercss/beercss)
 
+## Thanks To
+
+Kdomskia’s internal structure and organization were inspired by the amazing work from the [Coil](https://github.com/coil-kt/coil) library.
+Special thanks to the Coil contributors for building such a solid and well-designed foundation that helped shape this project.
+
 ## Docs & Wiki
 
-All additional development guides and references are centralized in the `docs/` folder:
+All additional development guides and references are centralized in the `docs/` folder.
 
-- [SETUP.md](/docs/SETUP.md) → Project setup and dependencies
-- [CORE_CONCEPTS.md](/docs/CORE_CONCEPTS.md) → Fundamental concepts and structure
-- [CROSS_PLATFORM_LAYOUT_GUIDE.md](/docs/CROSS_PLATFORM_LAYOUT_GUIDE.md) → Layout behavior across platforms
-- [COMPONENTS_FOUNDATION.md](/docs/COMPONENTS_FOUNDATION.md) → Core UI components and utilities
-- [COMPONENTS_MATERIAL.md](/docs/COMPONENTS_MATERIAL.md) → Material 3 components
-- [NAVIGATION.md](/docs/NAVIGATION.md) → Navigation guide
-- [WIKI.md](/docs/WIKI.md) → Index and overview of all docs
+Check [WIKI](/docs/WIKI.md) for more details.
