@@ -5,7 +5,7 @@ plugins {
     id("kotlin-multiplatform")
     id("org.jetbrains.compose")
     id("org.jetbrains.kotlin.plugin.compose")
-    id("com.vanniktech.maven.publish")
+    id("com.vanniktech.maven.publish.base")
 }
 
 group = "io.kdomskia"

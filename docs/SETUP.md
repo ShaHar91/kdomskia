@@ -6,7 +6,7 @@ If you’re not yet familiar with the Kotlin Multiplatform project structure, ta
 
 ## Compatibility
 
-Ensure your project uses the same Compose Multiplatform version as Kdomskia (`1.9.0-beta01`) to maintain compatibility.
+Ensure your project uses the same Compose Multiplatform version (`1.9.0-rc01`) as Kdomskia to maintain compatibility.
 
 ## Gradle Dependencies
 

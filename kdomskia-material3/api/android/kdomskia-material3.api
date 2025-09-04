@@ -1,5 +1,6 @@
 public final class io/kdomskia/compose/material3/AppBar_skiaKt {
-	public static final fun TopAppBar-eHTjO5g (Lkotlin/jvm/functions/Function2;Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/kdomskia/compose/ui/Alignment$Horizontal;FLio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/material3/TopAppBarColors;Landroidx/compose/runtime/Composer;II)V
+	public static final fun CenterAlignedTopAppBar-iHT-50w (Lkotlin/jvm/functions/Function2;Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;FLio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/material3/TopAppBarColors;Landroidx/compose/runtime/Composer;II)V
+	public static final fun TopAppBar-iHT-50w (Lkotlin/jvm/functions/Function2;Lio/kdomskia/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;FLio/kdomskia/compose/foundation/layout/WindowInsets;Lio/kdomskia/compose/material3/TopAppBarColors;Landroidx/compose/runtime/Composer;II)V
 	public static final fun getSkia (Lio/kdomskia/compose/material3/TopAppBarColors;)Landroidx/compose/material3/TopAppBarColors;
 }
 
@@ -115,9 +116,10 @@ public final class io/kdomskia/compose/material3/ColorScheme_skiaKt {
 public final class io/kdomskia/compose/material3/ComposableSingletons$AppBar_skiaKt {
 	public static final field INSTANCE Lio/kdomskia/compose/material3/ComposableSingletons$AppBar_skiaKt;
 	public fun <init> ()V
-	public final fun getLambda$1036055249$kdomskia_material3_release ()Lkotlin/jvm/functions/Function2;
-	public final fun getLambda$1963131187$kdomskia_material3_release ()Lkotlin/jvm/functions/Function3;
-	public final fun getLambda$759978353$kdomskia_material3_release ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-1269652764$kdomskia_material3_release ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$-1323210869$kdomskia_material3_release ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$1163568386$kdomskia_material3_release ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$1482195561$kdomskia_material3_release ()Lkotlin/jvm/functions/Function3;
 }
 
 public final class io/kdomskia/compose/material3/ContentColorKt {

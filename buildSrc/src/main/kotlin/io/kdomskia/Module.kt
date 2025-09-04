@@ -1,8 +1,10 @@
 package io.kdomskia
 
 import com.android.build.gradle.LibraryExtension
+import com.vanniktech.maven.publish.MavenPublishBaseExtension
 import org.gradle.api.JavaVersion
 import org.gradle.api.Project
+import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.get
 import org.gradle.kotlin.dsl.withType
@@ -151,6 +153,12 @@ private fun Project.setupAndroid(
         compileOptions {
             sourceCompatibility = JavaVersion.VERSION_11
             targetCompatibility = JavaVersion.VERSION_11
+        }
+
+        extensions.configure<MavenPublishBaseExtension> {
+            pomFromGradleProperties()
+            publishToMavenCentral()
+            signAllPublications()
         }
     }
 }

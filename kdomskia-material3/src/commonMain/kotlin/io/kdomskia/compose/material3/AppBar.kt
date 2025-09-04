@@ -23,7 +23,17 @@ expect fun TopAppBar(
     modifier: Modifier = Modifier,
     navigationIcon: @Composable () -> Unit = {},
     actions: @Composable RowScope.() -> Unit = {},
-    titleHorizontalAlignment: Alignment.Horizontal = Alignment.Start,
+    expandedHeight: Dp = TopAppBarDefaults.TopAppBarExpandedHeight,
+    windowInsets: WindowInsets = TopAppBarDefaults.windowInsets,
+    colors: TopAppBarColors = TopAppBarDefaults.topAppBarColors()
+)
+
+@Composable
+expect fun CenterAlignedTopAppBar(
+    title: @Composable () -> Unit,
+    modifier: Modifier = Modifier,
+    navigationIcon: @Composable () -> Unit = {},
+    actions: @Composable RowScope.() -> Unit = {},
     expandedHeight: Dp = TopAppBarDefaults.TopAppBarExpandedHeight,
     windowInsets: WindowInsets = TopAppBarDefaults.windowInsets,
     colors: TopAppBarColors = TopAppBarDefaults.topAppBarColors()
