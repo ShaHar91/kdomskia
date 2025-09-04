@@ -16,6 +16,7 @@ import io.kdomskia.compose.foundation.layout.RowScope
 import io.kdomskia.compose.foundation.layout.Spacer
 import io.kdomskia.compose.foundation.layout.fillMaxWidth
 import io.kdomskia.compose.foundation.layout.padding
+import io.kdomskia.compose.foundation.layout.width
 import io.kdomskia.compose.foundation.typeSafeClasses
 import io.kdomskia.compose.material3.MaterialTheme
 import io.kdomskia.compose.material3.ProvideContentColor
@@ -43,6 +44,7 @@ fun BeerTopAppBar(
         ProvideContentColor(colors.navigationIconContentColor) {
             navigationIcon()
         }
+        Spacer(modifier = Modifier.width(8.dp))
     }
 
     @Composable

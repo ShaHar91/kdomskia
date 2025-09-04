@@ -262,6 +262,8 @@ public final class io/kdomskia/compose/foundation/layout/Size_skiaKt {
 	public static synthetic fun fillMaxWidth$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
 	public static final fun fillViewportHeight (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
 	public static synthetic fun fillViewportHeight$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
+	public static final fun fillViewportSize (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
+	public static synthetic fun fillViewportSize$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
 	public static final fun fillViewportWidth (Lio/kdomskia/compose/ui/Modifier;F)Lio/kdomskia/compose/ui/Modifier;
 	public static synthetic fun fillViewportWidth$default (Lio/kdomskia/compose/ui/Modifier;FILjava/lang/Object;)Lio/kdomskia/compose/ui/Modifier;
 	public static final fun height (Lio/kdomskia/compose/ui/Modifier;Lio/kdomskia/compose/foundation/layout/IntrinsicSize;)Lio/kdomskia/compose/ui/Modifier;

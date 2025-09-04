@@ -90,3 +90,8 @@ actual fun Modifier.fillViewportWidth(
 actual fun Modifier.fillViewportHeight(
     fraction: Float
 ) = fillMaxHeight(fraction)
+
+@Stable
+actual fun Modifier.fillViewportSize(
+    fraction: Float
+) = fillMaxSize(fraction)

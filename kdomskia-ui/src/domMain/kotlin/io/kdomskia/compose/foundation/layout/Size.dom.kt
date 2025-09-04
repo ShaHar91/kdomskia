@@ -119,3 +119,9 @@ actual fun Modifier.fillViewportHeight(
 ) = unwrap {
     minHeight(fraction.fractionToPercent.vh)
 }
+
+@Stable
+actual fun Modifier.fillViewportSize(
+    fraction: Float
+) = fillViewportWidth(fraction)
+    .fillViewportHeight(fraction)

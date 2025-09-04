@@ -102,7 +102,8 @@ actual fun ModalNavigationDrawer(
             contentAlignment = Alignment.Center
         ) {
             DomBox(
-                modifier = modifier
+                modifier = Modifier
+                    .fillMaxWidth()
                     .padding(0.dp)
                     .dom,
                 ref = refScope {
@@ -134,7 +135,11 @@ actual fun ModalNavigationDrawer(
         }
     }
 
-    content()
+    Box(
+        modifier = modifier
+    ) {
+        content()
+    }
 }
 
 @Composable

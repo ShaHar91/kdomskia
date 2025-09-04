@@ -70,3 +70,8 @@ expect fun Modifier.fillViewportWidth(
 expect fun Modifier.fillViewportHeight(
     fraction: Float = 1f
 ): Modifier
+
+@Stable
+expect fun Modifier.fillViewportSize(
+    fraction: Float = 1f
+): Modifier
