@@ -18,7 +18,7 @@ There is a **full working example** in production:
 ✅ **One Codebase, Every Platform** – Write once in Kotlin, run everywhere with a native user experience.  
 ✅ **Familiar API** – Kdomskia’s API and main concepts (**Column**, **Row**, **Box**, etc.) are **identical** to Compose Multiplatform. The main difference lies in the **imports**, making it simple to adopt if you already know Compose.  
 ✅ **Material 3** – Includes a growing set of **Material Design 3** components, styled consistently across platforms.  
-✅ **Navigation** – Built-in navigation module with the **same API** as Compose Navigation, making multi-screen apps straightforward.
+✅ **Navigation** – Built-in navigation module with the **same API** as Compose Navigation, making multi-screen apps straightforward.  
 ✅ **ViewModel** – Kdomskia supports the official AndroidX Lifecycle **ViewModel**.
 
 ## Getting Started
