@@ -1,7 +1,6 @@
 package io.kdomskia.compose.material3
 
 import androidx.compose.foundation.ScrollState
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
@@ -23,11 +22,13 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.Density
+import io.kdomskia.compose.foundation.layout.PaddingValues
+import io.kdomskia.compose.foundation.layout.kdomskia
 import io.kdomskia.compose.ui.Modifier
 
 internal typealias SkiaTextFieldColors = androidx.compose.material3.TextFieldColors
 internal typealias SkiaTextFieldDefaults = androidx.compose.material3.TextFieldDefaults
-
+internal typealias SkiaOutlinedTextFieldDefaults = androidx.compose.material3.OutlinedTextFieldDefaults
 
 @Composable
 expect fun TextField(
@@ -455,8 +456,20 @@ object TextFieldDefaults {
         get() = SkiaTextFieldDefaults.shape
 
     val contentPaddingWithoutLabel: PaddingValues
-        get() = SkiaTextFieldDefaults.contentPaddingWithoutLabel()
+        get() = SkiaTextFieldDefaults.contentPaddingWithoutLabel().kdomskia
 
     val contentPaddingWithLabel: PaddingValues
-        get() = SkiaTextFieldDefaults.contentPaddingWithLabel()
+        get() = SkiaTextFieldDefaults.contentPaddingWithLabel().kdomskia
+}
+
+object OutlinedTextFieldDefaults {
+    @Composable
+    fun colors() = SkiaOutlinedTextFieldDefaults.colors().kdomskia
+
+    val shape: Shape
+        @Composable
+        get() = SkiaOutlinedTextFieldDefaults.shape
+
+    val contentPadding: PaddingValues
+        get() = SkiaOutlinedTextFieldDefaults.contentPadding().kdomskia
 }

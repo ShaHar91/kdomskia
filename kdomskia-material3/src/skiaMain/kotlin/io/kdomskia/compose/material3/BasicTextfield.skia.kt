@@ -11,7 +11,7 @@ import androidx.compose.foundation.text.input.TextFieldDecorator
 import androidx.compose.foundation.text.input.TextFieldLineLimits
 import androidx.compose.foundation.text.input.TextFieldState
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
+import io.kdomskia.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextStyle
@@ -40,7 +40,7 @@ actual fun BasicTextField(
 ) {
     SkiaBasicTextField(
         state = state,
-        modifier = modifier,
+        modifier = modifier.skia,
         enabled = enabled,
         readOnly = readOnly,
         inputTransformation = inputTransformation,
@@ -79,7 +79,7 @@ actual fun BasicTextField(
     SkiaBasicTextField(
         value = value,
         onValueChange = onValueChange,
-        modifier = modifier,
+        modifier = modifier.skia,
         enabled = enabled,
         readOnly = readOnly,
         textStyle = textStyle,
@@ -118,7 +118,7 @@ actual fun BasicTextField(
     SkiaBasicTextField(
         value = value,
         onValueChange = onValueChange,
-        modifier = modifier,
+        modifier = modifier.skia,
         enabled = enabled,
         readOnly = readOnly,
         textStyle = textStyle,
