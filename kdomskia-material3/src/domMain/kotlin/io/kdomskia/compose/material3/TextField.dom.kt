@@ -18,6 +18,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.Density
 import io.kdomskia.compose.foundation.layout.PaddingValues
+import io.kdomskia.compose.material3.beer.BeerTextField
 import io.kdomskia.compose.ui.Modifier
 
 @Composable
@@ -29,7 +30,7 @@ actual fun TextField(
     readOnly: Boolean,
     textStyle: TextStyle,
     label: @Composable (() -> Unit)?,
-    placeholder: @Composable (() -> Unit)?,
+    placeholder: String?,
     leadingIcon: @Composable (() -> Unit)?,
     trailingIcon: @Composable (() -> Unit)?,
     prefix: @Composable (() -> Unit)?,
@@ -45,7 +46,30 @@ actual fun TextField(
     shape: Shape,
     colors: TextFieldColors
 ) {
-    Text("Work in progress")
+    BeerTextField(
+        value = value,
+        onValueChange = onValueChange,
+        modifier = modifier,
+        enabled = enabled,
+        readOnly = readOnly,
+        textStyle = textStyle,
+        label = label,
+        placeholder = placeholder,
+        leadingIcon = leadingIcon,
+        trailingIcon = trailingIcon,
+        prefix = prefix,
+        suffix = suffix,
+        supportingText = supportingText,
+        isError = isError,
+        visualTransformation = visualTransformation,
+        keyboardOptions = keyboardOptions,
+        keyboardActions = keyboardActions,
+        singleLine = singleLine,
+        maxLines = maxLines,
+        minLines = minLines,
+        shape = shape,
+        colors = colors
+    )
 }
 
 @Composable
@@ -57,7 +81,7 @@ actual fun TextField(
     textStyle: TextStyle,
     labelPosition: TextFieldLabelPosition,
     label: @Composable (TextFieldLabelScope.() -> Unit)?,
-    placeholder: @Composable (() -> Unit)?,
+    placeholder: String?,
     leadingIcon: @Composable (() -> Unit)?,
     trailingIcon: @Composable (() -> Unit)?,
     prefix: @Composable (() -> Unit)?,
@@ -75,7 +99,30 @@ actual fun TextField(
     colors: TextFieldColors,
     contentPadding: PaddingValues
 ) {
-    Text("Work in progress")
+    BeerTextField(
+        value = "",
+        onValueChange = {},
+        modifier = modifier,
+        enabled = enabled,
+        readOnly = readOnly,
+        textStyle = textStyle,
+        label = {},
+        placeholder = placeholder,
+        leadingIcon = leadingIcon,
+        trailingIcon = trailingIcon,
+        prefix = prefix,
+        suffix = suffix,
+        supportingText = supportingText,
+        isError = isError,
+        visualTransformation = VisualTransformation.None,
+        keyboardOptions = keyboardOptions,
+        keyboardActions = KeyboardActions.Default,
+        singleLine = true,
+        maxLines = 1, // TODO: get this out of "TextFieldState"?
+        minLines = 1,
+        shape = shape,
+        colors = colors
+    )
 }
 
 @Composable
@@ -87,7 +134,7 @@ actual fun TextField(
     readOnly: Boolean,
     textStyle: TextStyle,
     label: @Composable (() -> Unit)?,
-    placeholder: @Composable (() -> Unit)?,
+    placeholder: String?,
     leadingIcon: @Composable (() -> Unit)?,
     trailingIcon: @Composable (() -> Unit)?,
     prefix: @Composable (() -> Unit)?,
@@ -103,5 +150,38 @@ actual fun TextField(
     shape: Shape,
     colors: TextFieldColors
 ) {
-    Text("Work in progress")
+    BeerTextField(
+        value = value.text,
+        onValueChange = onValueChange.let { callback ->
+            { newValue: String ->
+                callback(
+                    TextFieldValue(
+                        text = newValue,
+                        selection = value.selection,
+                        composition = value.composition
+                    )
+                )
+            }
+        },
+        modifier = modifier,
+        enabled = enabled,
+        readOnly = readOnly,
+        textStyle = textStyle,
+        label = label,
+        placeholder = placeholder,
+        leadingIcon = leadingIcon,
+        trailingIcon = trailingIcon,
+        prefix = prefix,
+        suffix = suffix,
+        supportingText = supportingText,
+        isError = isError,
+        visualTransformation = visualTransformation,
+        keyboardOptions = keyboardOptions,
+        keyboardActions = keyboardActions,
+        singleLine = singleLine,
+        maxLines = maxLines,
+        minLines = minLines,
+        shape = shape,
+        colors = colors
+    )
 }
