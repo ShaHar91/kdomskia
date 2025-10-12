@@ -174,7 +174,10 @@ fun BeerOutlinedTextField(
                         if (readOnly) readOnly()
                         onInput {
                             val element = it.target
-                            height = max(element.scrollHeight, element.parentHtmlElement?.offsetHeight ?: 0).px
+
+                            element.parentHtmlElement?.style?.height = "auto"
+                            height = max(element.scrollHeight, element.parentHtmlElement?.offsetHeight ?: 0).px.plus(14.px)
+                            element.parentHtmlElement?.style?.height = height.toString()
 
                             onValueChange(it.value)
                         }
