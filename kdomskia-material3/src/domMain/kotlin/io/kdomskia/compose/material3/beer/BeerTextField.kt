@@ -8,15 +8,30 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Shape
+import androidx.compose.ui.graphics.isSpecified
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.VisualTransformation
 import com.varabyte.kobweb.compose.css.disabled
+import com.varabyte.kobweb.compose.ui.modifiers.background
+import com.varabyte.kobweb.compose.ui.modifiers.classNames
+import com.varabyte.kobweb.compose.ui.modifiers.color
+import com.varabyte.kobweb.compose.ui.modifiers.fontFamily
+import com.varabyte.kobweb.compose.ui.modifiers.fontSize
+import com.varabyte.kobweb.compose.ui.modifiers.fontStyle
+import com.varabyte.kobweb.compose.ui.modifiers.fontWeight
+import com.varabyte.kobweb.compose.ui.modifiers.letterSpacing
+import com.varabyte.kobweb.compose.ui.modifiers.lineHeight
 import com.varabyte.kobweb.compose.ui.modifiers.onFocus
 import com.varabyte.kobweb.compose.ui.modifiers.onFocusOut
 import com.varabyte.kobweb.compose.ui.modifiers.setVariable
 import com.varabyte.kobweb.compose.ui.modifiers.spellCheck
+import com.varabyte.kobweb.compose.ui.modifiers.textAlign
+import com.varabyte.kobweb.compose.ui.modifiers.textDecorationLine
+import com.varabyte.kobweb.compose.ui.styleModifier
 import com.varabyte.kobweb.compose.ui.thenIf
+import com.varabyte.kobweb.compose.ui.thenIfNotNull
 import com.varabyte.kobweb.compose.ui.toAttrs
+import io.kdomskia.compose.css.BeerStyleSheet
 import io.kdomskia.compose.css.TypeSafeClass
 import io.kdomskia.compose.extension.addIf
 import io.kdomskia.compose.extension.parentHtmlElement
@@ -25,12 +40,19 @@ import io.kdomskia.compose.foundation.layout.fillMaxWidth
 import io.kdomskia.compose.foundation.typeSafeClasses
 import io.kdomskia.compose.material3.TextFieldColors
 import io.kdomskia.compose.material3.css.beer.BeerVariable
+import io.kdomskia.compose.ui.DomModifier
 import io.kdomskia.compose.ui.Modifier
-import kotlinx.css.px
+import io.kdomskia.compose.ui.graphics.dom
+import io.kdomskia.compose.ui.text.font.dom
+import io.kdomskia.compose.ui.text.style.dom
+import io.kdomskia.compose.ui.unit.dom
 import org.jetbrains.compose.web.attributes.InputType
 import org.jetbrains.compose.web.attributes.placeholder
 import org.jetbrains.compose.web.attributes.readOnly
 import org.jetbrains.compose.web.css.StylePropertyValue
+import org.jetbrains.compose.web.css.cssRem
+import org.jetbrains.compose.web.css.plus
+import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.dom.Div
 import org.jetbrains.compose.web.dom.Input
 import org.jetbrains.compose.web.dom.Label
@@ -62,8 +84,11 @@ fun BeerTextField(
     shape: Shape,
     colors: TextFieldColors
 ) {
+    val minLinesPx = textStyle.lineHeight.times(minLines).dom
+    val maxLinesPx = textStyle.lineHeight.times(maxLines).dom
+
     var focused by remember { mutableStateOf(false) }
-    var height by remember { mutableStateOf(0) }
+    var height by remember { mutableStateOf(minLinesPx?.plus(2.cssRem) ?: 0.px) }
 
     Div(
         attrs = modifier.unwrap {
@@ -78,14 +103,46 @@ fun BeerTextField(
             typeSafeClasses(classes)
         }
             .dom
-            .thenIf(!singleLine && value.isNotBlank()) {
-                Modifier.dom.setVariable(BeerVariable.size, StylePropertyValue(height.px.value))
+            .thenIf(!singleLine) {
+                Modifier.dom.setVariable(BeerVariable.size, StylePropertyValue(height.toString()))
+            }
+            .styleModifier {
+                property("max-block-size", maxLinesPx?.plus(1.cssRem) ?: 0.cssRem)
+                property("min-block-size", minLinesPx?.plus(1.cssRem) ?: Int.MAX_VALUE.cssRem)
             }
             .toAttrs()
     ) {
         val baseModifier = Modifier
             .fillMaxWidth()
             .dom
+            .thenIfNotNull(textStyle.fontFamily?.dom(textStyle.fontWeight)) {
+                DomModifier.fontFamily(it)
+            }
+            .thenIfNotNull(textStyle.fontStyle?.dom) {
+                DomModifier.fontStyle(it)
+            }
+            .thenIfNotNull(textStyle.fontSize.dom) {
+                DomModifier.fontSize(it)
+            }
+            .thenIfNotNull(textStyle.lineHeight.dom) {
+                DomModifier.lineHeight(it)
+            }
+            .thenIfNotNull(textStyle.letterSpacing.dom) {
+                DomModifier.letterSpacing(it)
+            }
+            .thenIfNotNull(textStyle.textDecoration?.dom) {
+                DomModifier.textDecorationLine(it)
+            }
+            .thenIfNotNull(textStyle.fontWeight?.dom) {
+                DomModifier.fontWeight(it)
+            }
+            .thenIf(textStyle.color.isSpecified) {
+                DomModifier.color(textStyle.color.dom)
+            }
+            .thenIf(textStyle.background.isSpecified) {
+                DomModifier.background(textStyle.background.dom)
+            }
+            .textAlign(textStyle.textAlign.dom)
             .spellCheck(true)
             .onFocus {
                 focused = true
@@ -116,8 +173,7 @@ fun BeerTextField(
                         if (readOnly) readOnly()
                         onInput {
                             val element = it.target
-                            val some = max(element.scrollHeight, element.parentHtmlElement?.offsetHeight ?: 0)
-                            height = some
+                            height = max(element.scrollHeight, element.parentHtmlElement?.offsetHeight ?: 0).px
 
                             onValueChange(it.value)
                         }
@@ -126,7 +182,12 @@ fun BeerTextField(
         }
 
         label?.let {
-            Label {
+            Label(
+                attrs = Modifier
+                    .dom
+                    .classNames(BeerStyleSheet.fieldLabelParent)
+                    .toAttrs()
+            ) {
                 it()
             }
         }
@@ -136,6 +197,7 @@ fun BeerTextField(
                 modifier = Modifier.fillMaxWidth()
                     .unwrap {
                         typeSafeClasses(TypeSafeClass(if (isError) "error" else "helper"))
+                            .classNames(BeerStyleSheet.fieldSupportingParent)
                     }
             ) {
                 supportingText()

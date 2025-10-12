@@ -7,6 +7,7 @@ import com.varabyte.kobweb.compose.KobwebComposeStyles
 import com.varabyte.kobweb.core.KobwebApp
 import io.kdomskia.annotation.InternalKdomskiaApi
 import io.kdomskia.compose.core.loader.KdomskiaServiceLoaderComponentRegistry
+import io.kdomskia.compose.css.BeerStyleSheet
 import io.kdomskia.compose.css.UiRawStyleSheet
 import io.kdomskia.compose.css.UiStyleSheet
 import io.kdomskia.compose.extension.htmlElements
@@ -16,6 +17,7 @@ import io.kdomskia.compose.internal.attr.get
 import kotlinx.browser.document
 import kotlinx.dom.createElement
 import org.jetbrains.compose.web.css.Style
+import org.jetbrains.compose.web.css.StyleSheet
 import org.jetbrains.compose.web.dom.ElementScope
 import org.jetbrains.compose.web.dom.TagElement
 import org.w3c.dom.Element
@@ -40,6 +42,7 @@ internal actual fun UiLoadModule(
         Style(UiStyleSheet)
         SetupRawStyle()
         SetupHeight()
+        Style(BeerStyleSheet)
         content()
     }
 }
